@@ -1,7 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 
-const Section = ({ children }) => <section>{children}</section>;
+const Section = ({ children, ...props }) => (
+  <section {...props}>{children}</section>
+);
 
 const White = styled(Section)`
   background: #fff;
