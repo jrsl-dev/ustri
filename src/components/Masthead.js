@@ -13,8 +13,8 @@ const SubTitle = styled.span`
   font-size: 75%;
 `;
 export default () => (
-  <div>
+  <h1>
     <Title>United States Tamiya Ryu Iaijutsu</Title>
     <SubTitle>Gengo Hojisha no Kai</SubTitle>
-  </div>
+  </h1>
 );

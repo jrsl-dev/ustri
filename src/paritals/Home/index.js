@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "gatsby-link";
-import USTRI from "../../components/USTRI";
 import Card from "../../components/Card";
 import Sections from "../../components/Sections";
 import Introduction from "./Introduction";

@@ -1,6 +1,6 @@
 import React from "react";
-import Masthead from "../components/Masthead";
-import Home from "../paritals/Home";
+import Masthead from "../../components/Masthead";
+import EastLansing from "../../paritals/EastLansing";
 
 const Header = () => (
   <header>
@@ -11,6 +11,6 @@ const Header = () => (
 export default () => (
   <div>
     <Header />
-    <Home />
+    <EastLansing />
   </div>
 );
