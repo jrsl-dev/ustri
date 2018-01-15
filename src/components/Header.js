@@ -30,6 +30,8 @@ export default () => (
   <Header>
     <Navigation>
       <Nav to="/">Home</Nav>
+      <Nav to="/locations">Locations</Nav>
+      <Nav to="/history">History</Nav>
     </Navigation>
   </Header>
 );
