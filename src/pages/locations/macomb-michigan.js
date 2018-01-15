@@ -1,3 +1,16 @@
 import React from "react";
+import Masthead from "../../components/Masthead";
+import Macomb from "../../paritals/Macomb";
 
-export default () => <div>macbom</div>;
+const Header = () => (
+  <header>
+    <Masthead />
+  </header>
+);
+
+export default () => (
+  <div>
+    <Header />
+    <Macomb />
+  </div>
+);

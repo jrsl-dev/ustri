@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "../../components/Card";
-import Person from "../../components/Person";
 import Sections from "../../components/Sections";
 import Schedule from "./Schedule";
 import Contact from "./Contact";
