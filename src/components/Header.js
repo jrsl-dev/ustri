@@ -18,12 +18,40 @@ const Navigation = styled.nav`
   display: flex;
   height: 100%;
   width: 100%;
+  justify-content: flex-end;
   align-items: center;
   padding: 0 1rem;
+
+  & > *:first-child {
+    margin-right: auto;
+  }
 `;
 
-const Nav = styled(Link)`
+const activeClassName = "main-nav-active";
+
+const Nav = styled(Link).attrs({
+  activeClassName,
+  exact: true
+})`
   color: white;
+  text-decoration-skip: ink;
+  margin-right: 1em;
+
+  &.${activeClassName} {
+    font-weight: bold;
+  }
+
+  &:first-child {
+    text-decoration: none;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &:hover {
+    color: #e0e0e0;
+  }
 `;
 
 export default () => (
@@ -32,6 +60,8 @@ export default () => (
       <Nav to="/">Home</Nav>
       <Nav to="/locations">Locations</Nav>
       <Nav to="/history">History</Nav>
+      <Nav to="/resources">Resources</Nav>
+      <Nav to="/contact">Contact</Nav>
     </Navigation>
   </Header>
 );
