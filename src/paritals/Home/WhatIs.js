@@ -4,10 +4,10 @@ import Sections, { Subsection } from "../../components/Sections";
 import tamiyaryu from "../../assets/tamiyaryu-kanji.svg";
 import iaijutsu from "../../assets/iaijutsu-kanji.svg";
 
-const Flair = styled.img`
+const Kanji = styled.img`
   justify-self: center;
   width: 100%;
-  max-width: 25rem;
+  max-width: 18rem;
   margin-top: 2rem;
   margin-bottom: 4rem;
 `;
@@ -15,7 +15,7 @@ const Flair = styled.img`
 const WhatIsIaijutsu = () => (
   <Subsection>
     <h3>Iaijutsu</h3>
-    <Flair src={iaijutsu} />
+    <Kanji src={iaijutsu} />
     <p>
       Iaijutsu is a martial art (bujutsu) that strives to supress a sudden
       attack by the attacker against the defender using a single, swift stroke
@@ -32,7 +32,7 @@ const WhatIsIaijutsu = () => (
 const WhatIsTamiyaRyu = () => (
   <Subsection>
     <h3>Tamiya Ryu</h3>
-    <Flair src={tamiyaryu} />
+    <Kanji src={tamiyaryu} />
     <p>
       Tamiya Ryu Iaijutsu is a military art (bugei) that was introduced in the
       Tensho period (1573-1591) by its founder, Tamiya Heibei Narimasa.
