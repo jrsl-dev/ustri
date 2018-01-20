@@ -1,10 +1,21 @@
 import React from "react";
-import Sections from "../../components/Sections";
+import styled from "styled-components";
+import Sections, { Subsection } from "../../components/Sections";
+import tamiyaryu from "../../assets/tamiyaryu-kanji.svg";
+import iaijutsu from "../../assets/iaijutsu-kanji.svg";
+
+const Flair = styled.img`
+  justify-self: center;
+  width: 100%;
+  max-width: 25rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+`;
 
 const WhatIsIaijutsu = () => (
-  <article>
+  <Subsection>
     <h3>Iaijutsu</h3>
-    <img src="images/iaijutsu-kanji.svg" />
+    <Flair src={iaijutsu} />
     <p>
       Iaijutsu is a martial art (bujutsu) that strives to supress a sudden
       attack by the attacker against the defender using a single, swift stroke
@@ -15,13 +26,13 @@ const WhatIsIaijutsu = () => (
       Furthermore, iaijutsu is a martial way (budo) as it practiced with a
       humble and modest heart and continually trains the spirit.
     </p>
-  </article>
+  </Subsection>
 );
 
 const WhatIsTamiyaRyu = () => (
-  <article>
+  <Subsection>
     <h3>Tamiya Ryu</h3>
-    <img src="images/tamiyaryu-kanji.svg" />
+    <Flair src={tamiyaryu} />
     <p>
       Tamiya Ryu Iaijutsu is a military art (bugei) that was introduced in the
       Tensho period (1573-1591) by its founder, Tamiya Heibei Narimasa.
@@ -39,13 +50,13 @@ const WhatIsTamiyaRyu = () => (
       a clear understanding of the concepts known as "Tamiya Nobility" and
       "Tamiya Purity".
     </p>
-  </article>
+  </Subsection>
 );
 
 export default () => (
   <Sections.Light>
     <h2>What Is Iaijutsu</h2>
-    <WhatIsIaijutsu />
     <WhatIsTamiyaRyu />
+    <WhatIsIaijutsu />
   </Sections.Light>
 );
