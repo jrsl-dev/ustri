@@ -1,7 +1,9 @@
 import React from "react";
 import styled from "styled-components";
+import RouterLink from "gatsby-link";
 
 const CTA = styled.a`
+  display: inline-block;
   border: 2px solid currentColor;
   border-radius: 3px;
   text-decoration: none;
@@ -14,5 +16,7 @@ const CTA = styled.a`
     background: #e5e5e5;
   }
 `;
+
+export const Link = CTA.withComponent(RouterLink);
 
 export default ({ children, ...props }) => <CTA {...props}>{children}</CTA>;
