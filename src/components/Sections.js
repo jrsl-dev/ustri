@@ -6,10 +6,11 @@ const Base = styled.section`
   grid-template-columns: 65vh;
   justify-content: center;
   padding: 3.5rem;
+
+  & > a:last-child {
+    justify-self: center;
+  }
 `;
-const Section = ({ children, ...props }) => (
-  <section {...props}>{children}</section>
-);
 
 const White = Base.extend`
   background: #fff;
