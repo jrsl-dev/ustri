@@ -1,0 +1,6 @@
+:root {
+  --heading-font-stack: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  --light: #e0e0e0;
+  --dark: #212121;
+}
