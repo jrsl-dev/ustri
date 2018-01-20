@@ -1,5 +1,14 @@
 import React from "react";
+import styled from "styled-components";
 import Sections from "../../components/Sections";
+import mon from "../../assets/mon.svg";
+
+const Mon = styled.img`
+  justify-self: center;
+  width: 100%;
+  max-width: 18rem;
+  margin: 2em 0 4em;
+`;
 
 export default () => (
   <Sections.Dark>
@@ -15,7 +24,7 @@ export default () => (
       studying 1) how to cut using the scabbard opening (sayaguchi) and 2) how
       to use the scabbard hand (sayate).
     </p>
-    <img src="images/mon.svg" />
+    <Mon src={mon} alt="" />
     <p>
       Occasionally students will also practice Kenshibu - a traditional Japanese
       dance utilizing sword and fan. Kenshibu is performed to the accompaniment
