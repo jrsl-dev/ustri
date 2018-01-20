@@ -1,5 +1,6 @@
 import React from "react";
 import Sections from "../../components/Sections";
+import CTA from "../../components/CTA";
 
 export default () => (
   <Sections.Light>
@@ -21,6 +22,6 @@ export default () => (
       history in the United States as well as information on where to find a
       dojo and how to join. We hope to see you on the dojo floor soon!
     </p>
-    <a href="/training-information.html">Learn more</a>
+    <CTA href="/training-information.html">Learn more</CTA>
   </Sections.Light>
 );
