@@ -1,6 +1,7 @@
 import React from "react";
 import Sections from "../../components/Sections";
 import Card from "../../components/Card";
+import VideoWrapper from "../../components/VideoWrapper";
 
 export default () => (
   <Sections.Light>
@@ -121,14 +122,15 @@ export default () => (
             has changed but the information specific to the practice of Tamiya
             Ryu Iaijutsu remains the same!
           </p>
-          <iframe
-            width="640"
-            height="480"
-            src="https://www.youtube.com/embed/w80xfxDG0jE?rel=0&amp;amp;controls=0&amp;amp;showinfo=0"
-            frameborder="0"
-            allowfullscreen
-            class="video center"
-          />
+          <VideoWrapper>
+            <iframe
+              width="640"
+              height="480"
+              src="https://www.youtube.com/embed/w80xfxDG0jE?rel=0&amp;amp;controls=0&amp;amp;showinfo=0"
+              frameBorder="0"
+              allowFullscreen
+            />
+          </VideoWrapper>
         </Card>
       </li>
     </ul>
