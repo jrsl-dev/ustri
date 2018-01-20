@@ -41,17 +41,13 @@ const Brighton = () => (
       The Brighton Study Group operates under the Southeast Michigan Branch Dojo
       and holds class at the Brighton Education and Community Center.
     </p>
-    <Link to="/brighton-michigan/">Learn more</Link>
+    <Link to="/locations/brighton-michigan/">Learn more</Link>
   </Subsection>
 );
 
-const Heading = styled.h2`
-  margin-bottom: 3rem;
-`;
-
 export default () => (
   <Sections.White>
-    <Heading>Locations</Heading>
+    <h2>Locations</h2>
     <EastLansing />
     <Macomb />
     <Brighton />
