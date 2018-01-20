@@ -139,7 +139,7 @@ export default () => (
               height="480"
               src="https://www.youtube.com/embed/w80xfxDG0jE?rel=0&amp;amp;controls=0&amp;amp;showinfo=0"
               frameBorder="0"
-              allowFullscreen
+              allowFullScreen
             />
           </VideoWrapper>
         </Card>
