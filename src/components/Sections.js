@@ -28,3 +28,14 @@ const Dark = Base.extend`
 `;
 
 export default { White, Light, Dark };
+
+export const Subsection = styled.div`
+  display: grid;
+  max-width: 30rem;
+  margin: 0 auto 6rem;
+
+  & > img,
+  & > a:last-child {
+    justify-self: center;
+  }
+`;
