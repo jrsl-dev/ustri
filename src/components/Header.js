@@ -35,6 +35,7 @@ const Nav = styled(Link).attrs({
 })`
   color: white;
   margin-right: 1em;
+  text-decoration-skip: ink;
 
   &.${activeClassName} {
     font-weight: bold;
