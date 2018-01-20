@@ -1,11 +1,22 @@
 import React from "react";
+import styled from "styled-components";
 import Sections from "../../components/Sections";
 import Card from "../../components/Card";
 import VideoWrapper from "../../components/VideoWrapper";
 
+const NewsFeed = styled.ul`
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  & > li {
+    margin-bottom: 2rem;
+  }
+`;
+
 export default () => (
   <Sections.Light>
-    <ul>
+    <NewsFeed>
       <li>
         <Card icon-typing>
           <h3>Message from the Head Instructor</h3>
@@ -133,6 +144,6 @@ export default () => (
           </VideoWrapper>
         </Card>
       </li>
-    </ul>
+    </NewsFeed>
   </Sections.Light>
 );
