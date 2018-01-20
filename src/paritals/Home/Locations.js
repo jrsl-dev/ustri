@@ -1,11 +1,13 @@
 import React from "react";
 import Card from "../../components/Card";
 import Sections from "../../components/Sections";
+import honbu from "../../assets/honbu-dojo.jpg";
+import macomb from "../../assets/macomb-dojo.jpg";
 
 const EastLansing = () => (
   <div>
     <h3>East Lansing, Michigan</h3>
-    <img src="images/east-lansing-location.jpg" />
+    <img src={honbu} alt="outside view of the michigan honbu dojo" />
     <h4>Michigan Honbu Dojo</h4>
     <p>
       The Michigan Honbu dojo is the headquarters for Tamiya Ryu Iajiutsu
@@ -18,7 +20,7 @@ const EastLansing = () => (
 const Macomb = () => (
   <div>
     <h3>Macomb, Michigan</h3>
-    <img src="images/macomb-location.jpg" />
+    <img src={macomb} alt="inside view of the southeast michigan branch dojo" />
     <h4>Southeast Michigan Branch Dojo</h4>
     <p>
       The Southeast Michigan Branch dojo holds class at Macomb Township Parks
