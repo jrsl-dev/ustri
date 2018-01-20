@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const Base = styled.section`
   display: grid;
-  grid-template-columns: 65vh;
+  grid-template-columns: minmax(25ch, 65ch);
   justify-content: center;
   padding: 3.5rem;
 
