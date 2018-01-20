@@ -34,7 +34,6 @@ const Nav = styled(Link).attrs({
   exact: true
 })`
   color: white;
-  text-decoration-skip: ink;
   margin-right: 1em;
 
   &.${activeClassName} {
@@ -47,10 +46,6 @@ const Nav = styled(Link).attrs({
 
   &:last-child {
     margin-right: 0;
-  }
-
-  &:hover {
-    color: #e0e0e0;
   }
 `;
 
