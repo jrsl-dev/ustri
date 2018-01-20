@@ -1,10 +1,24 @@
 import React from "react";
+import styled from "styled-components";
 import Sections from "../../components/Sections";
 import CTA from "../../components/CTA";
+import katana from "../../assets/katana.svg";
+
+const Katana = styled.img.attrs({
+  src: katana,
+  alt: "katana"
+})`
+  justify-self: center;
+  width: 100%;
+  max-width: 25rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+`;
 
 export default () => (
   <Sections.Light>
     <h2>A traditional Japanese sword drawing martial art in Michigan</h2>
+    <Katana />
     <p>
       Train your body and mind. Tamiya Ryu is a koryu (literally, "old school")
       sword art not taught outside Japan until recently. The United States
