@@ -5,9 +5,16 @@ import Sections from "../../components/Sections";
 import Schedule from "./Schedule";
 import Contact from "./Contact";
 import Introduction from "./Introduction";
+import tamiyaKen from "../../assets/tamiya-ken-kanji.svg";
 
 const Announcement = Card.extend`
   margin-bottom: 2rem;
+`;
+
+const TamiyaKen = styled.img`
+  max-width: 15rem;
+  justify-self: center;
+  margin: 4rem 0;
 `;
 
 const Offer = () => (
@@ -28,7 +35,9 @@ export default ({ Section = Sections.White }) => (
     <Introduction />
     <Offer />
     <Schedule />
-    <img src="images/tamiya-ken-kanji.svg" />
+    <Sections.White>
+      <TamiyaKen src={tamiyaKen} alt="tamiya ken" />
+    </Sections.White>
     <Contact />
   </div>
 );
