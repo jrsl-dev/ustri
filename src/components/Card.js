@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const Card = styled.div`
+export default styled.div`
   padding: 1em;
   border: 1px solid currentColor;
   border-radius: 3px;
@@ -14,5 +14,3 @@ const Card = styled.div`
     align-self: center;
   }
 `;
-
-export default ({ children }) => <Card>{children}</Card>;
