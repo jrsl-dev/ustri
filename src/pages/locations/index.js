@@ -12,6 +12,8 @@ const Person = styled.div``;
 const Header = () => (
   <header>
     <Masthead />
+    {/* <nav>page level nav</nav> */}
+    <h2>Locations</h2>
   </header>
 );
 
@@ -20,7 +22,6 @@ const Mon = () => <img src="images/mon.svg" />;
 export default () => (
   <div>
     <Header />
-    <nav>page level nav</nav>
     <EastLansing />
     <Mon />
     <Macomb Section={Sections.Light} />
