@@ -54,6 +54,7 @@ export default () => (
   <Header>
     <Navigation>
       <Nav to="/">Home</Nav>
+      <Nav to="/training-information">Training Information</Nav>
       <Nav to="/locations">Locations</Nav>
       <Nav to="/history">History</Nav>
       <Nav to="/resources">Resources</Nav>

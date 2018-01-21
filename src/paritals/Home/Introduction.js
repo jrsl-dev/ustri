@@ -36,6 +36,6 @@ export default () => (
       history in the United States as well as information on where to find a
       dojo and how to join. We hope to see you on the dojo floor soon!
     </p>
-    <CTA href="/training-information.html">Learn more</CTA>
+    <CTA href="/training-information/">Learn more</CTA>
   </Sections.Light>
 );
