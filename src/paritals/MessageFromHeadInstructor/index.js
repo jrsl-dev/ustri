@@ -50,12 +50,7 @@ export default ({ Section = Sections.Light }) => (
       </p>
       <div>
         Respectfully submitted
-        <Person>
-          <p>Michael Alexanian (Gennan Buhaku) 8th Degree</p>
-          <p>General Manager &amp; Head Instructor</p>
-          <p>United States Tamiya Ryu Iaijutsu Gengo Hojisha no Kai</p>
-          <p>Michigan Honbu Dojo</p>
-        </Person>
+        <Person.Gennan />
       </div>
     </article>
     {/* <aside>previous messages here</aside> */}
