@@ -1,11 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 import mon from "../assets/mon-dark.svg";
+import background from "../assets/paper_fibers.png";
 
 const Masthead = styled.div`
   display: grid;
   padding: 3em 0;
   grid-row-gap: 3em;
+  background: url(${background});
 
   & > * {
     justify-self: center;
