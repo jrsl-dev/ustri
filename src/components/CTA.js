@@ -9,11 +9,11 @@ const CTA = styled.a`
   text-decoration: none;
   padding: 0.6em 1.35em;
   box-shadow: 1px 2px 1px 1px rgba(0, 0, 0, 0.25);
-  transition: box-shadow 350ms ease, background 150ms ease;
+  transition: box-shadow 350ms ease, background-image 350ms ease;
 
   &:hover {
     box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, 0.65);
-    background: #e5e5e5;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.07));
   }
 `;
 
