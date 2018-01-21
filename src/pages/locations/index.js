@@ -6,8 +6,12 @@ import Masthead from "../../components/Masthead";
 import EastLansing from "../../paritals/EastLansing";
 import Macomb from "../../paritals/Macomb";
 import Instructors from "../../paritals/Instructors";
+import mon from "../../assets/mon.svg";
 
-const Person = styled.div``;
+const Mon = styled.img`
+  justify-self: center;
+  margin: 4rem 0;
+`;
 
 const Header = () => (
   <header>
@@ -17,13 +21,17 @@ const Header = () => (
   </header>
 );
 
-const Mon = () => <img src="images/mon.svg" />;
+const MonSection = () => (
+  <Sections.Dark>
+    <Mon src={mon} />
+  </Sections.Dark>
+);
 
 export default () => (
   <div>
     <Header />
     <EastLansing />
-    <Mon />
+    <MonSection />
     <Macomb Section={Sections.Light} />
     <Instructors />
   </div>
