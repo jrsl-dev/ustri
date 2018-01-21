@@ -6,7 +6,7 @@ import Contact from "./Contact";
 import Introduction from "./Introduction";
 
 const Offer = () => (
-  <Card icon-megaphone>
+  <Card>
     <h3>Announcement</h3>
     <p>
       The USTRI Honbu dojo is currently offering a free introductory month of

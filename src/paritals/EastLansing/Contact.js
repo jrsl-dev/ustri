@@ -5,7 +5,7 @@ import Person from "../../components/Person";
 export default () => (
   <div>
     <h3>Contact Information</h3>
-    <Card icon-mail>
+    <Card>
       <Person>
         <p>Thomas Hufnagel (Gensui)</p>
         <p>6th Degree</p>

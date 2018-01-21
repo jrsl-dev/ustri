@@ -18,21 +18,21 @@ export default () => (
   <Sections.Light>
     <NewsFeed>
       <li>
-        <Card icon-typing>
+        <Card>
           <h3>Message from the Head Instructor</h3>
           <p>Gennan Buhaku sensei shares his thoughts on various topics</p>
           <a href="/resources.html">Read More</a>
         </Card>
       </li>
       <li>
-        <Card icon-typing>
+        <Card>
           <h3>New Reflecting Pool</h3>
           <p>Reflections on rejuvenation and renewal</p>
           <a href="/articles/rejuvenation-and-renewal.html">Read More</a>
         </Card>
       </li>
       <li>
-        <Card icon-megaphone>
+        <Card>
           <h3> USTRI 20th Anniversary Taikai</h3>
           <p>
             The Executives of the United States Tamiya Ryu Iaijutsu Gengo
@@ -113,7 +113,7 @@ export default () => (
         </Card>
       </li>
       <li>
-        <Card icon-megaphone>
+        <Card>
           <h3>Announcement</h3>
           <p>
             We are excited to announce the Michigan Honbu in East Lansing is
@@ -126,7 +126,7 @@ export default () => (
         </Card>
       </li>
       <li>
-        <Card icon-youtube>
+        <Card>
           <h3>Introduction Video</h3>
           <p>
             Please note that some of the locaiton information in the below video

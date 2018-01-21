@@ -2,7 +2,7 @@ import React from "react";
 
 export default () => (
   <div>
-    <h3 icon-calendar>Training Schedule</h3>
+    <h3>Training Schedule</h3>
     <p>Saturday, 10:00am - 12:00pm (Mixed Level)</p>
     <p>Saturday, 12:30pm - 2:30pm (Advanced)</p>
     <p>
