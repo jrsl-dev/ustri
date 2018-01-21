@@ -21,14 +21,14 @@ export default () => (
         <Card>
           <h3>Message from the Head Instructor</h3>
           <p>Gennan Buhaku sensei shares his thoughts on various topics</p>
-          <a href="/resources.html">Read More</a>
+          <a href="/resources/">Read More</a>
         </Card>
       </li>
       <li>
         <Card>
           <h3>New Reflecting Pool</h3>
           <p>Reflections on rejuvenation and renewal</p>
-          <a href="/articles/rejuvenation-and-renewal.html">Read More</a>
+          <a href="/resources/">Read More</a>
         </Card>
       </li>
       <li>
@@ -117,12 +117,9 @@ export default () => (
           <h3>Announcement</h3>
           <p>
             We are excited to announce the Michigan Honbu in East Lansing is
-            offering a <b>free introductory month</b>. Visit the{" "}
-            <a href="/training-information.html">
-              training information page for more information!
-            </a>
+            offering a <b>free introductory month</b>.
           </p>
-          <a href="/east-lansing-michigan-honbu-dojo.html">Learn More</a>
+          <a href="/locations/east-lansing-michigan">Learn More</a>
         </Card>
       </li>
       <li>
