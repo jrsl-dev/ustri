@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Card from "../../components/Card";
+import Kanji from "../../components/Kanji";
 import Sections from "../../components/Sections";
 import Schedule from "./Schedule";
 import Contact from "./Contact";
@@ -9,12 +10,6 @@ import tamiyaKen from "../../assets/tamiya-ken-kanji.svg";
 
 const Announcement = Card.extend`
   margin-bottom: 2rem;
-`;
-
-const TamiyaKen = styled.img`
-  max-width: 15rem;
-  justify-self: center;
-  margin: 4rem 0;
 `;
 
 const Offer = () => (
@@ -36,7 +31,7 @@ export default ({ Section = Sections.White }) => (
     <Offer />
     <Schedule />
     <Sections.White>
-      <TamiyaKen src={tamiyaKen} alt="tamiya ken" />
+      <Kanji src={tamiyaKen} alt="tamiya ken" />
     </Sections.White>
     <Contact />
   </div>

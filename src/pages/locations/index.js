@@ -1,17 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 import Card from "../../components/Card";
+import Mon from "../../components/Kanji";
 import Sections from "../../components/Sections";
 import Masthead from "../../components/Masthead";
 import EastLansing from "../../paritals/EastLansing";
 import Macomb from "../../paritals/Macomb";
 import Instructors from "../../paritals/Instructors";
 import mon from "../../assets/mon.svg";
-
-const Mon = styled.img`
-  justify-self: center;
-  margin: 4rem 0;
-`;
 
 const Header = () => (
   <header>
