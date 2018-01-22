@@ -13,26 +13,22 @@ const Announcement = Card.extend`
 `;
 
 const Offer = () => (
-  <Sections.White>
-    <Announcement>
-      <h3>Announcement</h3>
-      <p>
-        The USTRI Honbu dojo is currently offering a free introductory month of
-        training. No contracts are required. Please contact Gensui sensei for
-        more information.
-      </p>
-    </Announcement>
-  </Sections.White>
+  <Announcement>
+    <h3>Announcement</h3>
+    <p>
+      The USTRI Honbu dojo is currently offering a free introductory month of
+      training. No contracts are required. Please contact Gensui sensei for more
+      information.
+    </p>
+  </Announcement>
 );
 
 export default ({ Section = Sections.White }) => (
-  <div>
+  <Section>
     <Introduction />
     <Offer />
     <Schedule />
-    <Sections.White>
-      <Kanji src={tamiyaKen} alt="tamiya ken" />
-    </Sections.White>
     <Contact />
-  </div>
+    <Kanji src={tamiyaKen} alt="tamiya ken" />
+  </Section>
 );

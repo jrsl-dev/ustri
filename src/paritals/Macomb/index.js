@@ -10,7 +10,7 @@ export default ({ Section = Sections.White }) => (
   <Section>
     <Introduction />
     <Schedule />
-    <Kanji src={inazuma} />
     <Contact />
+    <Kanji src={inazuma} />
   </Section>
 );
