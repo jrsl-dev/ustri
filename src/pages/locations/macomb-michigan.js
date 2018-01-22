@@ -4,7 +4,9 @@ import Macomb from "../../paritals/Macomb";
 
 const Header = () => (
   <header>
-    <Masthead />
+    <Masthead>
+      <h2>Southeast Michigan Branch Dojo</h2>
+    </Masthead>
   </header>
 );
 

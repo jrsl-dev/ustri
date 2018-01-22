@@ -4,7 +4,9 @@ import EastLansing from "../../paritals/EastLansing";
 
 const Header = () => (
   <header>
-    <Masthead />
+    <Masthead>
+      <h2>Michigan Honbu Dojo</h2>
+    </Masthead>
   </header>
 );
 

@@ -4,14 +4,15 @@ import History from "../paritals/History";
 
 const Header = () => (
   <header>
-    <Masthead />
+    <Masthead>
+      <h2>History of Tamiya Ryu</h2>
+    </Masthead>
   </header>
 );
 
 export default () => (
   <div>
     <Header />
-    <h2>History of Tamiya Ryu</h2>
     <History />
   </div>
 );

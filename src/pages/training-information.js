@@ -5,8 +5,9 @@ import Sections from "../components/Sections";
 export default () => (
   <div>
     <header>
-      <Masthead />
-      <h2>Training Information</h2>
+      <Masthead>
+        <h2>Training Information</h2>
+      </Masthead>
     </header>
     <Sections.White>
       <p>

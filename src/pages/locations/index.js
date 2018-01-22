@@ -11,9 +11,10 @@ import mon from "../../assets/mon.svg";
 
 const Header = () => (
   <header>
-    <Masthead />
+    <Masthead>
+      <h2>Locations</h2>
+    </Masthead>
     {/* <nav>page level nav</nav> */}
-    <h2>Locations</h2>
   </header>
 );
 

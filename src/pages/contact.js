@@ -5,7 +5,9 @@ import Person from "../components/Person";
 
 const Header = () => (
   <header>
-    <Masthead pageTitle="Contact" />
+    <Masthead>
+      <h2>Contact</h2>
+    </Masthead>
   </header>
 );
 
