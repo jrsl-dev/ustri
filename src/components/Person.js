@@ -5,22 +5,23 @@ const PersonStyled = styled.div`
   display: grid;
 `;
 
-const Person = ({ name, gengo, rank, titles, email }) => (
+const Person = ({ name, gengo, rank, titles, email, showEmail }) => (
   <PersonStyled>
     <span>{`${name}${gengo ? ` (${gengo})` : ""}`}</span>
     <span>{rank}</span>
     {titles &&
       titles.length &&
       titles.map(title => <span key={title}>{title}</span>)}
-    {email && (
-      <span>
-        Email: <a href={`mailto:${email}`}>{email}</a>
-      </span>
-    )}
+    {email &&
+      showEmail && (
+        <span>
+          Email: <a href={`mailto:${email}`}>{email}</a>
+        </span>
+      )}
   </PersonStyled>
 );
 
-const Gennan = () => (
+const Gennan = ({ ...props }) => (
   <Person
     name="Michael Alexanian"
     gengo="Gennan Buhaku"
@@ -30,19 +31,22 @@ const Gennan = () => (
       "USTRI General Manager",
       "United States Tamiya Ryu Iaijutsu Gengo Hojisha no Kai Kaicho"
     ]}
+    email="alexgennan@att.net"
+    {...props}
   />
 );
 
-const Genka = () => (
+const Genka = ({ ...props }) => (
   <Person
     name="William Smith"
     gengo="Genka"
     rank="6th Degree"
     titles={["USTRI Honbu Assistant Branch Manager", "USTRI Instructor"]}
+    {...props}
   />
 );
 
-const Gensui = () => (
+const Gensui = ({ ...props }) => (
   <Person
     name="Thomas Hufnagel"
     gengo="Gensui"
@@ -53,28 +57,32 @@ const Gensui = () => (
       "USTRI Instructor"
     ]}
     email="hufnagelt@gmail.com"
+    {...props}
   />
 );
 
-const Genchi = () => (
+const Genchi = ({ ...props }) => (
   <Person
     name="Douglas Jarrett"
     gengo="Genchi"
     rank="6th Degree"
     titles={["USTRI Instructor"]}
+    {...props}
   />
 );
 
-const Genfu = () => (
+const Genfu = ({ ...props }) => (
   <Person
     name="Scott Sier"
     gengo="Genfu"
     rank="6th Degree"
     titles={["USTRI Souteast Michigan Branch Manager", "USTRI Instructor"]}
+    email="spsier@gmail.com"
+    {...props}
   />
 );
 
-const Genzan = () => (
+const Genzan = ({ ...props }) => (
   <Person
     name="Dan Mordan"
     gengo="Genzan"
@@ -83,6 +91,8 @@ const Genzan = () => (
       "USTRI Southeast Michigan Assistant Branch Manager",
       "USTRI Instructor"
     ]}
+    email="genzan@ustamiyaryu.org"
+    {...props}
   />
 );
 
