@@ -1,8 +1,7 @@
 import React from "react";
-import Sections from "../../components/Sections";
 
 export default () => (
-  <Sections.White>
+  <div>
     <h2>Michigan Honbu Dojo - East Lansing, Michigan</h2>
     <p>
       The Michiagan Honbu dojo is the headquarters for Tamiya Ryu Iajiutsu
@@ -20,5 +19,5 @@ export default () => (
       respective classes. Please note, if there are 5 weeks in a given month,
       there will be no classes during the fifth week.
     </p>
-  </Sections.White>
+  </div>
 );

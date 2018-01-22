@@ -2,7 +2,7 @@ import React from "react";
 import Sections, { Subsection } from "../../components/Sections";
 
 export default () => (
-  <Sections.Dark>
+  <div>
     <h3>Training Schedule</h3>
     <p>Saturday, 10:00am - 12:00pm (Mixed Level)</p>
     <p>Saturday, 12:30pm - 2:30pm (Advanced)</p>
@@ -16,5 +16,5 @@ export default () => (
         the dojo is traditionally built and is not insulated and not heated!
       </p>
     </Subsection>
-  </Sections.Dark>
+  </div>
 );
