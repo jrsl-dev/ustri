@@ -96,11 +96,22 @@ const Genzan = ({ ...props }) => (
   />
 );
 
+const Gennetsu = ({ ...props }) => (
+  <Person
+    name="James Russell"
+    gengo="Gennetsu"
+    rank="5th Degree"
+    email="gennetsu@ustamiyaryu.org"
+    {...props}
+  />
+);
+
 export default {
   Gennan,
   Genka,
   Gensui,
   Genchi,
   Genfu,
-  Genzan
+  Genzan,
+  Gennetsu
 };
