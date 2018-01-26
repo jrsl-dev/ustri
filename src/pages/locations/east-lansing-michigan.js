@@ -1,13 +1,11 @@
 import React from "react";
-import Masthead from "../../components/Masthead";
+import Masthead from "../../components/Masthead/Content";
 import EastLansing from "../../paritals/EastLansing";
 
 const Header = () => (
-  <header>
-    <Masthead>
-      <h2>Michigan Honbu Dojo</h2>
-    </Masthead>
-  </header>
+  <Masthead>
+    <h2>Michigan Honbu Dojo</h2>
+  </Masthead>
 );
 
 export default () => (

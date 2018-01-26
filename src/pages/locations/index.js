@@ -3,19 +3,16 @@ import styled from "styled-components";
 import Card from "../../components/Card";
 import Mon from "../../components/Kanji";
 import Sections from "../../components/Sections";
-import Masthead from "../../components/Masthead";
+import Masthead from "../../components/Masthead/Content";
 import EastLansing from "../../paritals/EastLansing";
 import Macomb from "../../paritals/Macomb";
 import Instructors from "../../paritals/Instructors";
 import mon from "../../assets/mon.svg";
 
 const Header = () => (
-  <header>
-    <Masthead>
-      <h2>Locations</h2>
-    </Masthead>
-    {/* <nav>page level nav</nav> */}
-  </header>
+  <Masthead>
+    <h2>Locations</h2>
+  </Masthead>
 );
 
 const MonSection = () => (
@@ -27,6 +24,7 @@ const MonSection = () => (
 export default () => (
   <div>
     <Header />
+    {/* hmmm.... where does this go? <nav>page level nav</nav> */}
     <EastLansing />
     <MonSection />
     <Macomb Section={Sections.Light} />

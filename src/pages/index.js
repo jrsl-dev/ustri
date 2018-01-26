@@ -1,16 +1,10 @@
 import React from "react";
-import Masthead from "../components/Masthead";
+import Masthead from "../components/Masthead-old";
 import Home from "../paritals/Home";
-
-const Header = () => (
-  <header>
-    <Masthead />
-  </header>
-);
 
 export default () => (
   <div>
-    <Header />
+    <Masthead />
     <Home />
   </div>
 );

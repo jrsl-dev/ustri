@@ -1,14 +1,12 @@
 import React from "react";
-import Masthead from "../components/Masthead";
+import Masthead from "../components/Masthead/Content";
 import Sections from "../components/Sections";
 
 export default () => (
   <div>
-    <header>
-      <Masthead>
-        <h2>Training Information</h2>
-      </Masthead>
-    </header>
+    <Masthead>
+      <h2>Training Information</h2>
+    </Masthead>
     <Sections.White>
       <p>
         Iaijutsu is a Japanese sword art. Tamiya Ryu is a specific school of

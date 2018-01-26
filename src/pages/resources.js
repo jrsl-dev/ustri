@@ -1,12 +1,14 @@
 import React from "react";
-import Masthead from "../components/Masthead";
+import Masthead from "../components/Masthead/Content";
 import MessageFromHeadInstructor from "../paritals/MessageFromHeadInstructor";
 import ReflectingPool from "../paritals/ReflectingPool";
 import Sections from "../components/Sections";
 
 const Header = () => (
   <header>
-    <Masthead />
+    <Masthead>
+      <h2>Resources</h2>
+    </Masthead>
   </header>
 );
 

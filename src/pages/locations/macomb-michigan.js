@@ -1,13 +1,11 @@
 import React from "react";
-import Masthead from "../../components/Masthead";
+import Masthead from "../../components/Masthead/Content";
 import Macomb from "../../paritals/Macomb";
 
 const Header = () => (
-  <header>
-    <Masthead>
-      <h2>Southeast Michigan Branch Dojo</h2>
-    </Masthead>
-  </header>
+  <Masthead>
+    <h2>Southeast Michigan Branch Dojo</h2>
+  </Masthead>
 );
 
 export default () => (

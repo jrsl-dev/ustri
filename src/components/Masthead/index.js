@@ -8,22 +8,24 @@ const Masthead = styled.div`
   padding: 3em 0;
   grid-row-gap: 3em;
   background: url(${background});
+  /* only have the background for the full masthead, start all content pages with a white section. 
+  Maybe, white = regular content, light = aside-ish, dark = important/hightlights 
+  Maybe a rule should be no white sections can touch, have to be either an aside or some dark highlight
+  before starting a new content section? */
 
   & > * {
     justify-self: center;
   }
 `;
 
-const Title = styled.span`
+const Title = styled.div`
   display: block;
   width: 16ch;
   padding-bottom: 0.35em;
-  border-bottom: 2px solid;
 `;
 
-const SubTitle = styled.span`
-  display: block;
-  font-size: 75%;
+const SubTitle = styled.div`
+  font-size: 0.75em;
 `;
 
 const Mon = styled.img`
@@ -33,17 +35,22 @@ const Mon = styled.img`
 
 const Heading = styled.h1`
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;
 
-const Subheading = styled.div`
+const SubHeading = styled.div`
   font-size: 1.6rem;
   text-align: center;
 
   & > *:first-child {
-    border-bottom: 1px solid currentColor;
-    padding-bottom: 0.45em;
-    margin-bottom: 0.25em;
+    padding-bottom: 0.5em;
   }
+`;
+
+const PageHeading = styled.div`
+  grid-area: 3/2/4/3;
 `;
 
 const t = {
@@ -53,18 +60,17 @@ const t = {
   "gengo hojisha no kai": "元号保持者の会"
 };
 
-export default () => (
+export default ({ children }) => (
   <Masthead>
     <Mon src={mon} alt="" />
     <Heading>
-      <div>
-        <Title>United States Tamiya Ryu Iaijutsu</Title>
-        <SubTitle>Gengo Hojisha no Kai</SubTitle>
-      </div>
+      <Title>United States Tamiya Ryu Iaijutsu</Title>
+      <SubTitle>Gengo Hojisha no Kai</SubTitle>
     </Heading>
-    <Subheading>
+    <SubHeading>
       <div>{t["tamiya ryu iaijutsu"]}</div>
       <div>{t["gengo hojisha no kai"]}</div>
-    </Subheading>
+    </SubHeading>
+    {children}
   </Masthead>
 );

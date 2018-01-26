@@ -1,14 +1,12 @@
 import React from "react";
 import Sections from "../components/Sections";
-import Masthead from "../components/Masthead";
+import Masthead from "../components/Masthead/Content";
 import Person from "../components/Person";
 
 const Header = () => (
-  <header>
-    <Masthead>
-      <h2>Contact</h2>
-    </Masthead>
-  </header>
+  <Masthead>
+    <h2>Contact</h2>
+  </Masthead>
 );
 
 export default () => (
