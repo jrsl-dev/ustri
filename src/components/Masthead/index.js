@@ -71,6 +71,5 @@ export default ({ children }) => (
       <div>{t["tamiya ryu iaijutsu"]}</div>
       <div>{t["gengo hojisha no kai"]}</div>
     </SubHeading>
-    {children}
   </Masthead>
 );
