@@ -2,23 +2,37 @@ import React from "react";
 import styled from "styled-components";
 import Sections from "../../components/Sections";
 import CTA from "../../components/CTA";
-import katana from "../../assets/katana.svg";
+import honbu from "../../assets/honbu-src.jpg";
 
-const Katana = styled.img.attrs({
-  src: katana,
-  alt: "katana"
-})`
-  justify-self: center;
-  width: 100%;
-  max-width: 25rem;
-  margin-top: 2rem;
-  margin-bottom: 4rem;
+const Hero = styled.div`
+  position: relative;
+  margin-bottom: 4em;
+`;
+
+const FramedImage = styled.img`
+  box-shadow: 0 0 1px 7px #212121, 0 0 4px 12px rgba(224, 224, 224, 0.9);
+`;
+
+const Heading = styled.h2`
+  position: absolute;
+  bottom: -1.8em;
+  color: white;
+  background: rgba(21, 21, 21, 0.8);
+  padding: 1em;
+  border: 3px solid rgba(21, 21, 21, 0.9);
+  width: 31ch;
+  right: 1.25em;
+  box-shadow: 4px 4px 5px rgba(21, 21, 21, 0.4);
 `;
 
 export default () => (
-  <Sections.Light>
-    <h2>A traditional Japanese sword drawing martial art in Michigan</h2>
-    <Katana />
+  <Sections.White>
+    <Hero>
+      <Heading>
+        Traditional Japanese Sword Drawing Martial Art in Michigan
+      </Heading>
+      <FramedImage src={honbu} alt="" />
+    </Hero>
     <p>
       Train your body and mind. Tamiya Ryu is a koryu (literally, "old school")
       sword art not taught outside Japan until recently. The United States
@@ -37,5 +51,5 @@ export default () => (
       dojo and how to join. We hope to see you on the dojo floor soon!
     </p>
     <CTA href="/training-information/">Learn more</CTA>
-  </Sections.Light>
+  </Sections.White>
 );
