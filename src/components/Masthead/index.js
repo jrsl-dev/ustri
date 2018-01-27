@@ -15,7 +15,7 @@ const Masthead = styled.div`
 
 const Title = styled.div`
   display: block;
-  width: 16ch;
+  max-width: 16ch;
   padding-bottom: 0.35em;
 `;
 

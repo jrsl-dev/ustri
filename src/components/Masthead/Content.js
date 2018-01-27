@@ -28,7 +28,7 @@ const Mon = styled.div`
 
 const Title = styled.div`
   margin-bottom: 1em;
-  width: 16rem;
+  max-width: 16rem;
 
   @media (min-width: 445px) {
     grid-area: 1/2/2/3;

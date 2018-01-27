@@ -20,7 +20,7 @@ const Heading = styled.h2`
   background: rgba(21, 21, 21, 0.8);
   padding: 1em;
   border: 3px solid rgba(21, 21, 21, 0.9);
-  width: 31ch;
+  max-width: 31ch;
   right: 1.25em;
   box-shadow: 4px 4px 5px rgba(21, 21, 21, 0.4);
 `;
