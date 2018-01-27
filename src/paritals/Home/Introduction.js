@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Sections from "../../components/Sections";
 import CTA from "../../components/CTA";
-import honbu from "../../assets/honbu-src.jpg";
+import image from "../../assets/honbu-winter-2018.jpg";
 
 const Hero = styled.div`
   position: relative;
@@ -31,7 +31,7 @@ export default () => (
       <Heading>
         Traditional Japanese Sword Drawing Martial Art in Michigan
       </Heading>
-      <FramedImage src={honbu} alt="" />
+      <FramedImage src={image} alt="" />
     </Hero>
     <p>
       Train your body and mind. Tamiya Ryu is a koryu (literally, "old school")
