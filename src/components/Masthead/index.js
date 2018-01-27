@@ -1,17 +1,12 @@
 import React from "react";
 import styled from "styled-components";
-import mon from "../assets/mon-dark.svg";
-import background from "../assets/paper_fibers.png";
+import mon from "../../assets/mon-dark.svg";
+import background from "../../assets/paper_fibers.png";
 
 const Masthead = styled.div`
   display: grid;
   padding: 3em 0;
   grid-row-gap: 3em;
-  background: url(${background});
-  /* only have the background for the full masthead, start all content pages with a white section. 
-  Maybe, white = regular content, light = aside-ish, dark = important/hightlights 
-  Maybe a rule should be no white sections can touch, have to be either an aside or some dark highlight
-  before starting a new content section? */
 
   & > * {
     justify-self: center;
