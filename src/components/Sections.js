@@ -1,6 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 
+// TOOD refactor based on white = regular content, light = aside-ish, dark = important/hightlights
+// Section.Content, Section.Aside, Section.Highlight
+
 const Base = styled.section`
   display: grid;
   grid-template-columns: minmax(25ch, 60ch);
