@@ -1,5 +1,5 @@
 import React from "react";
-import Masthead from "../components/Masthead-old";
+import Masthead from "../components/Masthead";
 import Home from "../paritals/Home";
 
 export default () => (
