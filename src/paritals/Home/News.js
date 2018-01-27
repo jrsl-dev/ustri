@@ -3,6 +3,18 @@ import styled from "styled-components";
 import Sections from "../../components/Sections";
 import Card from "../../components/Card";
 import VideoWrapper from "../../components/VideoWrapper";
+import katana from "../../assets/katana.svg";
+
+const Katana = styled.img.attrs({
+  src: katana,
+  alt: "katana"
+})`
+  justify-self: center;
+  width: 100%;
+  max-width: 25rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+`;
 
 const NewsFeed = styled.ul`
   margin: 0;
@@ -16,6 +28,7 @@ const NewsFeed = styled.ul`
 
 export default () => (
   <Sections.Light>
+    <Katana />
     <NewsFeed>
       <li>
         <Card>
