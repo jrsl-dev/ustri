@@ -14,15 +14,17 @@ const FramedImage = styled.img`
 `;
 
 const Heading = styled.h2`
-  position: absolute;
-  bottom: -1.8em;
-  color: white;
-  background: rgba(21, 21, 21, 0.8);
-  padding: 1em;
-  border: 3px solid rgba(21, 21, 21, 0.9);
-  max-width: 31ch;
-  right: 1.25em;
-  box-shadow: 4px 4px 5px rgba(21, 21, 21, 0.4);
+  @media (min-width: 720px) {
+    position: absolute;
+    bottom: -1.8em;
+    color: white;
+    background: rgba(21, 21, 21, 0.8);
+    padding: 1em;
+    border: 3px solid rgba(21, 21, 21, 0.9);
+    max-width: 31ch;
+    right: 5%;
+    box-shadow: 4px 4px 5px rgba(21, 21, 21, 0.4);
+  }
 `;
 
 export default () => (
