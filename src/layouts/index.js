@@ -6,7 +6,11 @@ import Header from "../components/Header";
 import "./index.css";
 
 const Main = styled.main`
-  padding-top: 4rem;
+  padding: 0 0 4rem 0;
+
+  @media (min-width: 640px) {
+    padding: 4rem 0 0 0;
+  }
 `;
 
 const TemplateWrapper = ({ children }) => (

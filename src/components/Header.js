@@ -12,6 +12,12 @@ const Header = styled.header`
   right: 0;
   z-index: 1;
   height: 4rem;
+  bottom: 0;
+
+  @media (min-width: 640px) {
+    bottom: auto;
+    top: 0;
+  }
 `;
 
 const Navigation = styled.nav`
