@@ -19,4 +19,4 @@ const CTA = styled.a`
 
 export const Link = CTA.withComponent(RouterLink);
 
-export default ({ children, ...props }) => <CTA {...props}>{children}</CTA>;
+export default CTA;
