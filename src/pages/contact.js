@@ -2,6 +2,7 @@ import React from "react";
 import Sections from "../components/Sections";
 import Masthead from "../components/Masthead/Content";
 import Person from "../components/Person";
+import Card from "../components/Card";
 
 const Header = () => (
   <Masthead>
@@ -9,23 +10,42 @@ const Header = () => (
   </Masthead>
 );
 
+const Contact = Card.extend`
+  width: 100%;
+  max-width: 38ch;
+  margin-bottom: 2rem;
+  justify-self: center;
+`;
+
 export default () => (
   <div>
     <Header />
     <Sections.White>
       <h3>Michigan Honbu Dojo</h3>
-      <Person.Gennan showEmail />
-      <Person.Gensui showEmail />
-      <Person.Genka showEmail />
+      <Contact>
+        <Person.Gennan showEmail />
+      </Contact>
+      <Contact>
+        <Person.Gensui showEmail />
+      </Contact>
+      <Contact>
+        <Person.Genka showEmail />
+      </Contact>
     </Sections.White>
     <Sections.White>
       <h3>Southeast Michigan Branch Dojo</h3>
-      <Person.Genfu showEmail />
-      <Person.Genzan showEmail />
+      <Contact>
+        <Person.Genfu showEmail />
+      </Contact>
+      <Contact>
+        <Person.Genzan showEmail />
+      </Contact>
     </Sections.White>
     <Sections.White>
       <h3>Brighton Michigan Study Group</h3>
-      <Person.Gennetsu showEmail r />
+      <Contact>
+        <Person.Gennetsu showEmail r />
+      </Contact>
     </Sections.White>
   </div>
 );
