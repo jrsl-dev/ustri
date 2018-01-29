@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "gatsby-link";
 import styled from "styled-components";
+import withSizes from "react-sizes";
 
 // TODO get styled components to build with css custom properties
 const Header = styled.header`
@@ -11,10 +12,10 @@ const Header = styled.header`
   left: 0;
   right: 0;
   z-index: 1;
-  height: 4rem;
+  /* height: 4rem; */
   bottom: 0;
 
-  @media (min-width: 640px) {
+  @media (min-width: 660px) {
     bottom: auto;
     top: 0;
   }
@@ -24,12 +25,16 @@ const Navigation = styled.nav`
   display: flex;
   height: 100%;
   width: 100%;
-  justify-content: flex-end;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
-  padding: 0 1rem;
+  padding: 1em 0;
 
-  & > *:first-child {
-    margin-right: auto;
+  @media (min-width: 660px) {
+    justify-content: flex-end;
+    & > *:first-child {
+      margin-right: auto;
+    }
   }
 `;
 
@@ -40,31 +45,91 @@ const Nav = styled(Link).attrs({
   exact: true
 })`
   color: white;
-  margin-right: 1em;
+  margin: 0.25em 0.25em;
+  padding: 0.5em;
   text-decoration-skip: ink;
 
   &.${activeClassName} {
     font-weight: bold;
-  }
-
-  &:first-child {
     text-decoration: none;
-  }
-
-  &:last-child {
-    margin-right: 0;
   }
 `;
 
-export default () => (
-  <Header>
-    <Navigation>
-      <Nav to="/">Home</Nav>
-      <Nav to="/training-information">Training Information</Nav>
-      <Nav to="/locations">Locations</Nav>
-      <Nav to="/history">History</Nav>
-      <Nav to="/resources">Resources</Nav>
-      <Nav to="/contact">Contact</Nav>
-    </Navigation>
-  </Header>
-);
+const More = styled.button`
+  background: transparent;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  color: white;
+  text-decoration: underline;
+  margin: 0.25em 0.25em;
+  padding: 0.5em;
+  text-decoration-skip: ink;
+  cursor: pointer;
+
+  &:after {
+    content: " \u25B4";
+  }
+`;
+
+const Less = More.extend`
+  &:after {
+    content: " \u25BE";
+  }
+`;
+
+const MoreNav = styled.div`
+  display: flex;
+  flex-basis: 100%;
+  justify-content: center;
+`;
+
+class NavgiationContainer extends React.Component {
+  constructor() {
+    super();
+    this.state = { expanded: false };
+  }
+
+  toggle = () => this.setState(prev => ({ expanded: !prev.expanded }));
+
+  render() {
+    return (
+      <Header>
+        {this.props.expandedNav ? (
+          <Navigation>
+            <Nav to="/">Home</Nav>
+            <Nav to="/training-information">Training Information</Nav>
+            <Nav to="/locations">Locations</Nav>
+            <Nav to="/history">History</Nav>
+            <Nav to="/resources">Resources</Nav>
+            <Nav to="/contact">Contact</Nav>
+          </Navigation>
+        ) : (
+          <Navigation>
+            <Nav to="/">Home</Nav>
+            <Nav to="/training-information">Info</Nav>
+            <Nav to="/locations">Locations</Nav>
+            {this.state.expanded ? (
+              <Less onClick={this.toggle}>Less</Less>
+            ) : (
+              <More onClick={this.toggle}>More</More>
+            )}
+            {this.state.expanded && (
+              <MoreNav>
+                <Nav to="/history">History</Nav>
+                <Nav to="/resources">Resources</Nav>
+                <Nav to="/contact">Contact</Nav>
+              </MoreNav>
+            )}
+          </Navigation>
+        )}
+      </Header>
+    );
+  }
+}
+
+const mapSizesToProps = ({ width }) => ({
+  expandedNav: width > 660
+});
+
+export default withSizes(mapSizesToProps)(NavgiationContainer);

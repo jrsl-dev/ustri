@@ -9,6 +9,7 @@
     "gatsby-plugin-react-helmet": "^2.0.3",
     "gatsby-plugin-styled-components": "^2.0.4",
     "react-helmet": "^5.2.0",
+    "react-sizes": "^1.0.0",
     "styled-components": "^2.4.0"
   },
   "keywords": [
