@@ -3,6 +3,7 @@ import Link from "gatsby-link";
 import styled from "styled-components";
 import withSizes from "react-sizes";
 
+// TODO This isn't really a "component", I don't think...
 // TODO get styled components to build with css custom properties
 const Header = styled.header`
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -12,7 +13,6 @@ const Header = styled.header`
   left: 0;
   right: 0;
   z-index: 1;
-  /* height: 4rem; */
   bottom: 0;
 
   @media (min-width: 660px) {
