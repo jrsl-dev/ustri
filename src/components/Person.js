@@ -1,23 +1,36 @@
 import React from "react";
 import styled from "styled-components";
+import CTA from "./CTA";
 
 const PersonStyled = styled.div`
   display: grid;
+  line-height: 1.75;
+
+  & > * {
+    padding-left: 0.5em;
+  }
+
+  & > b:first-child {
+    padding-left: 0;
+    margin-bottom: 0.5em;
+  }
+`;
+
+const Email = CTA.extend`
+  justify-self: center;
+  margin-top: 1.5em;
+  text-align: center;
 `;
 
 const Person = ({ name, gengo, rank, titles, email, showEmail }) => (
   <PersonStyled>
-    <span>{`${name}${gengo ? ` (${gengo})` : ""}`}</span>
+    <b>{`${name}${gengo ? ` (${gengo})` : ""}`}</b>
     <span>{rank}</span>
     {titles &&
       titles.length &&
       titles.map(title => <span key={title}>{title}</span>)}
     {email &&
-      showEmail && (
-        <span>
-          Email: <a href={`mailto:${email}`}>{email}</a>
-        </span>
-      )}
+      showEmail && <Email href={`mailto:${email}`}>Email: {email}</Email>}
   </PersonStyled>
 );
 
