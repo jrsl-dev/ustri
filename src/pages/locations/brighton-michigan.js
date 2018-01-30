@@ -8,8 +8,8 @@ export default () => (
     <Masthead>
       <h2>Brighton Michigan Study Group</h2>
     </Masthead>
-    <Sections.White>
+    <Sections.Content>
       <Brighton />
-    </Sections.White>
+    </Sections.Content>
   </div>
 );

@@ -28,7 +28,7 @@ const Heading = styled.h2`
 `;
 
 export default () => (
-  <Sections.White>
+  <Sections.Content>
     <Hero>
       <Heading>
         Traditional Japanese Sword Drawing Martial Art in Michigan
@@ -53,5 +53,5 @@ export default () => (
       dojo and how to join. We hope to see you on the dojo floor soon!
     </p>
     <CTA href="/training-information/">Learn more</CTA>
-  </Sections.White>
+  </Sections.Content>
 );

@@ -24,22 +24,22 @@ const Base = styled.section`
   }
 `;
 
-const White = Base.extend`
+const Content = Base.extend`
   background: #fff;
   color: #212121;
 `;
 
-const Light = Base.extend`
+const Aside = Base.extend`
   background: #e0e0e0;
   color: #212121;
 `;
 
-const Dark = Base.extend`
+const Highlight = Base.extend`
   background: #212121;
   color: #e0e0e0;
 `;
 
-export default { White, Light, Dark };
+export default { Content, Aside, Highlight };
 
 export const Subsection = styled.div`
   display: grid;

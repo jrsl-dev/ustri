@@ -2,8 +2,8 @@ import React from "react";
 import Person from "../../components/Person";
 import Sections from "../../components/Sections";
 
-export default ({ Section = Sections.Light }) => (
-  <Section>
+export default () => (
+  <Sections.Content>
     <h2>Message From the Head Instructor</h2>
     <article>
       <p>
@@ -54,5 +54,5 @@ export default ({ Section = Sections.Light }) => (
       </div>
     </article>
     {/* <aside>previous messages here</aside> */}
-  </Section>
+  </Sections.Content>
 );

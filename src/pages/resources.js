@@ -4,18 +4,10 @@ import MessageFromHeadInstructor from "../paritals/MessageFromHeadInstructor";
 import ReflectingPool from "../paritals/ReflectingPool";
 import Sections from "../components/Sections";
 
-const Header = () => (
-  <header>
-    <Masthead>
-      <h2>Resources</h2>
-    </Masthead>
-  </header>
-);
-
 const InstructorThoughts = () => null;
 const StudentViews = () => null;
 const RecommendReading = () => (
-  <Sections.Dark>
+  <Sections.Aside>
     <h2>Recommend Reading</h2>
     <ul>
       <li>Living the Japanese Arts &amp; Ways - H.E. Davey</li>
@@ -30,11 +22,11 @@ const RecommendReading = () => (
       <li>Legends of the Samurai - Sato Hiroaki</li>
       <li>The Art of War - Sun Tzu</li>
     </ul>
-  </Sections.Dark>
+  </Sections.Aside>
 );
 
 const Links = () => (
-  <Sections.Dark>
+  <Sections.Aside>
     <h2>Links</h2>
     <h3>Martial Arts Organizations</h3>
     <ul>
@@ -87,14 +79,16 @@ const Links = () => (
         </a>
       </li>
     </ul>
-  </Sections.Dark>
+  </Sections.Aside>
 );
 
 export default () => (
   <div>
-    <Header />
+    <Masthead>
+      <h2>Resources</h2>
+    </Masthead>
     <MessageFromHeadInstructor />
-    <ReflectingPool Section={Sections.White} />
+    <ReflectingPool />
     <InstructorThoughts />
     <StudentViews />
     <RecommendReading />

@@ -2,8 +2,8 @@ import React from "react";
 import Person from "../../components/Person";
 import Sections from "../../components/Sections";
 
-export default ({ Section = Sections.Light }) => (
-  <Section>
+export default () => (
+  <Sections.Content>
     <h2>Reflecting Pool</h2>
     <article>
       <h3>Rejuvenation and Renewal</h3>
@@ -121,5 +121,5 @@ export default ({ Section = Sections.Light }) => (
         <Person.Gennan />
       </div>
     </article>
-  </Section>
+  </Sections.Content>
 );

@@ -12,29 +12,31 @@ import ANewGeneration from "./ANewGeneration";
 import PassingOfAGeneration from "./PassingOfAGeneration";
 
 const TamiyaRyuHistory = () => (
-  <Sections.Light>
+  <Sections.Content>
     <Beginnings />
     <KoTamiyaRyu />
     <KishuTamiyaRyu />
     <TamiyaShinkenRyu />
     <TamiyaRyuToday />
-  </Sections.Light>
+  </Sections.Content>
 );
 
 const USTamiyaRyuHistory = () => (
-  <Sections.Dark>
+  <Sections.Content>
     <h2>United States Tamiya Ryu</h2>
     <ThunderInYokohama />
     <SoutheastBranchOpens />
     <PassingOfAGeneration />
     <ANewGeneration />
-  </Sections.Dark>
+  </Sections.Content>
 );
 
 export default () => (
   <div>
     <TamiyaRyuHistory />
-    <Genealogy />
+    <Sections.Highlight>
+      <Genealogy />
+    </Sections.Highlight>
     <USTamiyaRyuHistory />
   </div>
 );

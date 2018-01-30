@@ -7,7 +7,7 @@ export default () => (
     <Masthead>
       <h2>Training Information</h2>
     </Masthead>
-    <Sections.White>
+    <Sections.Content>
       <p>
         Iaijutsu is a Japanese sword art. Tamiya Ryu is a specific school of
         iaijutsu which is described as both a Martial Art (bujutsu) and a
@@ -31,8 +31,8 @@ export default () => (
         practice and paired exercises are practiced with bokuto (wooden swords)
         to study timing and distance (ma'ai).
       </p>
-    </Sections.White>
-    <Sections.Dark>
+    </Sections.Content>
+    <Sections.Aside>
       <h3>Equipment</h3>
       <p>
         The equipment used depends on the experience level of the particular
@@ -61,6 +61,6 @@ export default () => (
         allowed during class. <strong>All</strong> equipment must be inspected
         by the instructor before being used by a student in class.
       </p>
-    </Sections.Dark>
+    </Sections.Aside>
   </div>
 );

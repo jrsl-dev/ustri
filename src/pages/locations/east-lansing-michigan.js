@@ -1,16 +1,15 @@
 import React from "react";
 import Masthead from "../../components/Masthead/Content";
+import Sections from "../../components/Sections";
 import EastLansing from "../../paritals/EastLansing";
-
-const Header = () => (
-  <Masthead>
-    <h2>Michigan Honbu Dojo</h2>
-  </Masthead>
-);
 
 export default () => (
   <div>
-    <Header />
-    <EastLansing />
+    <Masthead>
+      <h2>Michigan Honbu Dojo</h2>
+    </Masthead>
+    <Sections.Content>
+      <EastLansing />
+    </Sections.Content>
   </div>
 );

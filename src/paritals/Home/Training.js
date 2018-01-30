@@ -11,7 +11,7 @@ const Mon = styled.img`
 `;
 
 export default () => (
-  <Sections.Dark>
+  <Sections.Highlight>
     <h2>United States Tamiya Ryu Iaijutsu</h2>
     <p>
       Training focuses on the harmonization of mind, body, and spirit through
@@ -31,5 +31,5 @@ export default () => (
       of poems (sung in a style called Shigin) that depict famous events in
       Japanese history.
     </p>
-  </Sections.Dark>
+  </Sections.Highlight>
 );

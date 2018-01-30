@@ -27,7 +27,7 @@ const NewsFeed = styled.ul`
 `;
 
 export default () => (
-  <Sections.Light>
+  <Sections.Aside>
     <Katana />
     <NewsFeed>
       <li>
@@ -155,5 +155,5 @@ export default () => (
         </Card>
       </li>
     </NewsFeed>
-  </Sections.Light>
+  </Sections.Aside>
 );

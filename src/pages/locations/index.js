@@ -10,29 +10,33 @@ import Brighton from "../../paritals/Brighton";
 import Instructors from "../../paritals/Instructors";
 import mon from "../../assets/mon.svg";
 
-const Header = () => (
-  <Masthead>
-    <h2>Locations</h2>
-  </Masthead>
-);
-
-const MonSection = () => (
-  <Sections.Dark>
+const Break = () => (
+  <Sections.Highlight>
     <Mon src={mon} />
-  </Sections.Dark>
+  </Sections.Highlight>
 );
 
 export default () => (
   <div>
-    <Header />
+    <Masthead>
+      <h2>Locations</h2>
+    </Masthead>
     {/* hmmm.... where does this go? <nav>page level nav</nav> */}
-    <EastLansing />
-    <MonSection />
-    <Macomb Section={Sections.Light} />
-    <Sections.White>
+    <Sections.Content>
+      <EastLansing />
+    </Sections.Content>
+    <Break />
+    <Sections.Content>
+      <Macomb />
+    </Sections.Content>
+    <Break />
+    <Sections.Content>
       <h3>Brighton, Michigan - Study Group</h3>
       <Brighton />
-    </Sections.White>
-    <Instructors />
+    </Sections.Content>
+    <Break />
+    <Sections.Aside>
+      <Instructors />
+    </Sections.Aside>
   </div>
 );

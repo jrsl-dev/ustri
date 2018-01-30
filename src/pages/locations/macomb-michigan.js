@@ -1,16 +1,15 @@
 import React from "react";
 import Masthead from "../../components/Masthead/Content";
+import Sections from "../../components/Sections";
 import Macomb from "../../paritals/Macomb";
-
-const Header = () => (
-  <Masthead>
-    <h2>Southeast Michigan Branch Dojo</h2>
-  </Masthead>
-);
 
 export default () => (
   <div>
-    <Header />
-    <Macomb />
+    <Masthead>
+      <h2>Southeast Michigan Branch Dojo</h2>
+    </Masthead>
+    <Sections.Content>
+      <Macomb />
+    </Sections.Content>
   </div>
 );

@@ -20,7 +20,7 @@ const Contact = Card.extend`
 export default () => (
   <div>
     <Header />
-    <Sections.White>
+    <Sections.Content>
       <h3>Michigan Honbu Dojo</h3>
       <Contact>
         <Person.Gennan showEmail />
@@ -31,8 +31,8 @@ export default () => (
       <Contact>
         <Person.Genka showEmail />
       </Contact>
-    </Sections.White>
-    <Sections.White>
+    </Sections.Content>
+    <Sections.Content>
       <h3>Southeast Michigan Branch Dojo</h3>
       <Contact>
         <Person.Genfu showEmail />
@@ -40,12 +40,12 @@ export default () => (
       <Contact>
         <Person.Genzan showEmail />
       </Contact>
-    </Sections.White>
-    <Sections.White>
+    </Sections.Content>
+    <Sections.Content>
       <h3>Brighton Michigan Study Group</h3>
       <Contact>
         <Person.Gennetsu showEmail r />
       </Contact>
-    </Sections.White>
+    </Sections.Content>
   </div>
 );

@@ -52,11 +52,11 @@ const Tai = () => (
   </Media>
 );
 
-const KiKenTai = Sections.White.extend`
+const KiKenTai = Sections.Aside.extend`
   grid-column-gap: 2em;
   grid-row-gap: 4em;
-  margin-top: 6rem;
-  margin-bottom: 6rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 
   @media (min-width: 52rem) {
     grid-template-columns: 22ch 22ch 22ch;

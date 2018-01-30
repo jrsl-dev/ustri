@@ -1,5 +1,4 @@
 import React from "react";
-import Sections from "../../components/Sections";
 import Person from "../../components/Person";
 
 export default () => (

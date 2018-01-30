@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import Card from "../../components/Card";
 import Kanji from "../../components/Kanji";
-import Sections from "../../components/Sections";
 import Schedule from "./Schedule";
 import Contact from "./Contact";
 import Introduction from "./Introduction";
@@ -23,12 +22,11 @@ const Offer = () => (
   </Announcement>
 );
 
-export default ({ Section = Sections.White }) => (
-  <Section>
+export default () => (
+  <div>
     <Introduction />
     <Offer />
     <Schedule />
     <Contact />
-    <Kanji src={tamiyaKen} alt="tamiya ken" />
-  </Section>
+  </div>
 );

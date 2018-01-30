@@ -1,8 +1,7 @@
 import React from "react";
-import Sections from "../../components/Sections";
 
 export default () => (
-  <Sections.White>
+  <div>
     <h2>Genealogy</h2>
     <ol>
       <li>Tamiya Heibei Narimasa</li>
@@ -21,5 +20,5 @@ export default () => (
       <li>Tsumaki Seirin Genshin</li>
       <li>Tsumaki Kazuo Genwa</li>
     </ol>
-  </Sections.White>
+  </div>
 );

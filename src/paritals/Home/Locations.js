@@ -46,10 +46,10 @@ const Brighton = () => (
 );
 
 export default () => (
-  <Sections.White>
+  <Sections.Content>
     <h2>Locations</h2>
     <EastLansing />
     <Macomb />
     <Brighton />
-  </Sections.White>
+  </Sections.Content>
 );

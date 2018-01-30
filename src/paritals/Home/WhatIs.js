@@ -54,9 +54,9 @@ const WhatIsTamiyaRyu = () => (
 );
 
 export default () => (
-  <Sections.Light>
+  <Sections.Content>
     <h2>What Is Iaijutsu</h2>
     <WhatIsTamiyaRyu />
     <WhatIsIaijutsu />
-  </Sections.Light>
+  </Sections.Content>
 );
