@@ -16,10 +16,9 @@ const PersonStyled = styled.div`
   }
 `;
 
-const Email = CTA.extend`
-  justify-self: center;
-  margin-top: 1.5em;
-  text-align: center;
+const Email = styled.a`
+  font-weight: bold;
+  margin: 0.5em;
 `;
 
 const Person = ({ name, gengo, rank, titles, email, showEmail }) => (
