@@ -4,6 +4,7 @@ import Sections from "../../components/Sections";
 import Card from "../../components/Card";
 import VideoWrapper from "../../components/VideoWrapper";
 import katana from "../../assets/katana.svg";
+import taikai from "../../assets/20th-anniversary-taikai.jpg";
 
 const Katana = styled.img.attrs({
   src: katana,
@@ -47,6 +48,10 @@ export default () => (
       <li>
         <Card>
           <h3> USTRI 20th Anniversary Taikai</h3>
+          <img
+            src={taikai}
+            alt="group picture of the 20th anniversary taikai"
+          />
           <p>
             The Executives of the United States Tamiya Ryu Iaijutsu Gengo
             Hojisha no Kai are pleased to announce the following
