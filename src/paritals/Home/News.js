@@ -17,6 +17,11 @@ const Katana = styled.img.attrs({
   margin-bottom: 4rem;
 `;
 
+const FramedImage = styled.img`
+  box-shadow: 0 0 1px 7px #212121, 0 0 4px 12px rgba(224, 224, 224, 0.9);
+  margin: 2em 1em 3em;
+`;
+
 const NewsFeed = styled.ul`
   margin: 0;
   padding: 0;
@@ -48,7 +53,7 @@ export default () => (
       <li>
         <Card>
           <h3> USTRI 20th Anniversary Taikai</h3>
-          <img
+          <FramedImage
             src={taikai}
             alt="group picture of the 20th anniversary taikai"
           />
