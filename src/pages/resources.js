@@ -2,7 +2,7 @@ import React from "react";
 import Masthead from "../components/Masthead/Content";
 import MessageFromHeadInstructor from "../partials/MessageFromHeadInstructor";
 import ReflectingPool from "../partials/ReflectingPool";
-import Sections from "../styled/Sections";
+import Sections from "../components/styled/Sections";
 
 const InstructorThoughts = () => null;
 const StudentViews = () => null;

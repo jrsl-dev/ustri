@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import Sections from "../../styled/Sections";
-import Card from "../../styled/Card";
-import VideoWrapper from "../../styled/VideoWrapper";
+import Sections from "../../components/styled/Sections";
+import Card from "../../components/styled/Card";
+import VideoWrapper from "../../components/styled/VideoWrapper";
 import katana from "../../assets/katana.svg";
 import taikai from "../../assets/20th-anniversary-taikai.jpg";
 

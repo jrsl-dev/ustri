@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import Sections from "../../styled/Sections";
-import CTA from "../../styled/CTA";
+import Sections from "../../components/styled/Sections";
+import CTA from "../../components/styled/CTA";
 import image from "../../assets/honbu-winter-2018.jpg";
 
 const Hero = styled.div`

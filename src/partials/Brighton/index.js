@@ -1,5 +1,5 @@
 import React from "react";
-import { Subsection } from "../../styled/Sections";
+import { Subsection } from "../../components/styled/Sections";
 import Person from "../../components/Person";
 
 const Introduction = () => (

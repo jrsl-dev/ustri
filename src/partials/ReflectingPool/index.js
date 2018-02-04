@@ -1,6 +1,6 @@
 import React from "react";
 import Person from "../../components/Person";
-import Sections from "../../styled/Sections";
+import Sections from "../../components/styled/Sections";
 
 export default () => (
   <Sections.Content>

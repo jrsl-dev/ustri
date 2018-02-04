@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Sections from "../../styled/Sections";
+import Sections from "../../components/styled/Sections";
 import ki from "../../assets/ki-kanji.svg";
 import ken from "../../assets/ken-kanji.svg";
 import tai from "../../assets/tai-kanji.svg";
