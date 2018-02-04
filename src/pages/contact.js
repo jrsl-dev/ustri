@@ -1,6 +1,6 @@
 import React from "react";
 import Sections from "../components/Sections";
-import Masthead from "../components/Masthead/Content";
+import Masthead from "../partials/Masthead/Content";
 import Person from "../components/Person";
 import Card from "../components/Card";
 

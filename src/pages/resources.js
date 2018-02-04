@@ -1,5 +1,5 @@
 import React from "react";
-import Masthead from "../components/Masthead/Content";
+import Masthead from "../partials/Masthead/Content";
 import MessageFromHeadInstructor from "../paritals/MessageFromHeadInstructor";
 import ReflectingPool from "../paritals/ReflectingPool";
 import Sections from "../components/Sections";

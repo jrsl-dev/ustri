@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Card from "../../components/Card";
 import Mon from "../../components/Kanji";
 import Sections from "../../components/Sections";
-import Masthead from "../../components/Masthead/Content";
+import Masthead from "../../partials/Masthead/Content";
 import EastLansing from "../../paritals/EastLansing";
 import Macomb from "../../paritals/Macomb";
 import Brighton from "../../paritals/Brighton";

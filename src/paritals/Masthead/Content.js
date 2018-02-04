@@ -48,8 +48,6 @@ const SubHeading = styled.div`
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 `;
 
-const Kanji = styled.div``;
-
 const PageTitle = styled.div`
   @media (min-width: 445px) {
     grid-area: 2/2/3/3;
@@ -70,11 +68,11 @@ export default ({ children }) => (
       <SubHeading>
         <span>Gengo Hojisha no Kai</span>
       </SubHeading>
-      <Kanji>
+      <div>
         <span>米国田宮流居合術</span>
         &nbsp;
         <span>元号保持者の会</span>
-      </Kanji>
+      </div>
     </Title>
     {children && <PageTitle>{children}</PageTitle>}
   </Masthead>
