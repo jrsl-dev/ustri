@@ -1,5 +1,5 @@
 import React from "react";
-import Person from "../../partials/Person";
+import Person from "../../components/Person";
 
 export default () => (
   <div>
