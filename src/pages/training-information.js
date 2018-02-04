@@ -1,6 +1,6 @@
 import React from "react";
-import Masthead from "../partials/Masthead/Content";
-import Sections from "../components/Sections";
+import Masthead from "../components/Masthead/Content";
+import Sections from "../styled/Sections";
 
 export default () => (
   <div>

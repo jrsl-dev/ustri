@@ -1,5 +1,5 @@
 import React from "react";
-import Sections, { Subsection } from "../../components/Sections";
+import Sections, { Subsection } from "../../styled/Sections";
 
 export default () => (
   <div>

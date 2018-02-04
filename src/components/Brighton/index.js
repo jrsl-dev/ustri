@@ -1,6 +1,6 @@
 import React from "react";
-import { Subsection } from "../../components/Sections";
-import Person from "../../partials/Person";
+import { Subsection } from "../../styled/Sections";
+import Person from "../../components/Person";
 
 const Introduction = () => (
   <div>

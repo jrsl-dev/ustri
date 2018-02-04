@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Sections from "../../components/Sections";
+import Sections from "../../styled/Sections";
 import mon from "../../assets/mon.svg";
 
 const Mon = styled.img`

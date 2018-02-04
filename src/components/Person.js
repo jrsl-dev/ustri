@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import CTA from "./CTA";
+import CTA from "../styled/CTA";
 
 const PersonStyled = styled.div`
   display: grid;

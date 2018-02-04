@@ -1,7 +1,7 @@
 import React from "react";
-import Masthead from "../../partials/Masthead/Content";
-import Sections from "../../components/Sections";
-import Brighton from "../../paritals/Brighton";
+import Masthead from "../../components/Masthead/Content";
+import Sections from "../../styled/Sections";
+import Brighton from "../../components/Brighton";
 
 export default () => (
   <div>

@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const VideoWrapper = styled.div`
+export default styled.div`
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
   padding-top: 25px;
@@ -16,4 +16,4 @@ const VideoWrapper = styled.div`
   }
 `;
 
-export default ({ children }) => <VideoWrapper>{children}</VideoWrapper>;
+// export default ({ children }) => <VideoWrapper>{children}</VideoWrapper>;

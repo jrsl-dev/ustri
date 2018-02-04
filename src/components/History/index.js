@@ -1,5 +1,5 @@
 import React from "react";
-import Sections from "../../components/Sections";
+import Sections from "../../styled/Sections";
 import Beginnings from "./Beginnings";
 import KoTamiyaRyu from "./KoTamiyaRyu";
 import KishuTamiyaRyu from "./KishuTamiyaRyu";
