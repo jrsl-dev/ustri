@@ -1,5 +1,5 @@
 import React from "react";
-import Masthead from "../partials/Masthead";
+import Masthead from "../components/Masthead";
 import Home from "../partials/Home";
 
 export default () => (
