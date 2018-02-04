@@ -3,11 +3,11 @@ import styled from "styled-components";
 import Card from "../../styled/Card";
 import Mon from "../../styled/Kanji";
 import Sections from "../../styled/Sections";
-import Masthead from "../../components/Masthead/Content";
-import EastLansing from "../../components/EastLansing";
-import Macomb from "../../components/Macomb";
-import Brighton from "../../components/Brighton";
-import Instructors from "../../components/Instructors";
+import Masthead from "../../partials/Masthead/Content";
+import EastLansing from "../../partials/EastLansing";
+import Macomb from "../../partials/Macomb";
+import Brighton from "../../partials/Brighton";
+import Instructors from "../../partials/Instructors";
 import mon from "../../assets/mon.svg";
 
 const Break = () => (

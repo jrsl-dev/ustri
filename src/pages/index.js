@@ -1,6 +1,6 @@
 import React from "react";
-import Masthead from "../components/Masthead";
-import Home from "../components/Home";
+import Masthead from "../partials/Masthead";
+import Home from "../partials/Home";
 
 export default () => (
   <div>
