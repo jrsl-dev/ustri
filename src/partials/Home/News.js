@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Sections from "../../components/styled/Sections";
+import FramedImage from "../../components/styled/FramedImage";
 import Card from "../../components/styled/Card";
 import VideoWrapper from "../../components/styled/VideoWrapper";
 import katana from "../../assets/katana.svg";
@@ -17,8 +18,7 @@ const Katana = styled.img.attrs({
   margin-bottom: 4rem;
 `;
 
-const FramedImage = styled.img`
-  box-shadow: 0 0 1px 7px #212121, 0 0 4px 12px rgba(224, 224, 224, 0.9);
+const TaikaiPicture = FramedImage.extend`
   margin: 2em 1em 3em;
 `;
 

@@ -1,16 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 import Sections from "../../components/styled/Sections";
+import FramedImage from "../../components/styled/FramedImage";
 import CTA from "../../components/styled/CTA";
 import image from "../../assets/honbu-winter-2018.jpg";
 
 const Hero = styled.div`
   position: relative;
   margin-bottom: 4em;
-`;
-
-const FramedImage = styled.img`
-  box-shadow: 0 0 1px 7px #212121, 0 0 4px 12px rgba(224, 224, 224, 0.9);
 `;
 
 const Heading = styled.h2`
