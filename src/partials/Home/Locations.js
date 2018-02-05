@@ -1,5 +1,4 @@
 import React from "react";
-import styled from "styled-components";
 import { Link } from "../../components/styled/CTA";
 import Card from "../../components/styled/Card";
 import Sections, { Subsection } from "../../components/styled/Sections";
