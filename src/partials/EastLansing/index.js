@@ -1,11 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import Card from "../../components/styled/Card";
-import Kanji from "../../components/styled/Kanji";
 import Schedule from "./Schedule";
 import Contact from "./Contact";
 import Introduction from "./Introduction";
-import tamiyaKen from "../../assets/tamiya-ken-kanji.svg";
 
 const Announcement = Card.extend`
   margin-bottom: 2rem;
