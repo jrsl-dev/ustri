@@ -1,29 +1,17 @@
 import React from "react";
 import styled from "styled-components";
 import Sections from "../../components/styled/Sections";
+import Media from "../../components/styled/Media";
 import ki from "../../assets/ki-kanji.svg";
 import ken from "../../assets/ken-kanji.svg";
 import tai from "../../assets/tai-kanji.svg";
 
-const Media = styled.div`
-  display: grid;
-  grid-template-columns: 22ch;
-  grid-template-rows: auto auto 1fr;
-  justify-content: center;
-
-  > img {
-    justify-self: center;
-  }
-
-  > h3 {
-    justify-self: center;
-  }
-`;
+const Heading = Media.Heading.withComponent("h3");
 
 const Ki = () => (
   <Media>
-    <img src={ki} alt="ki" />
-    <h3>Ki</h3>
+    <Media.Image src={ki} alt="ki" />
+    <Heading>Ki</Heading>
     <p>
       Spirit. Tamiya Ryu trains the spirit and aims to create a harmonious
       character.
@@ -33,8 +21,8 @@ const Ki = () => (
 
 const Ken = () => (
   <Media>
-    <img src={ken} alt="ken" />
-    <h3>Ken</h3>
+    <Media.Image src={ken} alt="ken" />
+    <Heading>Ken</Heading>
     <p>
       Sword. The sword of Tamiya Ryu is one that gives life or katsujin no ken.
     </p>
@@ -43,8 +31,8 @@ const Ken = () => (
 
 const Tai = () => (
   <Media>
-    <img src={tai} alt="tai" />
-    <h3>Tai</h3>
+    <Media.Image src={tai} alt="tai" />
+    <Heading>Tai</Heading>
     <p>
       Body. By harmonizing the spirit, sword, and body, the practice of Iaijutsu
       becomes dignified.
