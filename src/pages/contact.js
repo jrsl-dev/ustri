@@ -1,8 +1,8 @@
 import React from "react";
-import Sections from "../components/Sections";
+import Sections from "../components/styled/Sections";
 import Masthead from "../components/Masthead/Content";
 import Person from "../components/Person";
-import Card from "../components/Card";
+import Card from "../components/styled/Card";
 
 const Header = () => (
   <Masthead>

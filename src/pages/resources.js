@@ -1,8 +1,8 @@
 import React from "react";
 import Masthead from "../components/Masthead/Content";
-import MessageFromHeadInstructor from "../paritals/MessageFromHeadInstructor";
-import ReflectingPool from "../paritals/ReflectingPool";
-import Sections from "../components/Sections";
+import MessageFromHeadInstructor from "../partials/MessageFromHeadInstructor";
+import ReflectingPool from "../partials/ReflectingPool";
+import Sections from "../components/styled/Sections";
 
 const InstructorThoughts = () => null;
 const StudentViews = () => null;

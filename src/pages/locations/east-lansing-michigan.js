@@ -1,7 +1,7 @@
 import React from "react";
 import Masthead from "../../components/Masthead/Content";
-import Sections from "../../components/Sections";
-import EastLansing from "../../paritals/EastLansing";
+import Sections from "../../components/styled/Sections";
+import EastLansing from "../../partials/EastLansing";
 
 export default () => (
   <div>

@@ -1,13 +1,13 @@
 import React from "react";
 import styled from "styled-components";
-import Card from "../../components/Card";
-import Mon from "../../components/Kanji";
-import Sections from "../../components/Sections";
+import Card from "../../components/styled/Card";
+import Mon from "../../components/styled/Kanji";
+import Sections from "../../components/styled/Sections";
 import Masthead from "../../components/Masthead/Content";
-import EastLansing from "../../paritals/EastLansing";
-import Macomb from "../../paritals/Macomb";
-import Brighton from "../../paritals/Brighton";
-import Instructors from "../../paritals/Instructors";
+import EastLansing from "../../partials/EastLansing";
+import Macomb from "../../partials/Macomb";
+import Brighton from "../../partials/Brighton";
+import Instructors from "../../partials/Instructors";
 import mon from "../../assets/mon.svg";
 
 const Break = () => (

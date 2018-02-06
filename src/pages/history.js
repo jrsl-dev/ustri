@@ -1,6 +1,6 @@
 import React from "react";
 import Masthead from "../components/Masthead/Content";
-import History from "../paritals/History";
+import History from "../partials/History";
 
 const Header = () => (
   <Masthead>

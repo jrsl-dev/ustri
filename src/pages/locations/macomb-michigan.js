@@ -1,7 +1,7 @@
 import React from "react";
 import Masthead from "../../components/Masthead/Content";
-import Sections from "../../components/Sections";
-import Macomb from "../../paritals/Macomb";
+import Sections from "../../components/styled/Sections";
+import Macomb from "../../partials/Macomb";
 
 export default () => (
   <div>
