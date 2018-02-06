@@ -32,7 +32,7 @@ const Aside = Base.extend`
 `;
 
 const Highlight = Base.extend`
-  background: #212121;
+  background: var(--dark);
   color: #e0e0e0;
 `;
 
