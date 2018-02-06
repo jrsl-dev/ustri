@@ -82,12 +82,12 @@ const Links = () => (
   </Sections.Aside>
 );
 
-export default () => (
+export default ({ data }) => (
   <div>
     <Masthead>
       <h2>Resources</h2>
     </Masthead>
-    <MessageFromHeadInstructor />
+    <MessageFromHeadInstructor data={data} />
     <ReflectingPool />
     <InstructorThoughts />
     <StudentViews />
@@ -95,3 +95,18 @@ export default () => (
     <Links />
   </div>
 );
+
+export const query = graphql`
+  query MessageFromHeadInstructorQuery {
+    allMarkdownRemark {
+      edges {
+        node {
+          frontmatter {
+            author
+          }
+          html
+        }
+      }
+    }
+  }
+`;
