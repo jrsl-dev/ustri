@@ -15,5 +15,3 @@ export default styled.div`
     height: 100%;
   }
 `;
-
-// export default ({ children }) => <VideoWrapper>{children}</VideoWrapper>;
