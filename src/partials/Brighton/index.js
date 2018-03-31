@@ -2,6 +2,9 @@ import React from "react";
 import { Subsection } from "../../components/styled/Sections";
 import Person from "../../components/Person";
 
+const registrationUrl =
+  "https://www.digitalsignup.com/ClassDetail.aspx?code=j4EHpN52BZrTQWrbT5LfR80FWyzptDHWqXaO4TdcKrTkw0oshzCyUE5n%2bdSRPZ8U&SoftwareID=5G6jVMZ2T%2b6kdmhmIZvFBA%3d%3d";
+
 const Introduction = () => (
   <div>
     <p>
@@ -13,9 +16,11 @@ const Introduction = () => (
 
     <p>
       To register for class, please visit{" "}
-      <a href="brightoncommunityed.com">brightoncommunityed.com</a> or call{" "}
-      <a href="tel:8102994130">(810) 299-4130</a>. After signing up, please
-      contact us so we can prepare materials for your first class!
+      <a href={registrationUrl}>
+        Brighton Community Education's registration site
+      </a>{" "}
+      or call <a href="tel:8102994130">(810) 299-4130</a>. After signing up,
+      please contact us so we can prepare materials for your first class!
     </p>
   </div>
 );
