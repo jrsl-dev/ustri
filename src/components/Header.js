@@ -2,7 +2,7 @@ import React from "react";
 import Link from "gatsby-link";
 import styled from "styled-components";
 import withSizes from "react-sizes";
-import { EXPAND_NAV_BREAKPOINT } from "../components";
+import { EXPAND_NAV_BREAKPOINT } from "../constrants";
 
 // TODO This isn't really a "component", I don't think...
 // TODO get styled components to build with css custom properties
