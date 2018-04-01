@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "gatsby-link";
-import Card from "../../components/Card";
+import Card from "../../components/styled/Card";
 import Introduction from "./Introduction";
 import News from "./News";
 import Locations from "./Locations";

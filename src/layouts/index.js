@@ -1,9 +1,18 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Helmet from "react-helmet";
-import styled from "styled-components";
+import styled, { injectGlobal } from "styled-components";
 import Header from "../components/Header";
 import "./index.css";
+
+injectGlobal`
+  :root {
+    --heading-font-stack: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+      Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    --light: #e0e0e0;
+    --dark: #212121;
+  }
+`;
 
 const Main = styled.main`
   padding: 0 0 5rem 0;

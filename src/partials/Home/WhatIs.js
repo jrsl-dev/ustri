@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Sections, { Subsection } from "../../components/Sections";
+import Sections, { Subsection } from "../../components/styled/Sections";
 import tamiyaryu from "../../assets/tamiyaryu-kanji.svg";
 import iaijutsu from "../../assets/iaijutsu-kanji.svg";
 

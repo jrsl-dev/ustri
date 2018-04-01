@@ -1,8 +1,7 @@
 import React from "react";
-import styled from "styled-components";
-import { Link } from "../../components/CTA";
-import Card from "../../components/Card";
-import Sections, { Subsection } from "../../components/Sections";
+import { Link } from "../../components/styled/CTA";
+import Card from "../../components/styled/Card";
+import Sections, { Subsection } from "../../components/styled/Sections";
 import honbu from "../../assets/honbu-dojo.jpg";
 import macomb from "../../assets/macomb-dojo.jpg";
 
