@@ -17,7 +17,7 @@ injectGlobal`
 const Main = styled.main`
   padding: 0 0 5rem 0;
 
-  @media (min-width: 640px) {
+  @media (min-width: 665px) {
     padding: 5rem 0 0 0;
   }
 `;

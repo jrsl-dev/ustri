@@ -15,7 +15,7 @@ const Header = styled.header`
   z-index: 1;
   bottom: 0;
 
-  @media (min-width: 660px) {
+  @media (min-width: 665px) {
     bottom: auto;
     top: 0;
   }
@@ -30,7 +30,7 @@ const Navigation = styled.nav`
   align-items: center;
   padding: 0.5em 0;
 
-  @media (min-width: 660px) {
+  @media (min-width: 665px) {
     justify-content: flex-end;
     padding: 1em 0;
 
@@ -131,7 +131,7 @@ class NavgiationContainer extends React.Component {
 }
 
 const mapSizesToProps = ({ width }) => ({
-  expandedNav: width > 660
+  expandedNav: width >= 665
 });
 
 export default withSizes(mapSizesToProps)(NavgiationContainer);
