@@ -68,11 +68,8 @@ export default ({ children }) => (
       <SubHeading>
         <span>Gengo Hojisha no Kai</span>
       </SubHeading>
-      <div>
-        <span>米国田宮流居合術</span>
-        &nbsp;
-        <span>元号保持者の会</span>
-      </div>
+      <div>米国田宮流居合術</div>
+      <div>元号保持者の会</div>
     </Title>
     {children && <PageTitle>{children}</PageTitle>}
   </Masthead>
