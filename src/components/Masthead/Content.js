@@ -8,7 +8,7 @@ const Masthead = styled.header`
   padding: 1rem;
   align-items: center;
 
-  @media (min-width: 445px) {
+  @media (min-width: 455px) {
     display: grid;
     grid-template-columns: 7rem 1fr;
     grid-column-gap: 2em;
@@ -21,7 +21,7 @@ const Mon = styled.div`
   width: 100%;
   max-width: 7em;
 
-  @media (min-width: 445px) {
+  @media (min-width: 455px) {
     grid-area: 1/1/2/2;
   }
 `;
@@ -29,9 +29,11 @@ const Mon = styled.div`
 const Title = styled.div`
   margin-bottom: 1em;
   max-width: 16rem;
+  text-align: center;
 
-  @media (min-width: 445px) {
+  @media (min-width: 455px) {
     grid-area: 1/2/2/3;
+    text-align: initial;
   }
 `;
 
@@ -40,6 +42,11 @@ const Heading = styled.h1`
   display: flex;
   flex-wrap: wrap;
   margin: 0 0 0.25em;
+  justify-content: center;
+
+  @media (min-width: 455px) {
+    justify-content: initial;
+  }
 `;
 
 const SubHeading = styled.div`
@@ -49,7 +56,7 @@ const SubHeading = styled.div`
 `;
 
 const PageTitle = styled.div`
-  @media (min-width: 445px) {
+  @media (min-width: 455px) {
     grid-area: 2/2/3/3;
   }
 `;
