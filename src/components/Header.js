@@ -28,10 +28,12 @@ const Navigation = styled.nav`
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 1em 0;
+  padding: 0.5em 0;
 
   @media (min-width: 660px) {
     justify-content: flex-end;
+    padding: 1em 0;
+
     & > *:first-child {
       margin-right: auto;
     }
