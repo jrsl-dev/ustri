@@ -2,6 +2,7 @@ import React from "react";
 import Link from "gatsby-link";
 import styled from "styled-components";
 import withSizes from "react-sizes";
+import { EXPAND_NAV_BREAKPOINT } from "../components";
 
 // TODO This isn't really a "component", I don't think...
 // TODO get styled components to build with css custom properties
@@ -15,7 +16,7 @@ const Header = styled.header`
   z-index: 1;
   bottom: 0;
 
-  @media (min-width: 665px) {
+  @media (min-width: ${EXPAND_NAV_BREAKPOINT}px) {
     bottom: auto;
     top: 0;
   }
@@ -30,7 +31,7 @@ const Navigation = styled.nav`
   align-items: center;
   padding: 0.5em 0;
 
-  @media (min-width: 665px) {
+  @media (min-width: ${EXPAND_NAV_BREAKPOINT}) {
     justify-content: flex-end;
     padding: 1em 0;
 
@@ -131,7 +132,7 @@ class NavgiationContainer extends React.Component {
 }
 
 const mapSizesToProps = ({ width }) => ({
-  expandedNav: width >= 665
+  expandedNav: width >= EXPAND_NAV_BREAKPOINT
 });
 
 export default withSizes(mapSizesToProps)(NavgiationContainer);

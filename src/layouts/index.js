@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 import styled, { injectGlobal } from "styled-components";
 import Header from "../components/Header";
+import { EXPAND_NAV_BREAKPOINT } from "../constrants";
 import "./index.css";
 
 injectGlobal`
@@ -17,7 +18,7 @@ injectGlobal`
 const Main = styled.main`
   padding: 0 0 5rem 0;
 
-  @media (min-width: 665px) {
+  @media (min-width: ${EXPAND_NAV_BREAKPOINT}px) {
     padding: 5rem 0 0 0;
   }
 `;
