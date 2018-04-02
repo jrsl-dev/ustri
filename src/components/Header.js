@@ -31,7 +31,7 @@ const Navigation = styled.nav`
   align-items: center;
   padding: 0.5em 0;
 
-  @media (min-width: ${EXPAND_NAV_BREAKPOINT}) {
+  @media (min-width: ${EXPAND_NAV_BREAKPOINT}px) {
     justify-content: flex-end;
     padding: 1em 0;
 
