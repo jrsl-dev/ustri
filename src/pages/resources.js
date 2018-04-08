@@ -39,7 +39,7 @@ const Links = () => (
     <h3>Suppliers</h3>
     <ul>
       <li>
-        <a href="http://tamiyaryuiaizyutu.web.fc2.com/">Budo Aoi</a>
+        <a href="https://www.budo-aoi.com/">Budo Aoi</a>
       </li>
       <li>
         <a href="http://www.chenessinc.com/">Cheness</a>
@@ -60,7 +60,7 @@ const Links = () => (
         <a href="http://www.akagijapanese.com/">Akagi Restaurant</a>
       </li>
       <li>
-        <a href="http://www.akagijapanese.com/">House of Rice</a>
+        <a href="http://www.houserice.com/">House of Rice</a>
       </li>
       <li>
         <a href="http://www.koryubooks.com/">Koryu Books</a>
