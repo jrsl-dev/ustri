@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import CTA from "../components/styled/CTA";
 
 const PersonStyled = styled.div`
   display: grid;
@@ -103,7 +102,7 @@ const Genzan = ({ ...props }) => (
       "USTRI Southeast Michigan Assistant Branch Manager",
       "USTRI Instructor"
     ]}
-    email="genzan@ustamiyaryu.org"
+    email="dan@mordan.xyz"
     {...props}
   />
 );
@@ -113,7 +112,7 @@ const Gennetsu = ({ ...props }) => (
     name="James Russell"
     gengo="Gennetsu"
     rank="5th Degree"
-    email="gennetsu@ustamiyaryu.org"
+    email="gennetsu.ustri@gmail.com"
     {...props}
   />
 );
