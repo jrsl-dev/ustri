@@ -1,7 +1,10 @@
-# United States Tamiya Ryu Iaijutsu
+# gatsby-starter-hello-world
+Starter with the bare essentials needed for a [Gatsby](https://www.gatsbyjs.org/) site
 
-Built with GatsbyJS and Styled-Components.
+Install this starter (assuming Gatsby is installed) by running from your CLI:
+```
+gatsby new gatsby-site https://github.com/gatsbyjs/gatsby-starter-hello-world
+```
 
-## Deploy
-
-Where am I going to deploy this?
+## Running in development
+`gatsby develop`

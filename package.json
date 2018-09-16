@@ -1,32 +1,23 @@
 {
-  "name": "ustri",
-  "description": "United States Tamiya Ryu Iaijutsu",
-  "version": "1.0.0",
-  "author": "James Russell<jrrussell1224@gmail.com>",
-  "dependencies": {
-    "gatsby": "^1.9.153",
-    "gatsby-link": "^1.6.34",
-    "gatsby-plugin-react-helmet": "^2.0.3",
-    "gatsby-plugin-styled-components": "^2.0.4",
-    "gatsby-source-filesystem": "^1.5.17",
-    "gatsby-transformer-remark": "^1.7.30",
-    "react-helmet": "^5.2.0",
-    "react-sizes": "^1.0.0",
-    "styled-components": "^3.1.6"
-  },
-  "keywords": [
-    "gatsby"
-  ],
+  "name": "gatsby-starter-hello-world",
+  "description": "Gatsby hello world starter",
   "license": "MIT",
-  "main": "n/a",
   "scripts": {
-    "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gatsby build",
+    "serve": "gatsby serve"
   },
-  "devDependencies": {
-    "eslint": "^4.19.1",
-    "prettier": "^1.10.2"
+  "dependencies": {
+    "emotion": "^9.2.8",
+    "emotion-server": "^9.2.8",
+    "gatsby": "next",
+    "gatsby-plugin-emotion": "^1.1.17",
+    "gatsby-plugin-typography": "^1.7.19",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-emotion": "^9.2.8",
+    "react-typography": "^0.16.13",
+    "typography": "^0.16.17",
+    "typography-theme-lincoln": "^0.15.11"
   }
 }

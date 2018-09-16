@@ -1,19 +1,13 @@
 module.exports = {
-  siteMetadata: {
-    title: "United States Tamiya Ryu Iaijutsu"
-  },
   plugins: [
-    "gatsby-plugin-react-helmet",
-    "gatsby-plugin-styled-components",
-    // source - where to get stuff from
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: "gatsby-plugin-typography",
       options: {
-        path: `${__dirname}/src/articles`,
-        name: "articles"
+        pathToConfigModule: "src/utils/typography.js"
       }
     },
-    // transforms markdown => html
-    "gatsby-transformer-remark"
+    {
+      resolve: "gatsby-plugin-emotion"
+    }
   ]
 };
