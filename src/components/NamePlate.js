@@ -10,7 +10,7 @@ const HeroSub = styled("sub")`
   text-align: right;
   padding: 0.25em 0.5em;
   color: white;
-  background-color: #1a1a1a;
+  background-color: hsla(0, 0%, 0%, 0.9);
   background-image: url(${mon});
   background-size: contain;
   background-repeat: no-repeat;

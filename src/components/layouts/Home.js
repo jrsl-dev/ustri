@@ -4,12 +4,8 @@ import styled from "react-emotion";
 import { HeroNamePlate as NamePlate } from "../../components/NamePlate";
 
 const Header = styled("header")`
-  display: grid;
-  grid-template-rows: auto 18rem;
-
-  & > *:last-child {
-    align-self: flex-end;
-  }
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 `;
 
 const Nav = styled("nav")`
@@ -56,8 +52,8 @@ export default ({ children }) => (
         </li>
         <li>Hosted on Netilfy</li>
         <li>Content by Contentful</li>
-        <li>Coded through VS Code</li>
-        <li>Store at Github</li>
+        <li>Written using Code</li>
+        <li>Stored at Github</li>
       </ul>
     </footer>
   </Wrapper>

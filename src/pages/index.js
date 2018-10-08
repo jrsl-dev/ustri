@@ -1,14 +1,35 @@
 import React from "react";
-import styled from "react-emotion";
+import styled, { css } from "react-emotion";
 import Home from "../components/layouts/Home";
 
 const Section = styled("section")`
-  margin-bottom: 8em;
+  overflow: hidden;
+  margin-bottom: 6em;
 `;
+
+const KanjiAside = ({ children }) => (
+  <aside
+    className={css`
+      font-size: 5rem;
+      font-weight: bold;
+      writing-mode: vertical-lr;
+      float: right;
+      letter-spacing: 0.25em;
+      text-align: center;
+    `}
+    css={`
+      min-height: ${children.length + 1}em;
+    `}
+  >
+    {children}
+  </aside>
+);
 
 const TamiyaRyu = () => (
   <Section>
     <h2 id="tamiya-ryu">Tamiya Ryu</h2>
+
+    <KanjiAside>田宮流</KanjiAside>
 
     <p>
       Tamiya Ryu Iaijutsu is a military art (bugei) that was introduced in the
@@ -36,6 +57,8 @@ const Iaijutsu = () => (
   <Section>
     <h2 id="iaijutsu">Iaijutsu</h2>
 
+    <KanjiAside>居合術</KanjiAside>
+
     <p>
       Iaijutsu is a martial art (bujutsu) that strives to supress a sudden
       attack by the attacker against the defender using a single, swift stroke
@@ -47,6 +70,68 @@ const Iaijutsu = () => (
       Furthermore, iaijutsu is a martial way (budo) as it practiced with a
       humble and modest heart and continually trains the spirit.
     </p>
+  </Section>
+);
+
+const KiKenTai = styled.div`
+  clear: both;
+  overflow: hidden;
+  width: 23rem;
+  margin: auto;
+  margin-top: 4rem;
+
+  & > header {
+    font-weight: bold;
+    padding-top: 1.5em;
+  }
+`;
+
+const TrainingPhilosophy = () => (
+  <Section>
+    <h2 id="training">Training Philosophy</h2>
+
+    <p>
+      Training focuses on the harmonization of mind, body, and spirit through
+      the practice and performance of kata (pre-arranged techniques). Techniques
+      are practiced with the philosophy of the "sword which gives life (Katsujin
+      no Ken)," as opposed to the "sword which takes life (Satsujin no Ken)."
+    </p>
+
+    <p>
+      Emphasis is placed on basic techniques. To properly learn kata means
+      studying 1) how to cut using the scabbard opening (sayaguchi) and 2) how
+      to use the scabbard hand (sayate).
+    </p>
+
+    <p>
+      Occasionally students will also practice Kenshibu - a traditional Japanese
+      dance utilizing sword and fan. Kenshibu is performed to the accompaniment
+      of poems (sung in a style called Shigin) that depict famous events in
+      Japanese history.
+    </p>
+
+    <KiKenTai>
+      <KanjiAside>気</KanjiAside>
+      <header>Ki</header>
+      <p>
+        Tamiya Ryu trains the spirit and aims to create a harmonious character.
+      </p>
+    </KiKenTai>
+
+    <KiKenTai>
+      <KanjiAside>剣</KanjiAside>
+      <header>Ken</header>
+      <p>The sword of Tamiya Ryu is one that gives life or katsujin no ken.</p>
+    </KiKenTai>
+
+    <KiKenTai>
+      <KanjiAside>体</KanjiAside>
+      <header>Tai</header>
+      <p>
+        By harmonizing the spirit, sword, and body, the practice of Iaijutsu
+        becomes dignified.
+      </p>
+    </KiKenTai>
   </Section>
 );
 
@@ -72,45 +157,6 @@ const USTRI = () => (
       United States. Here you will find the history of both Tamiya Ryu and its
       history in the United States as well as information on where to find a
       dojo and how to join. We hope to see you on the dojo floor soon!
-    </p>
-
-    <h3 id="training">Training Philosophy</h3>
-
-    <p>
-      Training focuses on the harmonization of mind, body, and spirit through
-      the practice and performance of kata (pre-arranged techniques). Techniques
-      are practiced with the philosophy of the "sword which gives life (Katsujin
-      no Ken)," as opposed to the "sword which takes life (Satsujin no Ken)."
-    </p>
-
-    <h4>Ki</h4>
-    <p>
-      Spirit. Tamiya Ryu trains the spirit and aims to create a harmonious
-      character.
-    </p>
-
-    <h4>Ken</h4>
-    <p>
-      Sword. The sword of Tamiya Ryu is one that gives life or katsujin no ken.
-    </p>
-
-    <h4>Tai</h4>
-    <p>
-      Body. By harmonizing the spirit, sword, and body, the practice of Iaijutsu
-      becomes dignified.
-    </p>
-
-    <p>
-      Emphasis is placed on basic techniques. To properly learn kata means
-      studying 1) how to cut using the scabbard opening (sayaguchi) and 2) how
-      to use the scabbard hand (sayate).
-    </p>
-
-    <p>
-      Occasionally students will also practice Kenshibu - a traditional Japanese
-      dance utilizing sword and fan. Kenshibu is performed to the accompaniment
-      of poems (sung in a style called Shigin) that depict famous events in
-      Japanese history.
     </p>
   </Section>
 );
@@ -156,6 +202,7 @@ export default () => (
     <USTRI />
     <TamiyaRyu />
     <Iaijutsu />
+    <TrainingPhilosophy />
     <Locations />
   </Home>
 );

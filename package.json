@@ -8,10 +8,11 @@
     "serve": "gatsby serve"
   },
   "dependencies": {
+    "babel-plugin-emotion": "^9.2.11",
     "emotion": "^9.2.8",
-    "emotion-server": "^9.2.8",
+    "emotion-server": "^9.2.12",
     "gatsby": "next",
-    "gatsby-plugin-emotion": "^1.1.17",
+    "gatsby-plugin-emotion": "^2.0.5",
     "gatsby-plugin-typography": "^1.7.19",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
