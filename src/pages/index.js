@@ -1,6 +1,8 @@
 import React from "react";
+import { Link } from "gatsby";
 import styled, { css } from "react-emotion";
 import Home from "../components/layouts/Home";
+import honbu from "../assets/honbu-summer.jpg";
 
 const Section = styled("section")`
   overflow: hidden;
@@ -161,6 +163,14 @@ const USTRI = () => (
   </Section>
 );
 
+const CTA = styled(Link)`
+  border: 2px solid currentColor;
+  background: white;
+  padding: 0.6em 1.25em;
+  border-radius: 3px;
+  box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.25);
+`;
+
 const Locations = () => (
   <Section>
     <h2 id="locations">Locations</h2>
@@ -168,12 +178,14 @@ const Locations = () => (
     <h3 id="east-lansing">East Lansing, Michigan</h3>
     <h4>Michigan Honbu Dojo</h4>
 
+    <img src={honbu} />
+
     <p>
       The Michigan Honbu dojo is the headquarters for Tamiya Ryu Iajiutsu
       operations in the United States.
     </p>
 
-    <a href="#">Learn more</a>
+    <CTA to="location/east-lansing-michigan">Learn More</CTA>
 
     <h3 id="macomb">Macomb, Michigan</h3>
     <h4>Southeast Michigan Branch Dojo</h4>
@@ -183,17 +195,19 @@ const Locations = () => (
       Recreation Center.
     </p>
 
-    <a href="#">Learn more</a>
+    <CTA to="location/macomb-michigan">Learn More</CTA>
 
-    <h3 id="brighton">Brighton, Michigan</h3>
-    <h4>Brighton Study Group</h4>
+    <div>
+      <h3 id="brighton">Brighton, Michigan</h3>
+      <h4>Brighton Study Group</h4>
 
-    <p>
-      The Brighton Study Group operates under the Southeast Michigan Branch Dojo
-      and holds class at the Brighton Education and Community Center.
-    </p>
+      <p>
+        The Brighton Study Group operates under the Southeast Michigan Branch
+        Dojo and holds class at the Brighton Education and Community Center.
+      </p>
 
-    <a href="#">Learn more</a>
+      <CTA to="location/brighton-michigan">Learn More</CTA>
+    </div>
   </Section>
 );
 
