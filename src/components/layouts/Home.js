@@ -3,12 +3,12 @@ import { Link } from "gatsby";
 import styled from "react-emotion";
 import { HeroNamePlate as NamePlate } from "../../components/NamePlate";
 
-const Header = styled("header")`
+const Header = styled.header`
   padding-top: 3rem;
   padding-bottom: 3rem;
 `;
 
-const Nav = styled("nav")`
+const Nav = styled.nav`
   display: flex;
 
   & > *:not(:first-child) {
@@ -20,7 +20,7 @@ const Nav = styled("nav")`
   }
 `;
 
-const Wrapper = styled("div")`
+const Wrapper = styled.div`
   display: grid;
   grid-template-columns: minmax(1.2rem, 1fr) minmax(auto, 57ch) minmax(
       1.2rem,
