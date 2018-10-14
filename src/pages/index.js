@@ -164,6 +164,7 @@ const USTRI = () => (
 );
 
 const CTA = styled(Link)`
+  display: inline-block;
   border: 2px solid currentColor;
   background: white;
   padding: 0.6em 1.25em;
@@ -171,33 +172,41 @@ const CTA = styled(Link)`
   box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.25);
 `;
 
+const Location = styled.div`
+  /* placeholder */
+`;
+
 const Locations = () => (
   <Section>
     <h2 id="locations">Locations</h2>
+    <Location>
+      <h3 id="east-lansing">East Lansing, Michigan</h3>
 
-    <h3 id="east-lansing">East Lansing, Michigan</h3>
-    <h4>Michigan Honbu Dojo</h4>
+      <h4>Michigan Honbu Dojo</h4>
 
-    <img src={honbu} />
+      <img src={honbu} />
 
-    <p>
-      The Michigan Honbu dojo is the headquarters for Tamiya Ryu Iajiutsu
-      operations in the United States.
-    </p>
+      <p>
+        The Michigan Honbu dojo is the headquarters for Tamiya Ryu Iajiutsu
+        operations in the United States.
+      </p>
 
-    <CTA to="location/east-lansing-michigan">Learn More</CTA>
+      <CTA to="location/east-lansing-michigan">Learn More</CTA>
+    </Location>
 
-    <h3 id="macomb">Macomb, Michigan</h3>
-    <h4>Southeast Michigan Branch Dojo</h4>
+    <Location>
+      <h3 id="macomb">Macomb, Michigan</h3>
+      <h4>Southeast Michigan Branch Dojo</h4>
 
-    <p>
-      The Southeast Michigan Branch dojo holds class at Macomb Township Parks &
-      Recreation Center.
-    </p>
+      <p>
+        The Southeast Michigan Branch dojo holds class at Macomb Township Parks
+        & Recreation Center.
+      </p>
 
-    <CTA to="location/macomb-michigan">Learn More</CTA>
+      <CTA to="location/macomb-michigan">Learn More</CTA>
+    </Location>
 
-    <div>
+    <Location>
       <h3 id="brighton">Brighton, Michigan</h3>
       <h4>Brighton Study Group</h4>
 
@@ -207,7 +216,7 @@ const Locations = () => (
       </p>
 
       <CTA to="location/brighton-michigan">Learn More</CTA>
-    </div>
+    </Location>
   </Section>
 );
 
