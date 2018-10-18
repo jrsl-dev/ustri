@@ -18,6 +18,7 @@ const KanjiAside = ({ children }) => (
       float: right;
       letter-spacing: 0.25em;
       text-align: center;
+      line-height: 1.5;
     `}
     css={`
       min-height: ${children.length + 1}em;
@@ -78,7 +79,6 @@ const Iaijutsu = () => (
 const KiKenTai = styled.div`
   clear: both;
   overflow: hidden;
-  width: 23rem;
   margin: auto;
   margin-top: 4rem;
 
@@ -174,6 +174,11 @@ const CTA = styled(Link)`
 
 const Location = styled.div`
   /* placeholder */
+  & > img {
+    height: auto;
+    width: 100%;
+    max-width: 500px;
+  }
 `;
 
 const Locations = () => (

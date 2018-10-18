@@ -21,7 +21,7 @@ const Nav = styled.nav`
 `;
 
 const Wrapper = styled.div`
-  display: grid;
+  /* display: grid;
   grid-template-columns: minmax(1.2rem, 1fr) minmax(auto, 57ch) minmax(
       1.2rem,
       1fr
@@ -29,7 +29,9 @@ const Wrapper = styled.div`
 
   & > * {
     grid-column: 2;
-  }
+  } */
+  padding: 0.5em;
+  display: grid;
 `;
 
 export default ({ children }) => (

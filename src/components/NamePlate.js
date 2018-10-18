@@ -17,10 +17,24 @@ const HeroSub = styled("sub")`
   background-origin: content-box;
 `;
 
+const Breaker = styled.span`
+  display: flex;
+  flex-wrap: wrap;
+`;
+
 export const HeroNamePlate = () => (
-  <h1>
-    United States Tamiya Ryu Iaijutsu
-    <br />
+  <h1
+    css={`
+      @media (max-width: 320px) {
+        letter-spacing: -1px;
+      }
+    `}
+  >
+    <Breaker>
+      <span>United States</span>
+      &nbsp;
+      <span>Tamiya Ryu Iaijutsu</span>
+    </Breaker>
     Gengo Hojisha no Kai
     <HeroSub>
       米国田宮流居合術
