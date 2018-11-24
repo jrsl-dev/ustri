@@ -3,7 +3,7 @@ import styled, { css } from "react-emotion";
 import Home from "../components/layouts/Home";
 
 const Kanji = styled.aside`
-  font-size: 5rem;
+  font-size: 4.5rem;
   font-weight: bold;
   color: hsla(0, 0%, 0%, 0.9);
   writing-mode: vertical-lr;
