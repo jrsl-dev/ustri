@@ -32,6 +32,14 @@ const Wrapper = styled("div")`
   }
 `;
 
+const Main = styled.main`
+  margin-bottom: 5em;
+
+  & > h2:not(:first-child) {
+    margin-top: 5em;
+  }
+`;
+
 export default ({ children }) => (
   <Wrapper>
     <Nav>
@@ -44,7 +52,7 @@ export default ({ children }) => (
     <Header>
       <NamePlate />
     </Header>
-    <main>{children}</main>
+    <Main>{children}</Main>
     <footer>
       <ul>
         <li>
