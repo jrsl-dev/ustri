@@ -2,34 +2,22 @@ import React from "react";
 import styled, { css } from "react-emotion";
 import Home from "../components/layouts/Home";
 
-const Section = styled("section")`
-  overflow: hidden;
-  margin-bottom: 6em;
+const Kanji = styled.aside`
+  font-size: 5rem;
+  font-weight: bold;
+  color: hsla(0, 0%, 0%, 0.9);
+  writing-mode: vertical-lr;
+  float: right;
+  letter-spacing: 0.25em;
+  text-align: center;
+  min-height: ${props => props.children.length + 1}em;
 `;
 
-const KanjiAside = ({ children }) => (
-  <aside
-    className={css`
-      font-size: 5rem;
-      font-weight: bold;
-      writing-mode: vertical-lr;
-      float: right;
-      letter-spacing: 0.25em;
-      text-align: center;
-    `}
-    css={`
-      min-height: ${children.length + 1}em;
-    `}
-  >
-    {children}
-  </aside>
-);
-
 const TamiyaRyu = () => (
-  <Section>
+  <>
     <h2 id="tamiya-ryu">Tamiya Ryu</h2>
 
-    <KanjiAside>田宮流</KanjiAside>
+    <Kanji>田宮流</Kanji>
 
     <p>
       Tamiya Ryu Iaijutsu is a military art (bugei) that was introduced in the
@@ -50,14 +38,14 @@ const TamiyaRyu = () => (
       a clear understanding of the concepts known as "Tamiya Nobility" and
       "Tamiya Purity".
     </p>
-  </Section>
+  </>
 );
 
 const Iaijutsu = () => (
-  <Section>
+  <>
     <h2 id="iaijutsu">Iaijutsu</h2>
 
-    <KanjiAside>居合術</KanjiAside>
+    <Kanji>居合術</Kanji>
 
     <p>
       Iaijutsu is a martial art (bujutsu) that strives to supress a sudden
@@ -70,25 +58,43 @@ const Iaijutsu = () => (
       Furthermore, iaijutsu is a martial way (budo) as it practiced with a
       humble and modest heart and continually trains the spirit.
     </p>
-  </Section>
+  </>
 );
 
-const KiKenTai = styled.div`
-  clear: both;
-  overflow: hidden;
-  width: 23rem;
-  margin: auto;
-  margin-top: 4rem;
+// const KiKenTai = styled.div`
+//   clear: both;
+//   overflow: hidden;
+//   width: 23rem;
+//   margin: auto;
+//   margin-top: 4rem;
 
-  & > header {
-    font-weight: bold;
-    padding-top: 1.5em;
-  }
-`;
+//   & > header {
+//     font-weight: bold;
+//     padding-top: 1.5em;
+//   }
+// `;
 
 const TrainingPhilosophy = () => (
-  <Section>
+  <>
     <h2 id="training">Training Philosophy</h2>
+
+    <dl>
+      <dt>気</dt>
+      <dd>
+        Tamiya Ryu trains the spirit and aims to create a harmonious character.
+      </dd>
+
+      <dt>剣</dt>
+      <dd>
+        The sword of Tamiya Ryu is one that gives life or katsujin no ken.
+      </dd>
+
+      <dt>体</dt>
+      <dd>
+        By harmonizing the spirit, sword, and body, the practice of Iaijutsu
+        becomes dignified.
+      </dd>
+    </dl>
 
     <p>
       Training focuses on the harmonization of mind, body, and spirit through
@@ -109,34 +115,11 @@ const TrainingPhilosophy = () => (
       of poems (sung in a style called Shigin) that depict famous events in
       Japanese history.
     </p>
-
-    <KiKenTai>
-      <KanjiAside>気</KanjiAside>
-      <header>Ki</header>
-      <p>
-        Tamiya Ryu trains the spirit and aims to create a harmonious character.
-      </p>
-    </KiKenTai>
-
-    <KiKenTai>
-      <KanjiAside>剣</KanjiAside>
-      <header>Ken</header>
-      <p>The sword of Tamiya Ryu is one that gives life or katsujin no ken.</p>
-    </KiKenTai>
-
-    <KiKenTai>
-      <KanjiAside>体</KanjiAside>
-      <header>Tai</header>
-      <p>
-        By harmonizing the spirit, sword, and body, the practice of Iaijutsu
-        becomes dignified.
-      </p>
-    </KiKenTai>
-  </Section>
+  </>
 );
 
 const USTRI = () => (
-  <Section>
+  <>
     <h2 id="ustri">United States Tamiya Ryu</h2>
 
     <p>
@@ -158,11 +141,11 @@ const USTRI = () => (
       history in the United States as well as information on where to find a
       dojo and how to join. We hope to see you on the dojo floor soon!
     </p>
-  </Section>
+  </>
 );
 
 const Locations = () => (
-  <Section>
+  <>
     <h2 id="locations">Locations</h2>
 
     <h3 id="east-lansing">East Lansing, Michigan</h3>
@@ -194,7 +177,7 @@ const Locations = () => (
     </p>
 
     <a href="#">Learn more</a>
-  </Section>
+  </>
 );
 
 export default () => (
