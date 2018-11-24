@@ -35,7 +35,7 @@ const Wrapper = styled("div")`
 const Main = styled.main`
   margin-bottom: 5em;
 
-  & > h2:not(:first-child) {
+  & > h2:not(:first-of-type) {
     margin-top: 5em;
   }
 `;
