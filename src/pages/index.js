@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 import styled, { css } from "react-emotion";
 import Home from "../components/layouts/Home";
 
@@ -60,19 +61,6 @@ const Iaijutsu = () => (
     </p>
   </>
 );
-
-// const KiKenTai = styled.div`
-//   clear: both;
-//   overflow: hidden;
-//   width: 23rem;
-//   margin: auto;
-//   margin-top: 4rem;
-
-//   & > header {
-//     font-weight: bold;
-//     padding-top: 1.5em;
-//   }
-// `;
 
 const TrainingPhilosophy = () => (
   <>
@@ -148,35 +136,30 @@ const Locations = () => (
   <>
     <h2 id="locations">Locations</h2>
 
-    <h3 id="east-lansing">East Lansing, Michigan</h3>
-    <h4>Michigan Honbu Dojo</h4>
+    <ul
+      css={`
+        list-style: none;
+        margin: 0;
+      `}
+    >
+      <li>
+        <h3>East Lansing, Michigan</h3>
+        <h4>Michigan Honbu Dojo</h4>
+        <Link to="/locations/east-lansing-michigan">Learn more</Link>
+      </li>
 
-    <p>
-      The Michigan Honbu dojo is the headquarters for Tamiya Ryu Iajiutsu
-      operations in the United States.
-    </p>
+      <li>
+        <h3>Macomb, Michigan</h3>
+        <h4>Southeast Michigan Branch Dojo</h4>
+        <Link to="/locations/macomb-michigan">Learn more</Link>
+      </li>
 
-    <a href="#">Learn more</a>
-
-    <h3 id="macomb">Macomb, Michigan</h3>
-    <h4>Southeast Michigan Branch Dojo</h4>
-
-    <p>
-      The Southeast Michigan Branch dojo holds class at Macomb Township Parks &
-      Recreation Center.
-    </p>
-
-    <a href="#">Learn more</a>
-
-    <h3 id="brighton">Brighton, Michigan</h3>
-    <h4>Brighton Study Group</h4>
-
-    <p>
-      The Brighton Study Group operates under the Southeast Michigan Branch Dojo
-      and holds class at the Brighton Education and Community Center.
-    </p>
-
-    <a href="#">Learn more</a>
+      <li>
+        <h3>Brighton, Michigan</h3>
+        <h4>Brighton Study Group</h4>
+        <Link to="/locations/brighton-michigan">Learn more</Link>
+      </li>
+    </ul>
   </>
 );
 
