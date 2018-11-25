@@ -3,12 +3,23 @@ import { Link } from "gatsby";
 import styled from "react-emotion";
 import { HeroNamePlate as NamePlate } from "../../components/NamePlate";
 
+const Wrapper = styled.div`
+  padding: 0 0.5em;
+`;
+
+const container = `
+  max-width: 58ch;
+  margin: 0 auto;
+`;
+
 const Header = styled.header`
+  ${container};
   padding-top: 3rem;
   padding-bottom: 3rem;
 `;
 
 const Nav = styled.nav`
+  ${container};
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -19,14 +30,17 @@ const Nav = styled.nav`
   }
 `;
 
-const Wrapper = styled.div``;
-
 const Main = styled.main`
+  ${container};
   margin-bottom: 5em;
 
   & > h2:not(:first-of-type) {
     margin-top: 5em;
   }
+`;
+
+const Footer = styled.footer`
+  ${container};
 `;
 
 export default ({ children }) => (
@@ -42,7 +56,7 @@ export default ({ children }) => (
       <NamePlate />
     </Header>
     <Main>{children}</Main>
-    <footer>
+    <Footer>
       <ul>
         <li>
           Built with <a href="#">Gatsby</a>
@@ -52,6 +66,6 @@ export default ({ children }) => (
         <li>Written using Code</li>
         <li>Stored at Github</li>
       </ul>
-    </footer>
+    </Footer>
   </Wrapper>
 );
