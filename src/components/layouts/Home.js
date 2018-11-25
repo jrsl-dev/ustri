@@ -10,28 +10,23 @@ const Header = styled.header`
 
 const Nav = styled.nav`
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 
-  & > *:not(:first-child) {
-    margin-left: 1em;
-  }
-
-  & > *:first-child {
-    margin-right: auto;
+  & > a {
+    padding-top: 1em;
+    margin: 0 0.5em;
   }
 `;
 
-const Wrapper = styled.div`
-  /* display: grid;
-  grid-template-columns: minmax(1.2rem, 1fr) minmax(auto, 57ch) minmax(
-      1.2rem,
-      1fr
-    );
+const Wrapper = styled.div``;
 
-  & > * {
-    grid-column: 2;
-  } */
-  padding: 0.5em;
-  display: grid;
+const Main = styled.main`
+  margin-bottom: 5em;
+
+  & > h2:not(:first-of-type) {
+    margin-top: 5em;
+  }
 `;
 
 export default ({ children }) => (
@@ -46,7 +41,7 @@ export default ({ children }) => (
     <Header>
       <NamePlate />
     </Header>
-    <main>{children}</main>
+    <Main>{children}</Main>
     <footer>
       <ul>
         <li>

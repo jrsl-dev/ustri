@@ -1,38 +1,24 @@
 import React from "react";
 import { Link } from "gatsby";
-import styled, { css } from "react-emotion";
+import styled from "react-emotion";
 import Home from "../components/layouts/Home";
-import honbu from "../assets/honbu-summer.jpg";
 
-const Section = styled("section")`
-  overflow: hidden;
-  margin-bottom: 6em;
+const Kanji = styled.aside`
+  font-size: 4.5rem;
+  font-weight: bold;
+  color: hsla(0, 0%, 0%, 0.9);
+  writing-mode: vertical-lr;
+  float: right;
+  letter-spacing: 0.25em;
+  text-align: center;
+  min-height: ${props => props.children.length + 1}em;
 `;
 
-const KanjiAside = ({ children }) => (
-  <aside
-    className={css`
-      font-size: 5rem;
-      font-weight: bold;
-      writing-mode: vertical-lr;
-      float: right;
-      letter-spacing: 0.25em;
-      text-align: center;
-      line-height: 1.5;
-    `}
-    css={`
-      min-height: ${children.length + 1}em;
-    `}
-  >
-    {children}
-  </aside>
-);
-
 const TamiyaRyu = () => (
-  <Section>
+  <>
     <h2 id="tamiya-ryu">Tamiya Ryu</h2>
 
-    <KanjiAside>田宮流</KanjiAside>
+    <Kanji>田宮流</Kanji>
 
     <p>
       Tamiya Ryu Iaijutsu is a military art (bugei) that was introduced in the
@@ -53,14 +39,14 @@ const TamiyaRyu = () => (
       a clear understanding of the concepts known as "Tamiya Nobility" and
       "Tamiya Purity".
     </p>
-  </Section>
+  </>
 );
 
 const Iaijutsu = () => (
-  <Section>
+  <>
     <h2 id="iaijutsu">Iaijutsu</h2>
 
-    <KanjiAside>居合術</KanjiAside>
+    <Kanji>居合術</Kanji>
 
     <p>
       Iaijutsu is a martial art (bujutsu) that strives to supress a sudden
@@ -73,24 +59,30 @@ const Iaijutsu = () => (
       Furthermore, iaijutsu is a martial way (budo) as it practiced with a
       humble and modest heart and continually trains the spirit.
     </p>
-  </Section>
+  </>
 );
 
-const KiKenTai = styled.div`
-  clear: both;
-  overflow: hidden;
-  margin: auto;
-  margin-top: 4rem;
-
-  & > header {
-    font-weight: bold;
-    padding-top: 1.5em;
-  }
-`;
-
 const TrainingPhilosophy = () => (
-  <Section>
+  <>
     <h2 id="training">Training Philosophy</h2>
+
+    <dl>
+      <dt>気</dt>
+      <dd>
+        Tamiya Ryu trains the spirit and aims to create a harmonious character.
+      </dd>
+
+      <dt>剣</dt>
+      <dd>
+        The sword of Tamiya Ryu is one that gives life or katsujin no ken.
+      </dd>
+
+      <dt>体</dt>
+      <dd>
+        By harmonizing the spirit, sword, and body, the practice of Iaijutsu
+        becomes dignified.
+      </dd>
+    </dl>
 
     <p>
       Training focuses on the harmonization of mind, body, and spirit through
@@ -111,34 +103,11 @@ const TrainingPhilosophy = () => (
       of poems (sung in a style called Shigin) that depict famous events in
       Japanese history.
     </p>
-
-    <KiKenTai>
-      <KanjiAside>気</KanjiAside>
-      <header>Ki</header>
-      <p>
-        Tamiya Ryu trains the spirit and aims to create a harmonious character.
-      </p>
-    </KiKenTai>
-
-    <KiKenTai>
-      <KanjiAside>剣</KanjiAside>
-      <header>Ken</header>
-      <p>The sword of Tamiya Ryu is one that gives life or katsujin no ken.</p>
-    </KiKenTai>
-
-    <KiKenTai>
-      <KanjiAside>体</KanjiAside>
-      <header>Tai</header>
-      <p>
-        By harmonizing the spirit, sword, and body, the practice of Iaijutsu
-        becomes dignified.
-      </p>
-    </KiKenTai>
-  </Section>
+  </>
 );
 
 const USTRI = () => (
-  <Section>
+  <>
     <h2 id="ustri">United States Tamiya Ryu</h2>
 
     <p>
@@ -160,69 +129,37 @@ const USTRI = () => (
       history in the United States as well as information on where to find a
       dojo and how to join. We hope to see you on the dojo floor soon!
     </p>
-  </Section>
+  </>
 );
 
-const CTA = styled(Link)`
-  display: inline-block;
-  border: 2px solid currentColor;
-  background: white;
-  padding: 0.6em 1.25em;
-  border-radius: 3px;
-  box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.25);
-`;
-
-const Location = styled.div`
-  /* placeholder */
-  & > img {
-    height: auto;
-    width: 100%;
-    max-width: 500px;
-  }
-`;
-
 const Locations = () => (
-  <Section>
+  <>
     <h2 id="locations">Locations</h2>
-    <Location>
-      <h3 id="east-lansing">East Lansing, Michigan</h3>
+    <ul
+      css={`
+        list-style: none;
+        margin: 0;
+      `}
+    >
+      <li>
+        <h3>East Lansing, Michigan</h3>
+        <h4>Michigan Honbu Dojo</h4>
+        <Link to="/locations/east-lansing-michigan">Learn more</Link>
+      </li>
 
-      <h4>Michigan Honbu Dojo</h4>
+      <li>
+        <h3>Macomb, Michigan</h3>
+        <h4>Southeast Michigan Branch Dojo</h4>
+        <Link to="/locations/macomb-michigan">Learn more</Link>
+      </li>
 
-      <img src={honbu} />
-
-      <p>
-        The Michigan Honbu dojo is the headquarters for Tamiya Ryu Iajiutsu
-        operations in the United States.
-      </p>
-
-      <CTA to="location/east-lansing-michigan">Learn More</CTA>
-    </Location>
-
-    <Location>
-      <h3 id="macomb">Macomb, Michigan</h3>
-      <h4>Southeast Michigan Branch Dojo</h4>
-
-      <p>
-        The Southeast Michigan Branch dojo holds class at Macomb Township Parks
-        & Recreation Center.
-      </p>
-
-      <CTA to="location/macomb-michigan">Learn More</CTA>
-    </Location>
-
-    <Location>
-      <h3 id="brighton">Brighton, Michigan</h3>
-      <h4>Brighton Study Group</h4>
-
-      <p>
-        The Brighton Study Group operates under the Southeast Michigan Branch
-        Dojo and holds class at the Brighton Education and Community Center.
-      </p>
-
-      <CTA to="location/brighton-michigan">Learn More</CTA>
-    </Location>
-  </Section>
+      <li>
+        <h3>Brighton, Michigan</h3>
+        <h4>Brighton Study Group</h4>
+        <Link to="/locations/brighton-michigan">Learn more</Link>
+      </li>
+    </ul>
+  </>
 );
 
 export default () => (
