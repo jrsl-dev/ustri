@@ -62,27 +62,66 @@ const Iaijutsu = () => (
   </>
 );
 
+// TODO make this its own component
+const KanjiTerm = styled.b`
+  font-size: 2rem;
+  margin-right: 0.5em;
+
+  & rt {
+    font-size: 40%;
+  }
+`;
+
 const TrainingPhilosophy = () => (
   <>
     <h2 id="training">Training Philosophy</h2>
 
     <dl>
-      <dt>気</dt>
+      <dt>
+        <KanjiTerm>
+          <ruby>
+            気 <rp>(</rp>
+            <rt>Ki</rt>
+            <rp>)</rp>
+          </ruby>
+        </KanjiTerm>
+        <i>Spirit</i>
+      </dt>
       <dd>
         Tamiya Ryu trains the spirit and aims to create a harmonious character.
       </dd>
 
-      <dt>剣</dt>
+      <dt>
+        <KanjiTerm>
+          <ruby>
+            剣 <rp>(</rp>
+            <rt>Ken</rt>
+            <rp>)</rp>
+          </ruby>
+        </KanjiTerm>
+        <i>Sword</i>
+      </dt>
       <dd>
         The sword of Tamiya Ryu is one that gives life or katsujin no ken.
       </dd>
 
-      <dt>体</dt>
+      <dt>
+        <KanjiTerm>
+          <ruby>
+            体 <rp>(</rp>
+            <rt>Tai</rt>
+            <rp>)</rp>
+          </ruby>
+        </KanjiTerm>
+        <i>Body</i>
+      </dt>
       <dd>
         By harmonizing the spirit, sword, and body, the practice of Iaijutsu
         becomes dignified.
       </dd>
     </dl>
+
+    <hr />
 
     <p>
       Training focuses on the harmonization of mind, body, and spirit through
