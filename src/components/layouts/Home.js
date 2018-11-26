@@ -3,13 +3,10 @@ import { Link } from "gatsby";
 import styled from "react-emotion";
 import { HeroNamePlate as NamePlate } from "../../components/NamePlate";
 
-const Wrapper = styled.div`
-  padding: 0 0.5em;
-`;
-
 const container = `
   max-width: 58ch;
   margin: 0 auto;
+  padding: 0 0.5em;
 `;
 
 const Header = styled.header`
@@ -44,7 +41,7 @@ const Footer = styled.footer`
 `;
 
 export default ({ children }) => (
-  <Wrapper>
+  <>
     <Nav>
       <Link to="/">Home</Link>
       <Link to="/training">Training</Link>
@@ -67,5 +64,5 @@ export default ({ children }) => (
         <li>Stored at Github</li>
       </ul>
     </Footer>
-  </Wrapper>
+  </>
 );
