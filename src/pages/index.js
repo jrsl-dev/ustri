@@ -63,7 +63,24 @@ const Iaijutsu = () => (
 );
 
 // TODO make this its own component
-const KanjiTerm = styled.b`
+const TrainingTerms = styled.dl`
+  display: grid;
+  grid-template-columns: 7em 1fr;
+  grid-row-gap: 1em;
+  align-items: center;
+  margin: 1.58rem 0;
+
+  & > dt {
+    display: flex;
+    align-items: center;
+  }
+
+  & > dd {
+    margin-bottom: 0;
+  }
+`;
+
+const KanjiSmall = styled.b`
   font-size: 2rem;
   margin-right: 0.5em;
 
@@ -72,54 +89,52 @@ const KanjiTerm = styled.b`
   }
 `;
 
+const KanjiTerm = ({ children, romanji, english }) => (
+  <>
+    <KanjiSmall>
+      <ruby>
+        {children} <rp>(</rp>
+        <rt>{romanji}</rt>
+        <rp>)</rp>
+      </ruby>
+    </KanjiSmall>
+    <i>{english}</i>
+  </>
+);
+
 const TrainingPhilosophy = () => (
   <>
     <h2 id="training">Training Philosophy</h2>
 
-    <dl>
+    <TrainingTerms>
       <dt>
-        <KanjiTerm>
-          <ruby>
-            気 <rp>(</rp>
-            <rt>Ki</rt>
-            <rp>)</rp>
-          </ruby>
+        <KanjiTerm romanji="Ki" english="Spirit">
+          気
         </KanjiTerm>
-        <i>Spirit</i>
       </dt>
       <dd>
         Tamiya Ryu trains the spirit and aims to create a harmonious character.
       </dd>
 
       <dt>
-        <KanjiTerm>
-          <ruby>
-            剣 <rp>(</rp>
-            <rt>Ken</rt>
-            <rp>)</rp>
-          </ruby>
+        <KanjiTerm romanji="Ken" english="Sword">
+          剣
         </KanjiTerm>
-        <i>Sword</i>
       </dt>
       <dd>
         The sword of Tamiya Ryu is one that gives life or katsujin no ken.
       </dd>
 
       <dt>
-        <KanjiTerm>
-          <ruby>
-            体 <rp>(</rp>
-            <rt>Tai</rt>
-            <rp>)</rp>
-          </ruby>
+        <KanjiTerm romanji="Tai" english="Body">
+          体
         </KanjiTerm>
-        <i>Body</i>
       </dt>
       <dd>
         By harmonizing the spirit, sword, and body, the practice of Iaijutsu
         becomes dignified.
       </dd>
-    </dl>
+    </TrainingTerms>
 
     <hr />
 
