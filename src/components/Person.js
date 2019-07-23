@@ -27,8 +27,9 @@ const Person = ({ name, gengo, rank, titles, email, showEmail }) => (
     {titles &&
       titles.length &&
       titles.map(title => <span key={title}>{title}</span>)}
-    {email &&
-      showEmail && <Email href={`mailto:${email}`}>Email: {email}</Email>}
+    {email && showEmail && (
+      <Email href={`mailto:${email}`}>Email: {email}</Email>
+    )}
   </PersonStyled>
 );
 
@@ -40,7 +41,7 @@ const Gennan = ({ ...props }) => (
     titles={[
       "Genwakai Shihan (Head Instructor)",
       "USTRI General Manager",
-      "United States Tamiya Ryu Iaijutsu Gengo Hojisha no Kai Kaicho"
+      "United States Tamiya Ryu Iaijutsu Gennankai Kaicho"
     ]}
     email="alexgennan@att.net"
     {...props}
