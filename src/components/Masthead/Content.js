@@ -73,10 +73,10 @@ export default ({ children }) => (
         <span>Tamiya Ryu Iaijutsu</span>
       </Heading>
       <SubHeading>
-        <span>Gengo Hojisha no Kai</span>
+        <span>Gennankai</span>
       </SubHeading>
       <div>米国田宮流居合術</div>
-      <div>元号保持者の会</div>
+      <div>元楠会</div>
     </Title>
     {children && <PageTitle>{children}</PageTitle>}
   </Masthead>
