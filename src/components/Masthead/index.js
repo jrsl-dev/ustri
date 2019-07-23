@@ -51,7 +51,7 @@ const t = {
   "tamiya ryu iaijutsu": "米国田宮流居合術",
   "michigan honbu": "ミシガン本部",
   "southeast michigan shibu": "南東ミシガン支部",
-  "gengo hojisha no kai": "元号保持者の会"
+  gennankai: "元楠会"
 };
 
 export default ({ children }) => (
@@ -59,11 +59,11 @@ export default ({ children }) => (
     <Mon src={mon} alt="" />
     <Heading>
       <Title>United States Tamiya Ryu Iaijutsu</Title>
-      <SubTitle>Gengo Hojisha no Kai</SubTitle>
+      <SubTitle>Gennankai</SubTitle>
     </Heading>
     <SubHeading>
       <div>{t["tamiya ryu iaijutsu"]}</div>
-      <div>{t["gengo hojisha no kai"]}</div>
+      <div>{t["gennankai"]}</div>
     </SubHeading>
   </Masthead>
 );
