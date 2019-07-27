@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import mon from "../../assets/mon-dark.svg";
+import kamon from "../../assets/mon.png";
 
 const Masthead = styled.header`
   display: flex;
@@ -64,7 +64,7 @@ const PageTitle = styled.div`
 export default ({ children }) => (
   <Masthead>
     <Mon>
-      <img src={mon} alt="" />
+      <img src={kamon} alt="" />
     </Mon>
     <Title>
       <Heading>
