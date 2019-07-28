@@ -10,6 +10,8 @@ export default () => (
     <Person.Genchi />
     <Person.Genfu />
     <Person.Genzan />
+    <Person.Genko />
     <Person.Gennetsu />
+    <Person.Genkou />
   </div>
 );

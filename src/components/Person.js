@@ -4,6 +4,7 @@ import styled from "styled-components";
 const PersonStyled = styled.div`
   display: grid;
   line-height: 1.75;
+  margin-bottom: 2em;
 
   & > * {
     padding-left: 0.5em;
@@ -27,9 +28,8 @@ const Person = ({ name, gengo, rank, titles, email, showEmail }) => (
     {titles &&
       titles.length &&
       titles.map(title => <span key={title}>{title}</span>)}
-    {email && showEmail && (
-      <Email href={`mailto:${email}`}>Email: {email}</Email>
-    )}
+    {email &&
+      showEmail && <Email href={`mailto:${email}`}>Email: {email}</Email>}
   </PersonStyled>
 );
 
@@ -53,7 +53,7 @@ const Genka = ({ ...props }) => (
     name="William Smith"
     gengo="Genka"
     rank="6th Degree"
-    titles={["USTRI Honbu Assistant Branch Manager", "USTRI Instructor"]}
+    titles={["USTRI Honbu Assistant Branch Manager", "Gennankai Instructor"]}
     {...props}
   />
 );
@@ -64,9 +64,9 @@ const Gensui = ({ ...props }) => (
     gengo="Gensui"
     rank="6th Degree"
     titles={[
-      "USTRI Director of Operations",
+      "Gennankai Director of Operations",
       "USTRI Honbu Branch Manager",
-      "USTRI Instructor"
+      "Gennankai Instructor"
     ]}
     email="hufnagelt@gmail.com"
     {...props}
@@ -78,7 +78,7 @@ const Genchi = ({ ...props }) => (
     name="Douglas Jarrett"
     gengo="Genchi"
     rank="6th Degree"
-    titles={["USTRI Instructor"]}
+    titles={["Gennankai Instructor"]}
     {...props}
   />
 );
@@ -88,7 +88,7 @@ const Genfu = ({ ...props }) => (
     name="Scott Sier"
     gengo="Genfu"
     rank="6th Degree"
-    titles={["USTRI Souteast Michigan Branch Manager", "USTRI Instructor"]}
+    titles={["USTRI Southeast Michigan Branch Manager", "Gennankai Instructor"]}
     email="spsier@gmail.com"
     {...props}
   />
@@ -101,7 +101,7 @@ const Genzan = ({ ...props }) => (
     rank="6th Degree"
     titles={[
       "USTRI Southeast Michigan Assistant Branch Manager",
-      "USTRI Instructor"
+      "Gennankai Instructor"
     ]}
     email="dan@mordan.xyz"
     {...props}
@@ -114,6 +114,30 @@ const Gennetsu = ({ ...props }) => (
     gengo="Gennetsu"
     rank="5th Degree"
     email="gennetsu.ustri@gmail.com"
+    titles={[
+      "USTRI Brighton Michigan Study Group Manager",
+      "Gennankai Instructor"
+    ]}
+    {...props}
+  />
+);
+
+const Genko = props => (
+  <Person
+    name="Joseph Smith"
+    gengo="Genko"
+    rank="5th Degree"
+    titles={["Gennankai Instructor"]}
+    {...props}
+  />
+);
+
+const Genkou = props => (
+  <Person
+    name="Daniel Wung"
+    gengo="Genkou"
+    rank="5th Degree"
+    titles={["Gennankai Instructor"]}
     {...props}
   />
 );
@@ -125,5 +149,7 @@ export default {
   Genchi,
   Genfu,
   Genzan,
-  Gennetsu
+  Gennetsu,
+  Genko,
+  Genkou
 };
