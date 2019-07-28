@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import mon from "../../assets/mon-dark.svg";
+import kamon from "../../assets/mon.png";
 
 const Masthead = styled.div`
   display: grid;
@@ -25,6 +25,7 @@ const SubTitle = styled.div`
 const Mon = styled.img`
   width: 100%;
   max-width: 10rem;
+  margin: 0;
 `;
 
 const Heading = styled.h1`
@@ -43,10 +44,6 @@ const SubHeading = styled.div`
   }
 `;
 
-const PageHeading = styled.div`
-  grid-area: 3/2/4/3;
-`;
-
 const t = {
   "tamiya ryu iaijutsu": "米国田宮流居合術",
   "michigan honbu": "ミシガン本部",
@@ -54,9 +51,9 @@ const t = {
   gennankai: "元楠会"
 };
 
-export default ({ children }) => (
+export default () => (
   <Masthead>
-    <Mon src={mon} alt="" />
+    <Mon src={kamon} alt="" />
     <Heading>
       <Title>United States Tamiya Ryu Iaijutsu</Title>
       <SubTitle>Gennankai</SubTitle>

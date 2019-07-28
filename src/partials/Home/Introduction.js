@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Sections from "../../components/styled/Sections";
 import FramedImage from "../../components/styled/FramedImage";
 import CTA from "../../components/styled/CTA";
-import image from "../../assets/honbu-winter-2018.jpg";
+import image from "../../assets/honbu-summer.jpg";
 
 const Hero = styled.div`
   position: relative;
@@ -18,7 +18,6 @@ const Heading = styled.h2`
     background: rgba(21, 21, 21, 0.8);
     padding: 1em;
     border: 3px solid rgba(21, 21, 21, 0.9);
-    max-width: 31ch;
     right: 5%;
     box-shadow: 4px 4px 5px rgba(21, 21, 21, 0.4);
   }
@@ -27,9 +26,7 @@ const Heading = styled.h2`
 export default () => (
   <Sections.Content>
     <Hero>
-      <Heading>
-        Traditional Japanese Sword Drawing Martial Art in Michigan
-      </Heading>
+      <Heading>Traditional Japanese Sword Drawing</Heading>
       <FramedImage src={image} alt="" />
     </Hero>
     <p>
