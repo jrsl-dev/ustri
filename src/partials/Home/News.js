@@ -7,10 +7,7 @@ import VideoWrapper from "../../components/styled/VideoWrapper";
 import katana from "../../assets/katana.svg";
 import taikai from "../../assets/20th-anniversary-taikai.jpg";
 
-const Katana = styled.img.attrs({
-  src: katana,
-  alt: "katana"
-})`
+const Katana = styled.img`
   justify-self: center;
   width: 100%;
   max-width: 25rem;
@@ -34,7 +31,7 @@ const NewsFeed = styled.ul`
 
 export default () => (
   <Sections.Aside>
-    <Katana />
+    <Katana src={katana} alt="katana" />
     <NewsFeed>
       <li>
         <Card>
@@ -52,87 +49,22 @@ export default () => (
       </li>
       <li>
         <Card>
-          <h3> USTRI 20th Anniversary Taikai</h3>
-          <FramedImage
-            src={taikai}
-            alt="group picture of the 20th anniversary taikai"
-          />
+          <h3>2019 US Tamiya Ryu Gennankai Koshukai-Shinsakai</h3>
           <p>
-            The Executives of the United States Tamiya Ryu Iaijutsu Gengo
-            Hojisha no Kai are pleased to announce the following
-            Promotions/Honors that were achieved during the recent visit by 15th
-            Soke Tsumaki Kazuo Genwa and his Assistant, Endo Tsuyako Gentei
-            Sensei. Everyone performed beyond our expectations and made not only
-            the visiting Sensei proud but made our hearts swell to almost
-            bursting.
+            The United States Tamiya Ryu Iaijutsu Koshu-Shinsakai was held at
+            the Hannah Community Center in East Lansing, Michigan on Saturday
+            July 20th, 2019. Congratulations to all that tested and passed their
+            examination. Everyone did a wonderful job and we were impressed by
+            everyone's progress over the year!
           </p>
 
           <p>
-            Special Tamiya Ryu Iaijutsu Genwakai names (Gengo) were also awarded
-            to our 3 new Godan members, as well as the honorific title "Kouga"
-            to Dianne Genan Sensei. In a very surprising turn of events, Michael
-            Alexanian Gennan Buhaku Sensei was elevated to the rank of Hachidan.
+            This year the MVP (most valuble performance, i.e. enbu) was awarded
+            to Dan Mordan (Genzan) sensei and three of our long time assistant
+            instructors, Joe Smith (Genko), James Russell (Gennetsu), and Daniel
+            Wung (Genkou) were officailly licensed as instructors under the
+            United States Tamiya Ryu Iaijutsu Gennankai.
           </p>
-
-          <p>
-            Soke Sensei also announced to our group the formation of the new
-            USTRI Gengo Hojisha no Kai, with Gennan Buhaku Sensei to serve as
-            the Kaicho (President) and Genan Sensei as the Fuku-kaicho (Vice
-            President). This is truly a unifying step for both the Michigan
-            Honbu Dojo and the Southeast Michigan Shibu as there are now 4
-            persons in each Branch that possess Gengo and can provide an equal
-            presence and voice for Board Meetings, etc.
-          </p>
-
-          <p>
-            This year’s visit by the Sensei was a truly memorable one, and much
-            was revived and renewed during their time here. Commitments were
-            solidified, new pledges were made and long-term assignment were
-            given, all to the delight of Soke Sensei and Endo Sensei and all who
-            were involved to make this event truly "one for the books".
-          </p>
-
-          <h4>一級 (Ikkyu)</h4>
-          <ul>
-            <li>Michael Kirsten マイケル・クリステン</li>
-          </ul>
-
-          <h4>初段 (Shodan)</h4>
-          <ul>
-            <li>Xiaohan Bao シャオハン・バオ</li>
-          </ul>
-
-          <h4>弐段 (Nidan)</h4>
-          <ul>
-            <li>James Happell ジェームズ・ハッペル</li>
-          </ul>
-
-          <h4>参段 (Sandan)</h4>
-          <ul>
-            <li>Raymond Bowdish レイムンド・ボディシュ</li>
-            <li>Bryan Cochren ブライアン・カクレン</li>
-          </ul>
-
-          <h4>四段 (Yondan)</h4>
-          <ul>
-            <li>Andrew McMurphy アンドリュー・マクマーフィ</li>
-          </ul>
-
-          <h4>語段(Godan)</h4>
-          <ul>
-            <li>James Russell ジェームズ・ラッセル - 元熱 (Gennetsu)</li>
-            <li>Joseph Smith ジョサフ・スミス - 元固 (Genko)</li>
-            <li>Daniel Wung ダニエル・ワゥング - 元光 (Genkou)</li>
-          </ul>
-
-          <h4>六段 (Rokudan)</h4>
-          <ul>
-            <li>William Smith ウィリアム・スミス - 元火 (Genka)</li>
-            <li>Thomas Hufnagel トマス・ハフネゲル - 元水 (Gensui)</li>
-            <li>Scott Sier スコット・シアー - 元風 (Genfu)</li>
-            <li>Daniel Mordan ダニエル・モーダン - 元山 (Genzan)</li>
-            <li>Douglas Jarrett ダグラス・ジャレット - 元地 (Genchi)</li>
-          </ul>
         </Card>
       </li>
       <li>
