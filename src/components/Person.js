@@ -103,7 +103,7 @@ const Genzan = ({ ...props }) => (
       "USTRI Southeast Michigan Assistant Branch Manager",
       "Gennankai Instructor"
     ]}
-    email="dan@mordan.xyz"
+    email="dan@danmordan.com"
     {...props}
   />
 );
