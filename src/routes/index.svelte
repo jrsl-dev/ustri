@@ -46,6 +46,12 @@
   <p>
     Learn more about <a href="/training">training</a> in Tamiya Ryu.
   </p>
+
+  <p>
+    Find a dojo <a href="/loctions">location</a>.
+  </p>
+
+  <p>Explore Tamiya Ryu's long <a href="/history">history</a>.</p>
 </section>
 
 <h2>Announcements</h2>
