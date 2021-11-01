@@ -1,7 +1,9 @@
 <script>
+  // @ts-nocheck
   import Highlight from "$lib/components/Highlight.svelte";
   import hanko from "$lib/assets/hanko.png";
   import gennankaimon from "$lib/assets/gennankai-mon.svg";
+  import Announcement2021FallAMP from "$lib/articles/announcements/2021-fall-all-member-practice.md";
 </script>
 
 <section>
@@ -57,34 +59,7 @@
 <h2>Announcements</h2>
 
 <Highlight>
-  <h3>Fall 2021 All Member Practice</h3>
-  <p>
-    The United States Tamiya Ryu Iaijutsu Gennankai held an All Member practice
-    on Oct. 9th, 2021 at the Hannah Community Center in East Lasing, Michigan.
-    This practice marked a major turning point in USTRI history. James Russell
-    (Gennetsu) Sensei was promoted to Rokudan (6th Degree) and awarded the title
-    Jokyo (Associate Professor) by the 15th Headmaster, Tsumaki Kazuo (Genwa)
-    Soke Sensei. And after 25 years as Head Instructor for USTRI, Michael
-    Alexanian (Gennan) Sensei, has decided to hand that responisbility over to
-    Russell Gennetsu Sensei. Alexanian Gennan Buhaku Sensei will remain
-    President of the Gennankai and function as Special Lecture and Emcee at
-    future All Member practices.
-  </p>
-
-  <p>
-    Gennan Buhaku Sensei and Gennetsu Sensei have authored a joint article for
-    this month's Messge from the Head Instructor. Please visit the latest <a
-      href="/articles/message-from-the-head-instructor"
-      >Message from the Head Instructor</a
-    > section to learn more about this important news and exciting transtions in
-    United States Tamiya Ryu history.
-  </p>
-
-  <p>
-    Gennan Buhaku Sensei has also written an article for the <a
-      href="/articles/reflecting-pool">Reflecting Pool</a
-    > on upcoming changes to that section as well.
-  </p>
+  <Announcement2021FallAMP />
 </Highlight>
 
 <h2>Current articles</h2>
