@@ -1,1 +1,0 @@
-export const EXPAND_NAV_BREAKPOINT = 665;
