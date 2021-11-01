@@ -50,7 +50,7 @@
   </p>
 
   <p>
-    Find a dojo <a href="/loctions">location</a>.
+    Find a dojo <a href="/locations">location</a>.
   </p>
 
   <p>Explore Tamiya Ryu's long <a href="/history">history</a>.</p>
