@@ -1,8 +1,10 @@
 <h2>Articles</h2>
 
 <nav>
-  <a href="#message">Message from the Head Instructor</a>
-  <a href="#reflecting">Reflecting Pool</a>
+  <a href="/articles/message-from-the-head-instructor"
+    >Message from the Head Instructor</a
+  >
+  <a href="/articles/reflecting-pool">Reflecting Pool</a>
 </nav>
 <slot />
 

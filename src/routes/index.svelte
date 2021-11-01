@@ -68,14 +68,15 @@
   <p>
     Gennan Buhaku Sensei and Gennetsu Sensei have authored a joint article for
     this month's Messge from the Head Instructor. Please visit the latest <a
-      href="/articles#message">Message from the Head Instructor</a
+      href="/articles/message-from-the-head-instructor"
+      >Message from the Head Instructor</a
     > section to learn more about this important news and exciting transtions in
     United States Tamiya Ryu history.
   </p>
 
   <p>
     Gennan Buhaku Sensei has also written an article for the <a
-      href="/articles#reflecting">Reflecting Pool</a
+      href="/articles/reflecting-pool">Reflecting Pool</a
     > on upcoming changes to that section as well.
   </p>
 </Highlight>
@@ -90,7 +91,7 @@
     next quarter century and see what steps can be taken to ensure its
     longevity.
   </p>
-  <a href="/articles#message">read more...</a>
+  <a href="/articles/message-from-the-head-instructor">read more...</a>
 </Highlight>
 
 <Highlight>
@@ -101,7 +102,7 @@
     reflected in the practice of Tamiya Ryu Iaijutsu in particular, and the
     traditional Japanese martial arts in general.
   </p>
-  <a href="/articles#reflecting">read more...</a>
+  <a href="/articles/reflecting-pool">read more...</a>
 </Highlight>
 
 <section class="tamiya-ryu-iaijutsu">
