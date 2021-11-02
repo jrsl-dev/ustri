@@ -29,7 +29,7 @@ export const WilliamSmith = {
 export const ThomasHufnagel = {
   name: "Thomas Hufnagel",
   gengo: "Gensui",
-  role: "Gennankai Directory of Operations and Branch Manager",
+  role: "Gennankai Director of Operations and Branch Manager",
   rank: "6th Degree (Rokudan)",
   locality: "East Lansing",
   region: {
