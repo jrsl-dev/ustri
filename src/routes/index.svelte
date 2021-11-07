@@ -45,6 +45,17 @@
     and how to join us for practice.
   </p>
 
+  <iframe
+    class="yt"
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/w80xfxDG0jE"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+  />
+
   <p>
     Learn more about <a href="/training">training</a> in Tamiya Ryu.
   </p>
@@ -175,5 +186,10 @@
     width: 8em;
     shape-outside: circle(46%) margin-box;
     margin-right: 2em;
+  }
+
+  .yt {
+    width: 100%;
+    margin: 2em 0;
   }
 </style>
