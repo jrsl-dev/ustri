@@ -89,9 +89,9 @@ export const DanielWung = {
 
 export default [
   MichaelAlexanian,
+  ThomasHufnagel,
   JamesRussell,
   WilliamSmith,
-  ThomasHufnagel,
   DouglasJarret,
   ScottSier,
   DanielMordan,

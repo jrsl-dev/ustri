@@ -22,7 +22,7 @@
       >
     </li>
     <li>
-      Macomb Branch dojo:<br /><a href="mailto:{Dan.email}"
+      Southeast Michigan Branch dojo:<br /><a href="mailto:{Dan.email}"
         >{Dan.name} ({Dan.gengo})</a
       >
     </li>
