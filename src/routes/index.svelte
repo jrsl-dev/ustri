@@ -3,7 +3,7 @@
   import Highlight from "$lib/components/Highlight.svelte";
   import hanko from "$lib/assets/hanko.png";
   import gennankaimon from "$lib/assets/gennankai-mon.svg";
-  import Announcement2021FallAMP from "$lib/articles/announcements/2021-fall-all-member-practice.md";
+  import Announcements from "$lib/articles/announcements/2022-new-year.md";
 </script>
 
 <section>
@@ -70,21 +70,10 @@
 <h2>Announcements</h2>
 
 <Highlight>
-  <Announcement2021FallAMP />
+  <Announcements />
 </Highlight>
 
 <h2>Current articles</h2>
-
-<Highlight>
-  <h3>Message from the Head Instructor</h3>
-  <p>
-    As the United States Tamiya Ryu Iaijutsu Gennankai celebrates a quarter
-    century since it’s founding this year, it is important to look ahead to the
-    next quarter century and see what steps can be taken to ensure its
-    longevity.
-  </p>
-  <a href="/articles/message-from-the-head-instructor">read more...</a>
-</Highlight>
 
 <Highlight>
   <h3>Relecting Pool</h3>
