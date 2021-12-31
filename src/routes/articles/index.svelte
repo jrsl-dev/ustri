@@ -1,6 +1,6 @@
 <script>
   // @ts-nocheck
-  import Message from "$lib/articles/message/2021-18-10.md";
+  import Message from "$lib/articles/message/2021-31-12.md";
   import Reflecting from "$lib/articles/reflecting/2021-18-10.md";
   import Highlight from "$lib/components/Highlight.svelte";
 </script>
