@@ -78,10 +78,8 @@
 <Highlight>
   <h3>Relecting Pool</h3>
   <p>
-    For the past 25 years, this particular column of our website has been
-    devoted to articles of an introspective and contemplative nature as
-    reflected in the practice of Tamiya Ryu Iaijutsu in particular, and the
-    traditional Japanese martial arts in general.
+    William Smith (Genka) sensei, reflects on how an interest in katana led to
+    his study of Tamiya Ryu Iaijutsu.
   </p>
   <a href="/articles/reflecting-pool">read more...</a>
 </Highlight>
