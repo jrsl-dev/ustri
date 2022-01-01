@@ -1,7 +1,7 @@
 <script>
   // @ts-nocheck
-  import Previous from "$lib/articles/message/2021-18-10.md";
-  import Message from "$lib/articles/message/2021-31-12.md";
+  import Previous from "$lib/articles/message/2021-10-18.md";
+  import Message from "$lib/articles/message/2021-12-31.md";
   import Highlight from "$lib/components/Highlight.svelte";
 </script>
 
