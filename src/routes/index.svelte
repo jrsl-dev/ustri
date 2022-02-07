@@ -78,8 +78,8 @@
 <Highlight>
   <h3>Relecting Pool</h3>
   <p>
-    William Smith (Genka) sensei, reflects on how an interest in katana led to
-    his study of Tamiya Ryu Iaijutsu.
+    Tom Hufnagel (Gensui) sensei, reflects on his experiences over 18 years of
+    practicing Tamiya Ryu Iaijutsu.
   </p>
   <a href="/articles/reflecting-pool">read more...</a>
 </Highlight>
