@@ -78,8 +78,8 @@
 <Highlight>
   <h3>Relecting Pool</h3>
   <p>
-    William Smith (Genka) sensei, reflects on how an interest in katana led to
-    his study of Tamiya Ryu Iaijutsu.
+    William Smith (Genka) sensei, reflects on dealing with injuries and keeping
+    a consistent practice.
   </p>
   <a href="/articles/reflecting-pool">read more...</a>
 </Highlight>
