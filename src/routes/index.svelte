@@ -78,8 +78,8 @@
 <Highlight>
   <h3>Relecting Pool</h3>
   <p>
-    Tom Hufnagel (Gensui) sensei, reflects on his experiences over 18 years of
-    practicing Tamiya Ryu Iaijutsu.
+    William Smith (Genka) sensei, reflects on dealing with injuries and keeping
+    a consistent practice.
   </p>
   <a href="/articles/reflecting-pool">read more...</a>
 </Highlight>
