@@ -1,6 +1,6 @@
 # United States Tamiya Ryu Iaijutsu Gennankai Website
 
-Hi there! Welcome to the website repository.
+Hi there! Welcome to the website repository. Want to see the site? [United States Tamiya Ryu Iaijutsu Gennankai](https://www.ustamiyaryu.org)
 
 I'm a professional web developer by day, working on non-open source. So from time to time I like to experiment with various new web technologies here. That may lead to less than ideal patterns and practices since I'm usually hacking at night after the kids go to bed but hopefully this gives a little sense of how I approach web development.
 
