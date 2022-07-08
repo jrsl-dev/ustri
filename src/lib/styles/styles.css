@@ -1,0 +1,61 @@
+/* base styling for the site */
+body {
+  font-family: "Lato", sans-serif;
+  background: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+a:focus {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+  outline-style: dashed;
+}
+
+/* TODO reconsider selectors */
+main h2,
+main h3 {
+  padding: 0 0 2px 4px;
+  border: 0 solid currentColor;
+  border-left-width: 2px;
+  border-bottom-width: 2px;
+}
+
+hr {
+  border: 0;
+  border-bottom: 2px solid currentColor;
+  margin: 2.5em 0;
+}
+
+main p {
+  line-height: 1.5;
+}
+
+main {
+  min-height: 90vh;
+  padding: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  max-width: 60ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main > section:not(:last-child) {
+  margin-bottom: 3.5em;
+}
