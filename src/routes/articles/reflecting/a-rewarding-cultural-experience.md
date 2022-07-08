@@ -1,4 +1,8 @@
-#### A Rewarding Cultural Experience
+---
+title: "A Rewarding Cultural Experience"
+date: "2022-01-01"
+author: "Genka"
+---
 
 At some point in my teen years, during the 90's, the katana became my favorite sword. I was first introduced to the term katana with the Teenage Mutant Ninja Turtles. Leonardo's weapons were referred to as “katana blades”. When I was in High School I rented a movie called “Highlander” and it completely blew me away. Not only was it a high concept film but the protagonist used a katana.
 

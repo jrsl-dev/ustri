@@ -1,4 +1,8 @@
-Haiku
+---
+title: "Reflections Through Haiku"
+ date: "2022-06-30"
+author: "Genkou"
+---
 
 I began my USTRI journey in Clarkston, at Baycourt Park in 2008. There was a class in the Parks and Recs catalog about “… a 400 year old Koryu art.” Little did I know how much my life would change, or that here in June 2022 I would be in instructor of Tamiya Ryu Iaijutsu.
 

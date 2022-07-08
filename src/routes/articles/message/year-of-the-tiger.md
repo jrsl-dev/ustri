@@ -1,4 +1,8 @@
-#### Year of the Tiger
+---
+title: "Year of the Tiger"
+date: "2021-12-31"
+author: "Gennetsu"
+---
 
 Akemashite omedetou gozaimasu. Kotoshimo, yoroshiku onegai itashimasu!
 

@@ -6,6 +6,7 @@
   >
   <a href="/articles/reflecting-pool">Reflecting Pool</a>
 </nav>
+
 <slot />
 
 <style>

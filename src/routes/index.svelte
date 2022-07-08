@@ -3,7 +3,7 @@
   import Highlight from "$lib/components/Highlight.svelte";
   import hanko from "$lib/assets/hanko.png";
   import gennankaimon from "$lib/assets/gennankai-mon.svg";
-  import Announcements from "$lib/articles/announcements/2022-new-year.md";
+  import Announcements from "$lib/content/announcements/2022-new-year.md";
 </script>
 
 <section>

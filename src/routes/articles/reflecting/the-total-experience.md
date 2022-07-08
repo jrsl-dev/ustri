@@ -1,4 +1,8 @@
-### The Total Experience
+---
+title: "The Total Experience"
+date: "2022-02-06"
+author: "Gensui"
+---
 
 I have been scuba diving for over 40 years. On a typical trip to Mackinaw City, we would dive four times. Because of the depth, the actual total time underwater was only about one hour. I learned over those 40 years that the act of diving was a relatively small but important part of the "total experience". As important were the discussions in the car driving up to and on the way back from Mackinaw; white fish dinners; and a cold Corona beer on the back of the boat before going to bed.
 

@@ -1,4 +1,8 @@
-#### Foot Pain
+---
+title: "Benefits of Daily Practice"
+date: "2022-07-06"
+author: "Genka"
+---
 
 As a profession I'm an alarm technician. I service many kinds of systems: fire alarm, burglar alarm, access control, cameras and paging systems. I'm employed by a Native American owned company called Four Feathers Alarm, and we service many of the school systems in Grayson and the surrounding counties here in North Texas.
 
