@@ -1,6 +1,6 @@
 ---
 title: "Reflections Through Haiku"
- date: "2022-06-30"
+date: "2022-06-30"
 author: "Genkou"
 ---
 
