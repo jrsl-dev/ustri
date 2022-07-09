@@ -4,8 +4,9 @@
   export let author;
 </script>
 
-<h4>{title}</h4>
-
-<p>Published: {date}</p>
+<div>
+  <h3>{title}</h3>
+  <p>Published: {date}</p>
+</div>
 
 <slot />
