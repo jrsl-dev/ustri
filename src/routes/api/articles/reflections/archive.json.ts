@@ -1,7 +1,7 @@
 // TODO typescript this
 export async function get() {
   const files = Object.entries(
-    import.meta.glob("../../../articles/message/*.md")
+    import.meta.glob("../../../articles/reflecting/*.md")
   );
 
   const messages = await Promise.all(

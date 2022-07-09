@@ -1,11 +1,33 @@
+<script context="module">
+  export async function load({ fetch }) {
+    const current = await fetch("/api/articles/reflections/current.json");
+    const { content } = await current.json();
+    const archive = await fetch("/api/articles/reflections/archive.json");
+    const messages = await archive.json();
+
+    return {
+      props: {
+        messages,
+        content,
+      },
+    };
+  }
+</script>
+
 <script>
-  // @ts-nocheck
+  export let messages = [];
+  export let content = { html: "No content found!" };
 </script>
 
 <section>
-  <p>current reflection</p>
+  {@html content.html}
 </section>
 
 <aside>
-  <p>previous reflections</p>
+  <h3>Further Reflections</h3>
+  <ol>
+    {#each messages as message}
+      <li><a href={message.url}>{message.title}</a></li>
+    {/each}
+  </ol>
 </aside>

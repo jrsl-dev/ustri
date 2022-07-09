@@ -7,9 +7,9 @@ export async function get() {
   const messages = await Promise.all(
     files.map(async ([path, resolver]) => {
       const url = path.slice(8, -3);
-
       const results = await resolver();
-      return { url, ...results.metadata, ...results.default };
+      const content = results.default.render();
+      return { url, ...results.metadata, content };
     })
   );
 
@@ -17,13 +17,13 @@ export async function get() {
     return new Date(b.date).getTime() - new Date(a.date).getTime();
   });
 
-  const [{ render, url }] = messages;
+  const [{ url, content }] = messages;
 
   return {
     status: 200,
     body: {
       url,
-      content: render(),
+      content,
     },
   };
 }
