@@ -1,4 +1,4 @@
-import { getArticles } from "$lib/helpers/articles";
+import { getCurrent } from "$lib/helpers/articles";
 
 // TODO typescript this
 export async function get() {
@@ -6,14 +6,11 @@ export async function get() {
     import.meta.glob("../../../articles/message/*.md")
   );
 
-  const messages = await getArticles(files);
-
-  const [{ url, content }] = messages;
+  const { content } = await getCurrent(files);
 
   return {
     status: 200,
     body: {
-      url,
       content,
     },
   };

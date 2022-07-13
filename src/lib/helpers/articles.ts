@@ -14,3 +14,9 @@ export async function getArticles(files) {
 
   return articles;
 }
+
+export async function getCurrent(files) {
+  const articles = await getArticles(files);
+  const [current] = articles;
+  return current;
+}

@@ -49,7 +49,7 @@
               and Budo from the Gennankai's Head Instructor to USTRI deshi and
               others journeying on the path of Budo.
             </p>
-            <a href="/articles/message-from-the-head-instructor">
+            <a href={currentMessage.url}>
               Current article: {currentMessage.title}</a
             >
           </div>
@@ -75,7 +75,7 @@
               students on various topics as they related to Tamiya Ryu Iaijutsu
               practice.
             </p>
-            <a href="/articles/reflecting-pool">
+            <a href={currentReflection.url}>
               Current article: {currentReflection.title}</a
             >
           </div>
