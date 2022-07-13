@@ -1,5 +1,6 @@
 ---
 title: "Year of the Tiger"
+category: "Message from the Head Instructor"
 date: "2021-12-31"
 author: "Gennetsu"
 ---

@@ -1,0 +1,23 @@
+---
+title: "The Roots of Tamiya Ryu"
+category: "Student Views"
+author: "Scott Sier (Genfu)"
+date: "2007-05-29"
+---
+
+In May of 2006 a delegation of 8 Deshi, Alexanian Sensei, and Karwowski Sensei, traveled from Michigan to Japan with the purpose of exploring the Roots of Tamiya Ryu Iaijutsu. I was a member of that delegation. The highlight of the trip would be the sister branch signing of the United States Honbu (home) Dojo in East Lansing and Wakayama Dojo. These two cities were chosen for a reason. Tamiya Ryu received its start in the United States when Michael (Gennan) Alexanian Sensei began teaching students at his dojo after having studied the style in Japan. Wakayama is considered to be the birthplace of Tamiya Ryu Iaijutsu in Japan. The Wakayama branch is currently headed by Kusakawa Sensei. The signing of the sister branch was made in effort to bridge the distance of the United States and Japan for the students studying this over 400 year old art.
+
+Members from the United States came from two locations, the Honbu Dojo in East Lansing, MI and the Clarkston, MI, Branch where I am a Deshi. We left East Lansing on our journey to Japan on Thursday, May 18. After some sightseeing in Wakayama on Saturday, we traveled to Toshogu Shrine. At the shrine Alexanian Sensei, Tsumaki Sensei, and Kusakawa Sensei performed a Shinto ceremony in honor of the sister pact to be formed the following day. The rest of us were also allowed to take part in the ceremony.
+
+Sunday was the landmark day of our trip: an all day training class, with members of the six Wakayama Dojo, followed by the sister branch signing ceremony. During the morning session everyone practiced kata as a group. Kata, in general, looked the same. However, it was clear to see that not everyone was on exactly the same page. I equate the differences I saw in kata to the different dialect a language can have; in the end the message gets across, it just doesn’t look or sound the exact same way. The new sister branch relationship will help to alleviate these differences and provide both sides an opportunity to work together in the future. The afternoon consisted of kata, Kenbu, and Ainuki demonstrations. All of the Americans on hand took part in singing Nihon-To, a song written by Tsumaki Seirin Genshin, 14th Headmaster of Tamiya Ryu Iaijutsu. The day ended at a banquet held in honor of the branch signing. Here the forms were officially signed. Afterwards we were able to get to know our hosts in a more casual setting.
+
+In the days following we made our way around Japan by train. We traveled to Saijo, on the island of Shikoku, to visit the grave site of the Tsumaki family. The art of Tamiya Ryu Iaijutsu has been passed down by members of the Tsumaki family since 1797. While in Saijo, Alexanian Sensei and Karwowski Sensei performed an Ainuki demonstration at a local shrine, an event which made the evening news. From Saijo we traveled to Seki, making a short stop along the way at Himeji Castle. In Seki we visited a sword forge where we were given a blade making demonstration. The whole process of making the blade takes about one month. The time it takes to make an entire sword is about one year and involves about 10 different people making the different parts. Each of the roughly 300 sword makers in Japan can only make 2 swords per year as the Japanese government regulates.
+
+Kyoto was our last stop on the trip, and we spent two nights there. This allowed for a full day of sightseeing. We visited Sanjusangendo Temple, Kiyomizu Temple, and Heian Shrine. We also found time to visit a budo store and handicrafts center. We ended the day with a trip to Tontomi-San’s restaurant. Tontomi-San is a friend of Alexanian Sensei. He prepared a very special, and extremely good, dinner for us. The night ended with a stroll through Gion, the Geisha district of Kyoto. I am honestly not sure how we were able to fit so much into just one day.
+
+This had been my first trip to Japan, and I am honored that I could take part in such a historic event. We truly were able to explore the Roots of Tamiya Ryu. I feel that the trip has helped me to understand, and have a deeper appreciation for, the martial art that I have devoted myself to. This trip could not have taken place without all the parties involved. I could see all the hard work and pre-planning that went into this trip, and would like to thank Diane and Michael Alexanian Sensei for planning the trip as well as sharing their time, efforts, and home to bring Tamiya Ryu Iaijutsu to the United States.
+
+Respectfully Submitted,
+
+Scott Sier, Shodan<br>
+Tamiya Ryu Iaijutsu Clarkston Branch

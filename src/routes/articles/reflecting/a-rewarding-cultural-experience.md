@@ -1,5 +1,6 @@
 ---
 title: "A Rewarding Cultural Experience"
+category: "Reflecting Pool"
 date: "2022-01-01"
 author: "Genka"
 ---

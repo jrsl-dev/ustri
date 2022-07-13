@@ -1,5 +1,6 @@
 ---
 title: "Benefits of Daily Practice"
+category: "Reflecting Pool"
 date: "2022-07-06"
 author: "Genka"
 ---

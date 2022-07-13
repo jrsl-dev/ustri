@@ -1,7 +1,8 @@
 ---
 title: "A New Head Instructor"
+category: "Message from the Head Instructor"
 date: "2021-10-18"
-author: "Gennetsu"
+author: "Gennan Buhaku & Gennetsu"
 ---
 
 As the United States Tamiya Ryu Iaijutsu Gennankai celebrates a quarter century since it’s founding this year, it is important to look ahead to the next quarter century and see what steps can be taken to ensure its longevity. Despite the recent Pandemic, the Gennankai has maintained a strong and solid core group of members and Instructors and has even begun to see some modest growth over the past 9 months as the Pandemic slowly winds down. Classes at all three of our Dojo have resumed in earnest and on October 9 we had our second All-Member Practice of 2021 at the East Lansing Hannah Community Center.

@@ -1,0 +1,16 @@
+---
+title: "Studying Tamiya Ryu Iaijutsu with My Father"
+category: "Student Views"
+author: "Eric Hufnagel"
+date: "2008-05-13"
+---
+
+When Michael Alexanian Sensei told my father, Tom Hufnagel, and I that he had a project for us, I was immediately interested because Sensei always has very interesting challenges. He told us that we were going to write an essay about studying Tamiya Ryu as a father/son duo, but that we would individually write the papers from our point of view, and they would then be posted on the TRI website. This project was to be done during the holiday break and posted in the New Year. After getting a little behind due to a busy holiday, I am finally ready to give my view on studying Tamiya Ryu Iaijutsu with my father, Tom Hufnagel.
+
+My father and I have always done many activities together, and presently, we continue to actively participate in many activities together. Dad and I golf together, work out at the Michigan Athletic Club (MAC) together, and have been scuba diving buddies for the past year and a half. Two years ago, he came to me with an interesting proposal: studying a Japanese sword art. I have always been interesting in swords and Japanese culture, so naturally I was interested. I had never studied a martial art before so I felt that this was a great opportunity. My first reaction to his proposal was, “Whoa, do I get a sword?” We then joined the United States Tamiya Ryu Iaijutsu Michigan Dojo and the rest is history.
+
+Now, some may think that being in the same class, where I train and practice kata with my dad, there would be a certain tension, or a feeling of “I can do this better,” or “Can you top this?” At first I thought that we would encounter that, but we never have. This class isn’t like going out and playing nine holes of golf (where I occasionally out-drive him, and he puts me in my place). We are learning an art, we are studying an art, and I have never once had a feeling of “Man, I can do that so much better than he can.” We are studying this art together and want to advance and make accomplishments together.
+
+One of our first goals as students (Deshi) of Tamiya Ryu Iaijutsu was to finally test and receive our Hakama. Dad and I thought those looked so cool on the graded students and we worked hard to earn them. I love them because they look like something a Jedi would wear, and they are so much more comfortable than the white pants I started with (Man, were those a pain!). It was truly a wonderful day for dad and I this past summer when we tested in front of Tsumaki Sensei, Endo Sensei, Michael Sensei and Dianne Sensei, passed our examinations, and received our Hakama. We worked hard for two years together to reach this goal.
+
+I love studying Tamiya Ryu with my dad because it is very different from the other activities that we do together. We have a lot of fun doing this activity, and have cherished these past two and a half years. Now we are anxiously anticipating our next experience together: visiting and training in Japan this May with other members of the United States Tamiya Ryu Iaijutsu Organization. Oh, what stories and memories that trip will bring! We are both looking forward to that trip and continuing our study of Tamiya Ryu Iaijutsu together, because that’s what our “duo” is about: working together, and having fun… together.

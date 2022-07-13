@@ -1,3 +1,4 @@
+// TODO rename to list (not really an archive)
 import { getArticles } from "$lib/helpers/articles";
 
 // TODO typescript this

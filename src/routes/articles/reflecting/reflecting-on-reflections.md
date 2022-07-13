@@ -1,5 +1,6 @@
 ---
 title: "Reflecting On Reflections"
+category: "Reflecting Pool"
 date: "2021-10-18"
 author: "Gennan Buhaku"
 ---

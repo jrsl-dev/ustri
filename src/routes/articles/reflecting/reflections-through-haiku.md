@@ -1,5 +1,6 @@
 ---
 title: "Reflections Through Haiku"
+category: "Reflecting Pool"
 date: "2022-06-30"
 author: "Genkou"
 ---
@@ -48,7 +49,7 @@ Concentrate, focus your mind,
 Don’t spill the sake…
 </pre>
 
-Respectfully submitted,
+Respectfully submitted,<br>
 Daniel Wung (Genkou)
 
 <style>
