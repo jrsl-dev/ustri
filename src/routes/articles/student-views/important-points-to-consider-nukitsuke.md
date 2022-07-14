@@ -1,7 +1,7 @@
 ---
 title: "Important points to consider during Nukitsuke:"
 category: "Student Views"
-TODO confirm this date
+# TODO confirm this date
 date: "2009-09-30"
 author: "James Russell (Gennetsu)"
 ---
