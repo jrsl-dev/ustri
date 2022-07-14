@@ -4,9 +4,13 @@
     const reflectionArchive = await fetch(
       "/api/articles/reflections/archive.json"
     );
+    const instructorForumArchive = await fetch(
+      "/api/articles/instructor-forum/archive.json"
+    );
 
     const [currentMessage, ...messages] = await messageArchive.json();
     const [currentReflection, ...reflections] = await reflectionArchive.json();
+    const instructorForum = await instructorForumArchive.json();
 
     return {
       props: {
@@ -14,6 +18,7 @@
         currentReflection,
         messages,
         reflections,
+        instructorForum,
       },
     };
   }
@@ -28,64 +33,79 @@
   // @ts-nocheck
   export let messages;
   export let reflections;
+  export let instructorForum;
   export let currentMessage;
   export let currentReflection;
+  export let currentInstructorForum;
 </script>
 
 <h2 class="main-heading">Articles</h2>
 
 <div class="archives">
-  <div>
-    <Highlight>
-      <div class="article">
-        <div
-          class="article-highlight"
-          style="--background: url({headInstructor})"
-        >
-          <h3>Message from the Head Instructor</h3>
-          <div class="article-highlight__copy">
-            <p>
-              Messages, thoughts, musings, considerations on Tamiya Ryu Iaijutsu
-              and Budo from the Gennankai's Head Instructor to USTRI deshi and
-              others journeying on the path of Budo.
-            </p>
-            <a href={currentMessage.url}>
-              Current article: {currentMessage.title}</a
-            >
-          </div>
+  <Highlight>
+    <div class="article">
+      <div
+        class="article-highlight"
+        style="--background: url({headInstructor})"
+      >
+        <h3>Message from the Head Instructor</h3>
+        <div class="article-highlight__copy">
+          <p>
+            Messages, thoughts, musings, considerations on Tamiya Ryu Iaijutsu
+            and Budo from the Gennankai's Head Instructor to USTRI deshi and
+            others journeying on the path of Budo.
+          </p>
+          <a href={currentMessage.url}>
+            Current article: {currentMessage.title}</a
+          >
         </div>
-        <h4>Message Archive</h4>
-        <ArticleList articles={messages} />
       </div>
-    </Highlight>
-  </div>
+      <h4>Message Archive</h4>
+      <ArticleList articles={messages} />
+    </div>
+  </Highlight>
 
-  <div>
-    <Highlight>
-      <!-- TODO chunk these up into components a bit to abstract all the class, styles -->
-      <div class="article">
-        <div
-          class="article-highlight"
-          style="--background: url({reflectingPool})"
-        >
-          <h3>Reflecting Pool</h3>
-          <div class="article-highlight__copy">
-            <p>
-              Reflections and introspective articles from USTRI instructors and
-              students on various topics as they related to Tamiya Ryu Iaijutsu
-              practice.
-            </p>
-            <a href={currentReflection.url}>
-              Current article: {currentReflection.title}</a
-            >
-          </div>
+  <Highlight>
+    <div class="article">
+      <div
+        class="article-highlight"
+        style="--background: url({reflectingPool})"
+      >
+        <h3>Reflecting Pool</h3>
+        <div class="article-highlight__copy">
+          <p>
+            Reflections and introspective articles from USTRI instructors and
+            students on various topics as they related to Tamiya Ryu Iaijutsu
+            practice.
+          </p>
+          <a href={currentReflection.url}>
+            Current article: {currentReflection.title}</a
+          >
         </div>
-        <h4>Reflecting Pool Archive</h4>
-        <ArticleList articles={reflections} />
       </div>
-    </Highlight>
-  </div>
+      <h4>Reflecting Pool Archive</h4>
+      <ArticleList articles={reflections} />
+    </div>
+  </Highlight>
 
+  <Highlight>
+    <div class="article">
+      <div
+        class="article-highlight"
+        style="--background: url({reflectingPool})"
+      >
+        <h3>Instructor Forum</h3>
+        <div class="article-highlight__copy">
+          <p>Insights from USRTI instructors</p>
+          <!-- <a href={currentInstructorForum.url}>
+            Current article: {currentInstructorForum.title}</a
+          > -->
+        </div>
+      </div>
+      <h4>Reflecting Pool Archive</h4>
+      <ArticleList articles={instructorForum} />
+    </div>
+  </Highlight>
   <!-- TODO add student views archive -->
   <!-- TODO maybe also add announcements? -->
 </div>
