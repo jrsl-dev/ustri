@@ -1,5 +1,10 @@
-brent, 20110722031610?
-Living Art
+---
+title: "Living Art"
+category: "Instructor Forum"
+author: "Brent Eastman (Gentou)"
+date: "2011-07-22"
+---
+
 People who know me, know that I am a professional designer and artist (in a graphic design profession) but few know that I started my path as a fine artist.
 
 One of my favorite things to do was figure drawing. After art school, I continued to take local studio classes to keep up my ability to draw. At one class in particular, the teacher said something to me that has stayed with me all these years and I find myself hearing this concept in my head when I think of our art of Iaijutsu.

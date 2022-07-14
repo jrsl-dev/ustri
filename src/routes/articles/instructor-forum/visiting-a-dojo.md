@@ -1,7 +1,10 @@
-brent, 20141203102602
-We have just added this section to have a place for the instructors of USTRI to post thoughts and ideas that come up during training and teaching. We will be updating this section frequently, and we hope you enjoy it.
-
-10 Points of Etiquette When Visiting a Dojo
+---
+title: "10 Points of Etiquette When Visiting a Dojo"
+category: "Instructor Forum"
+author: "Brent Eastman (Gentou)"
+# TODO confirm date
+date: "2006-02-01"
+---
 
 Over the years I have spent in martial arts, I have had the opportunity to visit different Dojo, training spaces and attend demonstrations. Also, as an instructor and branch manager, I often have visitors to my location. I put together the following list as a general guideline to use or think about if you are planning to visit a traditional Dojo (of any style). These are things we consider to be important. This is not an exhaustive list, and I have seen much better versions of similar ideas online. If you are reading this and plan to visit another styles training space, check around online and see if you can find information about that style's expectations on Etiquette. It will make your visit that much more enjoyable.
 
