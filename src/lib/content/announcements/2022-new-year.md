@@ -4,4 +4,4 @@ As we mark the end of 2021, a year that saw both change and a return to somethin
 
 Looking forward, 2022 will see the resumption of mostly normal Gennankai’s annual activities. With a few modifications, this will include a Spring and Fall All Member Practice, as well as the Summer Shinsa-Koshukai. Dates and further details will be provided in the future but I’d like to briefly discuss each event this year.
 
-<a href="/articles/message-from-the-head-instructor">Continue reading the Message from the Head Instructor, for more details on 2022's activities</a>
+<a href="/articles/message/year-of-the-tiger">Continue reading the Message from the Head Instructor, for more details on 2022's activities</a>

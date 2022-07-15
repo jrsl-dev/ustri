@@ -8,8 +8,4 @@
     flex-direction: column;
     gap: 1rem;
   }
-
-  .article-card > h4 {
-    margin: 0;
-  }
 </style>

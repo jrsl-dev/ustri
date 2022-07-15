@@ -123,13 +123,13 @@
     grid-gap: 1rem clamp(1rem, 5%, 2.5rem);
   }
 
-  h4 {
-    margin: 0;
-  }
-
   h3 {
     font-size: 1.75em;
     text-shadow: 3px 3px 3px black;
+    margin: 0;
+  }
+
+  h4 {
     margin: 0;
   }
 </style>
