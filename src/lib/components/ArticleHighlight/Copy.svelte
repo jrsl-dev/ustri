@@ -24,4 +24,17 @@
   p {
     margin: 0;
   }
+
+  a {
+    align-self: flex-start;
+  }
+
+  a::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: " ";
+  }
 </style>
