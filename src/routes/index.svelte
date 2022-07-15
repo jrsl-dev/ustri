@@ -78,10 +78,18 @@
 <Highlight>
   <h3>Relecting Pool</h3>
   <p>
-    William Smith (Genka) sensei, reflects on dealing with injuries and keeping
-    a consistent practice.
+    Daniel Wung (Genkou) sensei reflects on <a
+      href="/articles/reflectiing/reflections-through-haiku"
+    >
+      starting Tamiya Ryu through haiku.</a
+    >
   </p>
-  <a href="/articles/reflecting-pool">read more...</a>
+  <p>
+    William Smith (Genka) sensei, reflects on dealing with injuries and keeping
+    <a href="/articles/reflecting/benefits-of-daily-practice"
+      >a consistent practice.</a
+    >
+  </p>
 </Highlight>
 
 <section class="tamiya-ryu-iaijutsu">
