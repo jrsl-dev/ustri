@@ -79,7 +79,7 @@
   <h3>Relecting Pool</h3>
   <p>
     Daniel Wung (Genkou) sensei reflects on <a
-      href="/articles/reflectiing/reflections-through-haiku"
+      href="/articles/reflecting/reflections-through-haiku"
     >
       starting Tamiya Ryu through haiku.</a
     >
