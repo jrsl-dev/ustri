@@ -36,6 +36,8 @@
 
   import reflectingPool from "$lib/assets/reflecting-pool.jpeg";
   import headInstructor from "$lib/assets/head-instructor.png";
+  import students from "$lib/assets/students.jpg";
+  import instructor from "$lib/assets/honbu-garden-ballon-flower.jpeg";
 
   // @ts-nocheck
   export let messages;
@@ -86,7 +88,7 @@
   <div>
     <Highlight>
       <ArticleHighlight.Card>
-        <ArticleHighlight.Current>
+        <ArticleHighlight.Current img={instructor}>
           <h3>Instructor Forum</h3>
           <ArticleHighlight.Copy>
             Insights from USRTI instructors.
@@ -101,7 +103,7 @@
   <div>
     <Highlight>
       <ArticleHighlight.Card>
-        <ArticleHighlight.Current>
+        <ArticleHighlight.Current img={students}>
           <h3>Student Views</h3>
           <ArticleHighlight.Copy>
             Articles from the deshi's prespective.
