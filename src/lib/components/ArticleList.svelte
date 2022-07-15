@@ -5,10 +5,9 @@
 <ul>
   {#each articles as article}
     <li>
-      <a href={article.url}
-        ><b>{article.title}</b><br />
-        <i>(by: {article.author}, {article.date})</i></a
-      >
+      <a href={article.url}><b>{article.title}</b></a>
+      <br />
+      <i>(by: {article.author}, {article.date})</i>
     </li>
   {/each}
 </ul>
