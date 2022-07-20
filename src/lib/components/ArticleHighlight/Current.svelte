@@ -19,7 +19,6 @@
       var(--img);
     background-blend-mode: saturation;
     background-size: cover;
-    aspect-ratio: 3/2;
     margin: -0.8rem -1rem 0;
     color: white;
     padding: 1rem;
