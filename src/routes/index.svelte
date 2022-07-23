@@ -3,7 +3,8 @@
   import Highlight from "$lib/components/Highlight.svelte";
   import hanko from "$lib/assets/hanko.png";
   import gennankaimon from "$lib/assets/gennankai-mon.svg";
-  import Announcements from "$lib/content/announcements/2022-new-year.md";
+  import Announcements from "$lib/content/announcements/2022-koshu-shinsa-kai.md";
+  import shinsakai2022 from "$lib/assets/2022-koshu-shinsa-kai.jpg";
 </script>
 
 <section>
@@ -70,7 +71,15 @@
 <h2>Announcements</h2>
 
 <Highlight>
-  <Announcements />
+  <Announcements>
+    <img
+      src={shinsakai2022}
+      alt="2022 Koshu-Shinsa kai attendees"
+      width="1232"
+      height="816"
+      style={"width: 100%; height: auto;"}
+    />
+  </Announcements>
 </Highlight>
 
 <h2>Current articles</h2>
