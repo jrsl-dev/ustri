@@ -13,8 +13,8 @@
 
 <div class="wrapper">
   <div class="container">
-    <a href="/" tabindex="-1"
-      ><img src={kikyo} width="48" height="48" alt="" /></a
+    <a href="/" tabindex="-1" class="logo"
+      ><img src={kikyo} width="48" height="48" alt="Home" /></a
     >
     <button type="button" on:click={toggleNav}>
       {#if shown}
@@ -92,10 +92,13 @@
     opacity: 1;
   }
 
-  img {
+  .logo {
+    display: inline-flex;
+  }
+
+  .logo > img {
     width: 3em;
     filter: invert(1);
-    align-self: flex-start;
   }
 
   nav a {

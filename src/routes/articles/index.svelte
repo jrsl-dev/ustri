@@ -1,30 +1,135 @@
-<script>
-  // @ts-nocheck
-  import Message from "$lib/articles/message/2021-12-31.md";
-  import Reflecting from "$lib/articles/reflecting/2022-07-06.md";
-  import Highlight from "$lib/components/Highlight.svelte";
+<script context="module">
+  export async function load({ fetch }) {
+    const messageArchive = await fetch("/api/articles/messages/archive.json");
+    const reflectionArchive = await fetch(
+      "/api/articles/reflections/archive.json"
+    );
+    const instructorForumArchive = await fetch(
+      "/api/articles/instructor-forum/archive.json"
+    );
+    const studentViewsArchive = await fetch(
+      "/api/articles/student-views/archive.json"
+    );
+
+    const [currentMessage, ...messages] = await messageArchive.json();
+    const [currentReflection, ...reflections] = await reflectionArchive.json();
+    const instructorForum = await instructorForumArchive.json();
+    const studentViews = await studentViewsArchive.json();
+
+    return {
+      props: {
+        currentMessage,
+        currentReflection,
+        messages,
+        reflections,
+        instructorForum,
+        studentViews,
+      },
+    };
+  }
 </script>
 
-<section>
-  <article>
-    <h3>Message from the Head Instructor</h3>
-    <Highlight>
-      <Message />
-    </Highlight>
-  </article>
-</section>
+<script>
+  import Highlight from "$lib/components/Highlight.svelte";
+  import ArticleList from "$lib/components/ArticleList.svelte";
+  import * as ArticleHighlight from "$lib/components/ArticleHighlight";
 
-<section>
-  <article>
-    <h3>Reflecting Pool</h3>
+  import reflectingPool from "$lib/assets/reflecting-pool.jpeg";
+  import headInstructor from "$lib/assets/head-instructor.png";
+  import students from "$lib/assets/students.jpg";
+  import instructor from "$lib/assets/honbu-garden-ballon-flower.jpeg";
+
+  // @ts-nocheck
+  export let messages;
+  export let reflections;
+  export let instructorForum;
+  export let currentMessage;
+  export let currentReflection;
+  export let studentViews;
+</script>
+
+<h2 class="main-heading">Articles</h2>
+
+<div class="archives">
+  <div>
     <Highlight>
-      <Reflecting />
+      <ArticleHighlight.Card>
+        <ArticleHighlight.Current img={headInstructor}>
+          <h3>Message from the Head Instructor</h3>
+          <ArticleHighlight.Copy current={currentMessage}>
+            Messages, thoughts, musings, considerations on Tamiya Ryu Iaijutsu
+            and Budo from the Gennankai's Head Instructor to USTRI deshi and
+            others journeying on the path of Budo.
+          </ArticleHighlight.Copy>
+        </ArticleHighlight.Current>
+        <h4>Message Archive</h4>
+        <ArticleList articles={messages} />
+      </ArticleHighlight.Card>
     </Highlight>
-  </article>
-</section>
+  </div>
+
+  <div>
+    <Highlight>
+      <ArticleHighlight.Card>
+        <ArticleHighlight.Current img={reflectingPool}>
+          <h3>Reflecting Pool</h3>
+          <ArticleHighlight.Copy current={currentReflection}>
+            Reflections and introspective articles from USTRI instructors and
+            students on various topics as they related to Tamiya Ryu Iaijutsu
+            practice.
+          </ArticleHighlight.Copy>
+        </ArticleHighlight.Current>
+        <h4>Reflecting Pool Archive</h4>
+        <ArticleList articles={reflections} />
+      </ArticleHighlight.Card>
+    </Highlight>
+  </div>
+
+  <div>
+    <Highlight>
+      <ArticleHighlight.Card>
+        <ArticleHighlight.Current img={instructor}>
+          <h3>Instructor Forum</h3>
+          <ArticleHighlight.Copy>
+            Insights from USRTI instructors.
+          </ArticleHighlight.Copy>
+        </ArticleHighlight.Current>
+        <h4>Instructor Forum Archive</h4>
+        <ArticleList articles={instructorForum} />
+      </ArticleHighlight.Card>
+    </Highlight>
+  </div>
+
+  <div>
+    <Highlight>
+      <ArticleHighlight.Card>
+        <ArticleHighlight.Current img={students}>
+          <h3>Student Views</h3>
+          <ArticleHighlight.Copy>
+            Articles from the deshi's prespective.
+          </ArticleHighlight.Copy>
+        </ArticleHighlight.Current>
+        <h4>Student Views Archive</h4>
+        <ArticleList articles={studentViews} />
+      </ArticleHighlight.Card>
+    </Highlight>
+  </div>
+</div>
 
 <style>
-  article:not(:last-child) {
-    margin-bottom: 5em;
+  .archives {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem clamp(1rem, 5%, 2.5rem);
+  }
+
+  h3 {
+    font-size: 1.75em;
+    text-shadow: 3px 3px 3px black;
+    margin: 0;
+  }
+
+  h4 {
+    margin: 0;
   }
 </style>

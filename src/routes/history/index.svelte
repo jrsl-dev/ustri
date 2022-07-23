@@ -1,10 +1,11 @@
 <script>
-  import Beginnings from "$lib/articles/history/beginnings.md";
-  import KoTamiyaRyu from "$lib/articles/history/ko-tamiya-ryu.md";
-  import KishuTamiyaRyu from "$lib/articles/history/kishu-tamiya-ryu.md";
-  import TamiyaShinkenRyu from "$lib/articles/history/tamiya-shinken-ryu.md";
-  import TamiyaRyuToday from "$lib/articles/history/tamiya-ryu-today.md";
-  import UnitedStatesTamiyaRyu from "$lib/articles/history/united-states-tamiya-ryu.md";
+  // @ts-nocheck
+  import Beginnings from "$lib/content/history/beginnings.md";
+  import KoTamiyaRyu from "$lib/content/history/ko-tamiya-ryu.md";
+  import KishuTamiyaRyu from "$lib/content/history/kishu-tamiya-ryu.md";
+  import TamiyaShinkenRyu from "$lib/content/history/tamiya-shinken-ryu.md";
+  import TamiyaRyuToday from "$lib/content/history/tamiya-ryu-today.md";
+  import UnitedStatesTamiyaRyu from "$lib/content/history/united-states-tamiya-ryu.md";
 </script>
 
 <!-- make an aside/nav section to easily jump between sections. how do doc sites does this? -->
