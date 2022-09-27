@@ -85,19 +85,23 @@
 <h2>Current articles</h2>
 
 <Highlight>
+  <h3>Message from the Head Instructor</h3>
+  <p>
+    <a href="/articles/message/the-path-is-the-path">The Path is the Path</a>.
+    Encouragment to keep training, even when it seems like you've done this all
+    before. That <em>is</em> the path and what emerges is Tamiya Beuaty and Tamiya
+    Nobility.
+  </p>
+</Highlight>
+
+<Highlight>
   <h3>Relecting Pool</h3>
   <p>
-    Daniel Wung (Genkou) sensei reflects on <a
-      href="/articles/reflecting/reflections-through-haiku"
+    Thomas Hufnagel (Gensui) sensei reflects on <a
+      href="/articles/reflecting/language-is-important"
     >
-      starting Tamiya Ryu through haiku.</a
-    >
-  </p>
-  <p>
-    William Smith (Genka) sensei, reflects on dealing with injuries and keeping
-    <a href="/articles/reflecting/benefits-of-daily-practice"
-      >a consistent practice.</a
-    >
+      the importance of using correct terminology</a
+    > in the dojo setting.
   </p>
 </Highlight>
 
