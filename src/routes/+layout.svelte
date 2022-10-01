@@ -4,8 +4,6 @@
   import "normalize.css/normalize.css";
   import "$lib/styles/styles.css";
   import { page } from "$app/stores";
-
-  console.log($page);
 </script>
 
 <svelte:head>
@@ -24,7 +22,7 @@
 <div class="page">
   <Masthead />
 
-  <main class="main" class:expanded={$page.path === "/articles"}>
+  <main class="main" class:expanded={$page.url.pathname === "/articles"}>
     <slot />
   </main>
 
