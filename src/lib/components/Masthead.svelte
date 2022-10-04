@@ -10,7 +10,7 @@
       <span>Tamiya Ryu Iaijutsu</span>
       <sub>Gennankai</sub>
     </h1>
-    <p>米国田宮流居合術元楠会</p>
+    <p class="heading">米国田宮流居合術元楠会</p>
   </div>
 </header>
 
