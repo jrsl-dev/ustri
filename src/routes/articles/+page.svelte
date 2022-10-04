@@ -13,8 +13,6 @@
   const [currentReflection, ...reflections] = data.reflections;
   const instructorForum = data.instructor;
   const studentViews = data.students;
-
-  console.log(currentMessage);
 </script>
 
 <h2 class="main-heading">Articles</h2>
