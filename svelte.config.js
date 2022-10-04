@@ -12,7 +12,7 @@ const config = {
     mdsvex({
       extensions: [".md"],
       layout: {
-        // articles: "src/routes/articles/_articles.svelte",
+        articles: "src/lib/components/Article.svelte",
       },
     }),
   ],

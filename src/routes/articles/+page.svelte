@@ -1,34 +1,3 @@
-<script context="module">
-  export async function load({ fetch }) {
-    const messageArchive = await fetch("/api/articles/messages/archive.json");
-    const reflectionArchive = await fetch(
-      "/api/articles/reflections/archive.json"
-    );
-    const instructorForumArchive = await fetch(
-      "/api/articles/instructor-forum/archive.json"
-    );
-    const studentViewsArchive = await fetch(
-      "/api/articles/student-views/archive.json"
-    );
-
-    const [currentMessage, ...messages] = await messageArchive.json();
-    const [currentReflection, ...reflections] = await reflectionArchive.json();
-    const instructorForum = await instructorForumArchive.json();
-    const studentViews = await studentViewsArchive.json();
-
-    return {
-      props: {
-        currentMessage,
-        currentReflection,
-        messages,
-        reflections,
-        instructorForum,
-        studentViews,
-      },
-    };
-  }
-</script>
-
 <script>
   import Highlight from "$lib/components/Highlight.svelte";
   import ArticleList from "$lib/components/ArticleList.svelte";
@@ -39,13 +8,13 @@
   import students from "$lib/assets/students.jpg";
   import instructor from "$lib/assets/honbu-garden-ballon-flower.jpeg";
 
-  // @ts-nocheck
-  export let messages;
-  export let reflections;
-  export let instructorForum;
-  export let currentMessage;
-  export let currentReflection;
-  export let studentViews;
+  export let data;
+  const [currentMessage, ...messages] = data.messages;
+  const [currentReflection, ...reflections] = data.reflections;
+  const instructorForum = data.instructor;
+  const studentViews = data.students;
+
+  console.log(currentMessage);
 </script>
 
 <h2 class="main-heading">Articles</h2>
