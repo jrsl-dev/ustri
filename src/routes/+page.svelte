@@ -97,11 +97,9 @@
 <Highlight>
   <h3>Relecting Pool</h3>
   <p>
-    Thomas Hufnagel (Gensui) sensei reflects on <a
-      href="/articles/reflecting/language-is-important"
-    >
-      the importance of using correct terminology</a
-    > in the dojo setting.
+    Douglas Jarrett (Genchi) sensei reflects on the demonstration of <a
+      href="/articles/reflecting/rei-2022">rei</a
+    > by the Japanese team in the world cup.
   </p>
 </Highlight>
 
