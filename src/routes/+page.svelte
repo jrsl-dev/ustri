@@ -88,7 +88,7 @@
   <h3>Message from the Head Instructor</h3>
   <p>
     <a href="/articles/message/the-path-is-the-path">The Path is the Path</a>.
-    Encouragment to keep training, even when it seems like you've done this all
+    Encouragement to keep training, even when it seems like you've done this all
     before. That <em>is</em> the path and what emerges is Tamiya Beauty and Tamiya
     Nobility.
   </p>
@@ -100,6 +100,12 @@
     Douglas Jarrett (Genchi) sensei reflects on the demonstration of <a
       href="/articles/reflecting/rei-2022">rei</a
     > by the Japanese team in the world cup.
+  </p>
+  <p>
+    Daniel Wung (Genkou) sensei asks the question, <a
+      href="/articles/reflecting/aging-gracefully"
+      >Is it possible to Age Gracefully in a martial art?</a
+    >
   </p>
 </Highlight>
 
