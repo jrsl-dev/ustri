@@ -95,7 +95,7 @@
 </Highlight>
 
 <Highlight>
-  <h3>Relecting Pool</h3>
+  <h3>Reflecting Pool</h3>
   <p>
     Daniel Wung (Genkou) sensei asks the question, <a
       href="/articles/reflecting/aging-gracefully"
