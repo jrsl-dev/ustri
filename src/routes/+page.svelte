@@ -97,11 +97,6 @@
 <Highlight>
   <h3>Relecting Pool</h3>
   <p>
-    Douglas Jarrett (Genchi) sensei reflects on the demonstration of <a
-      href="/articles/reflecting/rei-2022">rei</a
-    > by the Japanese team in the world cup.
-  </p>
-  <p>
     Daniel Wung (Genkou) sensei asks the question, <a
       href="/articles/reflecting/aging-gracefully"
       >Is it possible to Age Gracefully in a martial art?</a
