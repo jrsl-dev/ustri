@@ -1,3 +1,6 @@
 {
-  "cSpell.words": ["mdsvex", "sveltejs"]
+  "zenMode.centerLayout": false,
+  "zenMode.hideLineNumbers": false,
+  "cSpell.words": ["mdsvex", "sveltejs"],
+  "workbench.activityBar.location": "bottom"
 }
