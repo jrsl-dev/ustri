@@ -3,8 +3,9 @@
   import Highlight from "$lib/components/Highlight.svelte";
   import hanko from "$lib/assets/hanko.png";
   import gennankaimon from "$lib/assets/gennankai-mon.svg";
-  import Announcements from "$lib/content/announcements/2024-tsumaki-soke-sensei-visit.md";
+  import Announcements from "$lib/content/announcements/2024-tsumaki-soke-visits-honbu.md";
   import soke from "$lib/assets/soke.jpg";
+  import SokeSenseiVisit from "./soke-sensei-visit.svelte";
 </script>
 
 <section>
@@ -72,13 +73,7 @@
 
 <Highlight>
   <Announcements>
-    <img
-      src={soke}
-      alt="Tamiya Ryu Iaijutsu 15th Soke, Tsumaki Kazuo Genwa"
-      width="240"
-      height="360"
-      class="soke-img"
-    />
+    <SokeSenseiVisit />
   </Announcements>
 </Highlight>
 
