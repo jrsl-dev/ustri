@@ -1,3 +1,3 @@
-## Tamiya Ryu Iaijutsu 15th Soke Tsumaki Kauzo Genwa Visits Michigan Honbu
+## Keiko and Kampai - A Summary of Soke Sensei's Recent Visit to Michigan
 
 <slot />

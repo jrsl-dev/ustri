@@ -97,9 +97,7 @@
     const koudanshaThumbnails = new BiggerPictureThumbnails({
       target: document.getElementById("koudansha"),
     });
-
     const koudanshaLinks = document.querySelectorAll("#koudansha > a");
-
     for (let link of koudanshaLinks) {
       link.addEventListener("click", (e) => {
         e.preventDefault();
@@ -109,13 +107,10 @@
         });
       });
     }
-
     const koushukaiThumbnails = new BiggerPictureThumbnails({
       target: document.getElementById("koushukai"),
     });
-
     const koushukaiLinks = document.querySelectorAll("#koushukai > a");
-
     for (let link of koushukaiLinks) {
       link.addEventListener("click", (e) => {
         e.preventDefault();
@@ -125,13 +120,10 @@
         });
       });
     }
-
     const openPracticeThumbnails = new BiggerPictureThumbnails({
       target: document.getElementById("openPractice"),
     });
-
     const openPracticeLinks = document.querySelectorAll("#openPractice > a");
-
     for (let link of openPracticeLinks) {
       link.addEventListener("click", (e) => {
         e.preventDefault();
@@ -362,7 +354,12 @@
   }
 
   .thumbnails_img > img {
-    height: 100%;
-    max-height: 300px;
+    max-height: 12rem;
+  }
+
+  @media (min-width: 475px) {
+    .thumbnails_img > img {
+      max-height: 19rem;
+    }
   }
 </style>
