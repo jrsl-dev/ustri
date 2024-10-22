@@ -25,8 +25,8 @@
 
 <style>
   .page {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 100%;
     background: white;
   }
 
@@ -37,8 +37,12 @@
     padding-top: 2rem;
     padding-bottom: 3rem;
     max-width: var(--width);
-    margin-left: auto;
-    margin-right: auto;
+  }
+
+  @media (min-width: 670px) {
+    main {
+      justify-self: center;
+    }
   }
 
   .expanded {
