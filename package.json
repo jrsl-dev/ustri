@@ -30,6 +30,7 @@
   },
   "type": "module",
   "dependencies": {
+    "bigger-picture": "^1.1.17",
     "normalize.css": "^8.0.1"
   }
 }

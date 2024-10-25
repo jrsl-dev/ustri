@@ -3,8 +3,9 @@
   import Highlight from "$lib/components/Highlight.svelte";
   import hanko from "$lib/assets/hanko.png";
   import gennankaimon from "$lib/assets/gennankai-mon.svg";
-  import Announcements from "$lib/content/announcements/2024-tsumaki-soke-sensei-visit.md";
+  import Announcements from "$lib/content/announcements/2024-tsumaki-soke-visits-honbu.md";
   import soke from "$lib/assets/soke.jpg";
+  import SokeSenseiVisit from "./soke-sensei-visit.svelte";
 </script>
 
 <section>
@@ -72,13 +73,7 @@
 
 <Highlight>
   <Announcements>
-    <img
-      src={soke}
-      alt="Tamiya Ryu Iaijutsu 15th Soke, Tsumaki Kazuo Genwa"
-      width="240"
-      height="360"
-      class="soke-img"
-    />
+    <SokeSenseiVisit />
   </Announcements>
 </Highlight>
 
@@ -155,20 +150,13 @@
 
   <p>
     Visit <a href="/training">the training page</a> to learn more about
-    practicing Tamiya ryu. For more informaiton concerning the history of
+    practicing Tamiya ryu. For more information concerning the history of
     development of Tamiya Ryu please visit
     <a href="/history">the history page</a>.
   </p>
 </section>
 
 <style>
-  .soke-img {
-    max-inline-size: 100%;
-    block-size: auto;
-    display: block;
-    margin: 0 auto;
-  }
-
   .tamiya-ryu-iaijutsu aside {
     font-size: 2.5em;
     text-align: center;
@@ -187,21 +175,9 @@
     margin-right: 2em;
   }
 
-  /* .soke-img {
-    margin: 0 auto;
-  } */
-
   .yt {
     width: 100%;
     margin: 2em 0;
-  }
-
-  @media (min-width: 600px) {
-    .soke-img {
-      display: inline;
-      float: left;
-      margin: 0 1.5em 1em 0;
-    }
   }
 
   @media (min-width: 700px) {
