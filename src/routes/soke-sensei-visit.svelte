@@ -192,9 +192,9 @@
   <div id="koudansha" class="thumbnails">
     {#each koudansha as [img, alt, width, height]}
       <a
-        href={`/src/lib/assets/2024-soke-sensei-visit/koudansha/${img}.jpg`}
-        data-img={`/src/lib/assets/2024-soke-sensei-visit/koudansha/${img}.jpg`}
-        data-thumb={`/src/lib/assets/2024-soke-sensei-visit/koudansha/thumbs/${img}.jpg`}
+        href={`./assets/2024-soke-sensei-visit/koudansha/${img}.jpg`}
+        data-img={`./assets/2024-soke-sensei-visit/koudansha/${img}.jpg`}
+        data-thumb={`./assets/2024-soke-sensei-visit/koudansha/thumbs/${img}.jpg`}
         data-width={width}
         data-height={height}
         data-alt={alt}
@@ -202,7 +202,7 @@
         class="thumbnails_img"
       >
         <img
-          src={`/src/lib/assets/2024-soke-sensei-visit/koudansha/thumbs/${img}.jpg`}
+          src={`./assets/2024-soke-sensei-visit/koudansha/thumbs/${img}.jpg`}
           {alt}
           loading="lazy"
         />
@@ -242,9 +242,9 @@
   <div id="koushukai" class="thumbnails">
     {#each koushukai as [img, alt, width, height]}
       <a
-        href={`/src/lib/assets/2024-soke-sensei-visit/koushukai-day-1/${img}.jpg`}
-        data-img={`/src/lib/assets/2024-soke-sensei-visit/koushukai-day-1/${img}.jpg`}
-        data-thumb={`/src/lib/assets/2024-soke-sensei-visit/koushukai-day-1/thumbs/${img}.jpg`}
+        href={`./assets/2024-soke-sensei-visit/koushukai-day-1/${img}.jpg`}
+        data-img={`./assets/2024-soke-sensei-visit/koushukai-day-1/${img}.jpg`}
+        data-thumb={`./assets/2024-soke-sensei-visit/koushukai-day-1/thumbs/${img}.jpg`}
         data-width={width}
         data-height={height}
         data-alt={alt}
@@ -252,7 +252,7 @@
         class="thumbnails_img"
       >
         <img
-          src={`/src/lib/assets/2024-soke-sensei-visit/koushukai-day-1/thumbs/${img}.jpg`}
+          src={`./assets/2024-soke-sensei-visit/koushukai-day-1/thumbs/${img}.jpg`}
           {alt}
           loading="lazy"
         />
@@ -265,9 +265,9 @@
   <div id="openPractice" class="thumbnails">
     {#each openPractice as [img, alt, width, height]}
       <a
-        href={`/src/lib/assets/2024-soke-sensei-visit/koushukai-day-2/${img}.jpg`}
-        data-img={`/src/lib/assets/2024-soke-sensei-visit/koushukai-day-2/${img}.jpg`}
-        data-thumb={`/src/lib/assets/2024-soke-sensei-visit/koushukai-day-2/thumbs/${img}.jpg`}
+        href={`./assets/2024-soke-sensei-visit/koushukai-day-2/${img}.jpg`}
+        data-img={`./assets/2024-soke-sensei-visit/koushukai-day-2/${img}.jpg`}
+        data-thumb={`./assets/2024-soke-sensei-visit/koushukai-day-2/thumbs/${img}.jpg`}
         data-width={width}
         data-height={height}
         data-alt={alt}
@@ -275,7 +275,7 @@
         class="thumbnails_img"
       >
         <img
-          src={`/src/lib/assets/2024-soke-sensei-visit/koushukai-day-2/thumbs/${img}.jpg`}
+          src={`./assets/2024-soke-sensei-visit/koushukai-day-2/thumbs/${img}.jpg`}
           {alt}
           loading="lazy"
         />
