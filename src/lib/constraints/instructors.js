@@ -23,14 +23,14 @@ export const WilliamSmith = {
   name: "William Smith",
   gengo: "Genka",
   role: "Gennankai Dai Senpai",
-  rank: "6th Degree (Rokudan)",
+  rank: "7th Degree (Nanadan)",
 };
 
 export const ThomasHufnagel = {
   name: "Thomas Hufnagel",
   gengo: "Gensui",
   role: "Gennankai Director of Operations and Branch Manager",
-  rank: "6th Degree (Rokudan)",
+  rank: "7th Degree (Nanadan)",
   locality: "East Lansing",
   region: {
     short: "MI",
@@ -43,7 +43,7 @@ export const DouglasJarret = {
   name: "Douglas Jarret",
   gengo: "Genchi",
   role: "Branch Manager",
-  rank: "6th Degree (Rokudan)",
+  rank: "7th Degree (Nanadan)",
   locality: "East Lansing",
   region: {
     short: "MI",
@@ -67,7 +67,7 @@ export const DanielMordan = {
   name: "Daniel Mordan",
   gengo: "Genzan",
   role: "Branch Manager",
-  rank: "6th Degree (Rokudan)",
+  rank: "7th Degree (Nanadan)",
   locality: "Macomb",
   region: {
     short: "MI",
@@ -79,7 +79,7 @@ export const DanielMordan = {
 export const DanielWung = {
   name: "Daniel Wung",
   gengo: "Genkou",
-  rank: "5th Degree (Godan)",
+  rank: "6th Degree (Rokudan)",
   locality: "Macomb",
   region: {
     short: "MI",
