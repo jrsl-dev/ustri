@@ -2,5 +2,5 @@
   "zenMode.centerLayout": false,
   "zenMode.hideLineNumbers": false,
   "cSpell.words": ["Iaijutsu", "mdsvex", "sveltejs"],
-  "workbench.activityBar.location": "bottom"
+  "workbench.activityBar.location": "top"
 }

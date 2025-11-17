@@ -10,7 +10,7 @@ export const JamesRussell = {
   name: "James Russell",
   gengo: "Gennetsu",
   role: "Gennankai Head Instructor and Branch Manager",
-  rank: "6th Degree (Rokudan), Jokyo",
+  rank: "7th Degree (Nanadan), Jokyo",
   locality: "Brighton",
   region: {
     short: "MI",
