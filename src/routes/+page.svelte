@@ -113,7 +113,7 @@
 <h2>Announcements</h2>
 
 <Highlight>
-  <h3>Celebrating 30 Years of Tradition</h3>
+  <h3 id="celebrating-30-years">Celebrating 30 Years of Tradition</h3>
 
   <figure>
     <img src={dojo} alt="" />
@@ -382,6 +382,10 @@
     background: rgb(0 0 0 / 80%);
     padding: 0.5em;
     box-sizing: border-box;
+  }
+
+  #celebrating-30-years {
+    scroll-margin-top: 10rem;
   }
 
   @media (min-width: 700px) {
