@@ -12,6 +12,41 @@
   import cutting from "$lib/assets/ribbon-cutting.jpg";
   import enbu from "$lib/assets/first-enbu.jpg";
   import tokonoma from "$lib/assets/tokonoma.jpg";
+  import proclamation from "$lib/assets/proclamation.jpg";
+
+  const procAltText = `
+  Proclamation
+  
+  Whereas: Mr Kazuo Tsumaki of Yokohama, Japan is the Japanese Advisor to the Tamiya Ryu 
+  Iaijutsu Michigan Dojo, training facility, and Tamiya Ryu Iaijutsu is on of the oldest styles of 
+  Iaijutsu, the ancient art of drawing and cutting with the long-sword, or Katana; and
+
+  Whereas: The Tsumaki family will celebrate two hundred years of teaching and protecting this
+  art next year, and has been designated by the government of Japan as an "Intangible Cultural Asset", 
+  and Tsumaki Sensei's father, Tsumaki Seirin Motonobu, is the current Grand Master of Tamiya Ryu
+  Iaijutsu, fourteenth in the line of Grand Masters dating ack to 1597; and
+
+  Whereas: Tsumaki Sensei was given permission by his father to travel to Michigan and dedicate 
+  Shakunage-Tei as the first Tamiya Ryu Iaijutsu Dojo in North America, and Japanese Cultural Center
+  for the Greater Lansing area; and
+
+  Whereas: Tsumaki Sensei will authorize this first official Dojo for Tamiya Ryu Iaijutsu
+  anywhere in North America, and Tsumaki Sensei will further authorize the first North American to
+  join Tamiya Ryu Iaijutsu, formally test and receive rank in this style, and authorize teaching of the
+  art in North America; and
+
+  Whereas: We recognize the Tsumaki family's contribution to Japanese culture and to the 
+  ancient martial arts, and the enrichment their authorization of Shakunage-Tei bring to our city's 
+  cultural life; now
+
+  Therefore, I, David C. Hollister, Mayor of the City of Lansing, by the power vested
+  in me, do hereby publicly welcome and thank Tsumaki Sensei and urge all citizens to join with me
+  in recognizing the importance and value of the newly dedicated Shakunage-Tei Cultural Pavilion.
+
+  Given under my hand and seal this twentieth day of September in the Year of Our Lord on thousand nine hundred and ninety six.
+
+  David C. Hollister, Mayor
+  `;
 </script>
 
 <section>
@@ -150,6 +185,11 @@
       Assistant Headmaster Tsumaki with the Consul General of Japan, Mayor of
       East Lansing and Deputy Mayor of Lansing
     </figcaption>
+  </figure>
+
+  <figure>
+    <img class="mat" src={proclamation} alt={procAltText} />
+    <figcaption>Mayor Hollister's official proclamation</figcaption>
   </figure>
 
   <p>
@@ -307,6 +347,8 @@
 
   figcaption {
     font-weight: bold;
+    font-style: italic;
+    text-align: center;
   }
 
   img {
@@ -334,6 +376,12 @@
   .yt {
     width: 100%;
     margin: 2em 0;
+  }
+
+  .mat {
+    background: rgb(0 0 0 / 80%);
+    padding: 0.5em;
+    box-sizing: border-box;
   }
 
   @media (min-width: 700px) {
