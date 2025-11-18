@@ -5,7 +5,48 @@
   import gennankaimon from "$lib/assets/gennankai-mon.svg";
   import Announcements from "$lib/content/announcements/2024-tsumaki-soke-visits-honbu.md";
   import soke from "$lib/assets/soke.jpg";
-  import SokeSenseiVisit from "./soke-sensei-visit.svelte";
+  import dojo from "$lib/assets/honbu-dojo-2025.jpg";
+  import commission from "$lib/assets/commission.jpg";
+  import rockGarden from "$lib/assets/rock-garden.jpg";
+  import group from "$lib/assets/sensei-consul-general-mayor-deputy-mayor.jpg";
+  import cutting from "$lib/assets/ribbon-cutting.jpg";
+  import enbu from "$lib/assets/first-enbu.jpg";
+  import tokonoma from "$lib/assets/tokonoma.jpg";
+  import proclamation from "$lib/assets/proclamation.jpg";
+
+  const procAltText = `
+  Proclamation
+  
+  Whereas: Mr Kazuo Tsumaki of Yokohama, Japan is the Japanese Advisor to the Tamiya Ryu 
+  Iaijutsu Michigan Dojo, training facility, and Tamiya Ryu Iaijutsu is on of the oldest styles of 
+  Iaijutsu, the ancient art of drawing and cutting with the long-sword, or Katana; and
+
+  Whereas: The Tsumaki family will celebrate two hundred years of teaching and protecting this
+  art next year, and has been designated by the government of Japan as an "Intangible Cultural Asset", 
+  and Tsumaki Sensei's father, Tsumaki Seirin Motonobu, is the current Grand Master of Tamiya Ryu
+  Iaijutsu, fourteenth in the line of Grand Masters dating ack to 1597; and
+
+  Whereas: Tsumaki Sensei was given permission by his father to travel to Michigan and dedicate 
+  Shakunage-Tei as the first Tamiya Ryu Iaijutsu Dojo in North America, and Japanese Cultural Center
+  for the Greater Lansing area; and
+
+  Whereas: Tsumaki Sensei will authorize this first official Dojo for Tamiya Ryu Iaijutsu
+  anywhere in North America, and Tsumaki Sensei will further authorize the first North American to
+  join Tamiya Ryu Iaijutsu, formally test and receive rank in this style, and authorize teaching of the
+  art in North America; and
+
+  Whereas: We recognize the Tsumaki family's contribution to Japanese culture and to the 
+  ancient martial arts, and the enrichment their authorization of Shakunage-Tei bring to our city's 
+  cultural life; now
+
+  Therefore, I, David C. Hollister, Mayor of the City of Lansing, by the power vested
+  in me, do hereby publicly welcome and thank Tsumaki Sensei and urge all citizens to join with me
+  in recognizing the importance and value of the newly dedicated Shakunage-Tei Cultural Pavilion.
+
+  Given under my hand and seal this twentieth day of September in the Year of Our Lord on thousand nine hundred and ninety six.
+
+  David C. Hollister, Mayor
+  `;
 </script>
 
 <section>
@@ -72,9 +113,148 @@
 <h2>Announcements</h2>
 
 <Highlight>
-  <Announcements>
-    <SokeSenseiVisit />
-  </Announcements>
+  <h3 id="celebrating-30-years">Celebrating 30 Years of Tradition</h3>
+
+  <figure>
+    <img src={dojo} alt="" />
+    <figcaption>
+      The Michigan Headquarters Dojo of the Tamiya School of Classical Japanese
+      Swordsmanship/Shakunage Japanese Culture Center
+    </figcaption>
+  </figure>
+
+  <p>
+    Like a solitary sentinel protecting an invaluable treasure, the Michigan
+    Headquarters Dojo of the Tamiya School of Classical Japanese Swordsmanship
+    (Tamiya Ryu Iaijutsu Michigan Honbu Dojo)/Shakunage Japanese Culture Center
+    stands at one end of the traditional Japanese garden behind the home of
+    DIanne and Michael Alexanian in the sleepy Glencairn neighborhood of East
+    Lansing, Michigan.
+  </p>
+
+  <p>
+    For the last 30 years, over 250 men and women from the United States,
+    Europe, Russia and Asia have come to this Dojo to study the techniques and
+    philosophy of this 429 year-old martial art founded by Tamiya Heibei
+    Narimasa in the early 17th century and passed down, through a succession of
+    Headmasters (Soke), to the present day leadership of 15th Generation Soke
+    Tsumaki Kazuo Genwa.
+  </p>
+
+  <p>
+    In March of 1996, Michael Alexanian (Gennan Buhaku) received a written
+    commission from 14th Generation Soke Tsumaki Seirin Genshin to bring this
+    classical Japanese martial art to America for the first time in the school’s
+    400 year history.
+  </p>
+
+  <figure>
+    <img src={commission} alt="" />
+    <figcaption>
+      The original written Commission to bring Tamiya Ryu Iaijutsu to America
+    </figcaption>
+  </figure>
+
+  <p>
+    To that end, Michael Gennan Sensei and his wife, Dianne Genan Sensei, began
+    the process of building the first United States Dojo for Tamiya Ryu Iaijutsu
+    and the greater Lansing area’s first Japanese Cultural Center at their home
+    in the midst of a tranquil Japanese garden complete with a raked gravel
+    meditation garden behind the Dojo.
+  </p>
+
+  <figure>
+    <img src={rockGarden} alt="" />
+    <figcaption>
+      The Karesansui (Rock Garden) behind the Dojo/Culture Center
+    </figcaption>
+  </figure>
+
+  <p>
+    With construction complete, on a warm and sunny September 20, 1996 various
+    dignitaries including the Consul General of Japan, the Mayor of East
+    Lansing, the Deputy Mayor of Lansing and the Assistant Headmaster of Tamiya
+    Ryu Iaijutsu, along with other prominent community leaders and citizens
+    gathered in front of the traditional Japanese gate (Tori) to officially
+    dedicate and open the Dojo/Culture Center.
+  </p>
+
+  <figure>
+    <img src={group} alt="" />
+    <figcaption>
+      Assistant Headmaster Tsumaki with the Consul General of Japan, Mayor of
+      East Lansing and Deputy Mayor of Lansing
+    </figcaption>
+  </figure>
+
+  <figure>
+    <img class="mat" src={proclamation} alt={procAltText} />
+    <figcaption>Mayor Hollister's official proclamation</figcaption>
+  </figure>
+
+  <p>
+    Assistant Headmaster Tsumaki Kazuo Genwa cut the ribbon stretched across the
+    Torii and gave the first demonstration of Tamiya Ryu Iaijutsu in the new
+    Dojo. There were also demonstrations of Shakuhachi (bamboo flute), how to
+    properly dress in Kimono, and other aspects of traditional Japanese culture.
+  </p>
+
+  <figure>
+    <img src={cutting} alt="" />
+    <figcaption>
+      Assistant Headmaster Tsumaki performing the ribbon cutting ceremony
+    </figcaption>
+  </figure>
+
+  <figure>
+    <img src={enbu} alt="" />
+    <figcaption>
+      Assistant Headmaster Tsumaki performing the first Enbu in the new Dojo
+    </figcaption>
+  </figure>
+
+  <p>
+    From that day forward and for the past 30 years, the United States Tamiya
+    Ryu Iaijutsu Gennankai has worked diligently and with a sense of true
+    purpose to pass on this important element of classical Japanese culture to
+    both young and old alike and to help realize the late 14th Generation Soke’s
+    dream of making Tamiya Ryu Iaijutsu available for study not only in Japan,
+    but also internationally.
+  </p>
+
+  <p>
+    To celebrate the 30 year anniversary of the founding of American Tamiya Ryu
+    Iaijutsu, an Enbukai (Demonstration Event) will be held on September 20,
+    2026, at the East Lansing Hannah Community Center East Gym from 1-3pm. This
+    event is free and open to the general public and will feature Enbu (formal
+    demonstrations) by 15th Generation Soke Tsumaki Kazuo Genwa, the Senior
+    Teaching Staff, the Head Instructor and the members of the Gennankai. We
+    will be inviting the current Consul General of Japan, the Mayors of Lansing
+    and East Lansing and the Visiting Official from Michigan’s Sister State of
+    Shiga Prefecture to attend and say a few words to commemorate the occasion
+    just as they did 30 years ago.
+  </p>
+
+  <p>
+    We cordially invite you to attend this special event and experience a truly
+    unique aspect of traditional Japanese culture not often seen by the general
+    public.
+  </p>
+
+  <figure>
+    <img src={tokonoma} alt="" />
+    <figcaption>
+      The Tokonoma (Alcove) in the Michigan Headquarters Dojo
+    </figcaption>
+  </figure>
+
+  <p>
+    Respectfully,<br />
+    <br />
+    Michael Alexanian (Gennan Buhaku) 8th Degree<br />
+    President<br />
+    United States Tamiya Ryu Iaijutsu Gennankai
+  </p>
 </Highlight>
 
 <h2>Current articles</h2>
@@ -157,6 +337,24 @@
 </section>
 
 <style>
+  figure {
+    margin: 0;
+    margin-bottom: 2.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  figcaption {
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+  }
+
+  img {
+    width: 100%;
+  }
+
   .tamiya-ryu-iaijutsu aside {
     font-size: 2.5em;
     text-align: center;
@@ -178,6 +376,16 @@
   .yt {
     width: 100%;
     margin: 2em 0;
+  }
+
+  .mat {
+    background: rgb(0 0 0 / 80%);
+    padding: 0.5em;
+    box-sizing: border-box;
+  }
+
+  #celebrating-30-years {
+    scroll-margin-top: 10rem;
   }
 
   @media (min-width: 700px) {
