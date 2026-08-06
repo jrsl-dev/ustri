@@ -228,13 +228,13 @@
     To celebrate the 30 year anniversary of the founding of American Tamiya Ryu
     Iaijutsu, an Enbukai (Demonstration Event) will be held on September 20,
     2026, at the East Lansing Hannah Community Center East Gym from 1-3pm. This
-    event is free and open to the general public and will feature Enbu (formal
-    demonstrations) by 15th Generation Soke Tsumaki Kazuo Genwa, the Senior
-    Teaching Staff, the Head Instructor and the members of the Gennankai. We
-    will be inviting the current Consul General of Japan, the Mayors of Lansing
-    and East Lansing and the Visiting Official from Michigan’s Sister State of
-    Shiga Prefecture to attend and say a few words to commemorate the occasion
-    just as they did 30 years ago.
+    event is free and open to the general public (seating limited) and will
+    feature Enbu (formal demonstrations) by 15th Generation Soke Tsumaki Kazuo
+    Genwa, the Senior Teaching Staff, the Head Instructor and the members of the
+    Gennankai. We will be inviting the current Consul General of Japan, the
+    Mayors of Lansing and East Lansing and the Visiting Official from Michigan’s
+    Sister State of Shiga Prefecture to attend and say a few words to
+    commemorate the occasion just as they did 30 years ago.
   </p>
 
   <p>
