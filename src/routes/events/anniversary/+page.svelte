@@ -57,7 +57,7 @@
     <h3>Event Details</h3>
     <div class="event-details">
       <h4>Date:</h4>
-      <p>Saturday, September 20, 2026</p>
+      <p>Sunday, September 20, 2026</p>
       <h4>Time:</h4>
       <p>1:00pm - 3:00pm</p>
       <h4>Location:</h4>
