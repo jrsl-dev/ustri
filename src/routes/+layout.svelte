@@ -16,7 +16,12 @@
 <div class="page">
   <Masthead />
 
-  <main class="main" class:expanded={$page.url.pathname === "/articles"}>
+  <main
+    class="main"
+    class:expanded={["/articles$", "/events/gallery.*"].some((pattern) =>
+      new RegExp(pattern).test($page.url.pathname),
+    )}
+  >
     <slot />
   </main>
 
