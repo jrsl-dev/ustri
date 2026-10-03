@@ -8,17 +8,17 @@
   import Spacer from "$lib/components/Spacer.svelte";
 
   const images918 = import.meta.glob(
-    "$lib/assets/gallery/thirtieth/918/*.JPG",
+    "$lib/assets/gallery/thirtieth/918/*.jpeg",
     { eager: true, as: "url" },
   );
 
   const images919 = import.meta.glob(
-    "$lib/assets/gallery/thirtieth/919/*.JPG",
+    "$lib/assets/gallery/thirtieth/919/*.jpeg",
     { eager: true, as: "url" },
   );
 
   const images920 = import.meta.glob(
-    "$lib/assets/gallery/thirtieth/920/*.JPG",
+    "$lib/assets/gallery/thirtieth/920/*.jpeg",
     { eager: true, as: "url" },
   );
 
