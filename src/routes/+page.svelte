@@ -4,8 +4,7 @@
   import hanko from "$lib/assets/hanko.png";
   import gennankaimon from "$lib/assets/gennankai-mon.svg";
   import Announcements from "$lib/content/announcements/2024-tsumaki-soke-visits-honbu.md";
-  import ThirtyYears from "$lib/content/announcements/2025-30th-anniversary.svelte";
-  import PromotionAnnouncement from "$lib/content/announcements/2025-promotion-announcement.svelte";
+  import ThirtyYears from "$lib/content/announcements/2026-10-02-30th-anniversary-enbu-taikai-report.svelte";
 </script>
 
 <section>
@@ -73,10 +72,6 @@
 
 <Highlight>
   <ThirtyYears />
-</Highlight>
-
-<Highlight>
-  <PromotionAnnouncement />
 </Highlight>
 
 <h2>Current articles</h2>
