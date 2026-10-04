@@ -120,7 +120,7 @@
   the Enbu Taikai on Sunday!
 </p>
 
-<p>
+<p class="gallery-link">
   <a href="/events/gallery/anniversary"
     >See the Photo Gallery with pictures from the Enbu Taikai and the previous
     two days of Keiko (Training) and Shinsa (Testing) with Soke Sensei.</a
@@ -167,3 +167,13 @@ Respectfully submitted,<br />
 Michael Alexanian (Gennan Buhaku) 8th Dan<br />
 President<br />
 United States Tamiya Ryu Iaijutsu Gennankai
+
+<style>
+  .gallery-link {
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 2em 1em;
+    margin: 2em -0.75em;
+  }
+</style>
