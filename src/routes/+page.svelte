@@ -173,6 +173,10 @@
       田宮流居合術を讃える詩<br />
       A Poem Praising Tamiya-ryu Iaijutsu
     </p>
+    <p>
+      小原六六庵・作<br />
+      Composed by: Ohara Rokurokuan
+    </p>
     <blockquote>
       田宮の流統 連綿として備わり<br />
       守破離の心 自ら浩然たり<br />
@@ -192,6 +196,10 @@
     <p>
       第十五代宗家 妻木和夫元和<br />
       Fifteenth Headmaster Tsumaki Kazuo Genwa
+    </p>
+    <p>
+      Performed by: Michael Alexanian Buhaku Sensei at the 30th Anniversary
+      Taikai
     </p>
   </div>
 </Highlight>
