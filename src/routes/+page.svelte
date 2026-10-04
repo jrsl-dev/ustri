@@ -88,12 +88,20 @@
 </Highlight>
 
 <Highlight>
-  <h3>Reflecting Pool</h3>
+  <h3>Student Views</h3>
   <p>
-    Daniel Wung (Genkou) sensei asks the question, <a
-      href="/articles/reflecting/aging-gracefully"
-      >Is it possible to Age Gracefully in a martial art?</a
-    >
+    For our thirtieth anniversary, we asked our students to share their views on
+    Tamiya Ryu Iaijutsu. Peter Samurkas san (Ikkyu) shares <a
+      href="/articles/student-views/what-tamiya-ryu-means-to-me"
+      >his view of Tamiya Ryu</a
+    >, having just begun his journey in the art.
+  </p>
+  <p>
+    The Gennankai's Daisenpai (most senior student), William Smith (Genka,
+    Nanadan) shares what how he has come to see his
+    <a href="/articles/student-views/virtue-in-etiquette"
+      >practice after so many years training in Tamiya Ryu Iaijutsu</a
+    >.
   </p>
 </Highlight>
 
