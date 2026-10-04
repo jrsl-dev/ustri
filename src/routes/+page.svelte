@@ -154,6 +154,40 @@
   </p>
 </section>
 
+<Highlight>
+  <div class="poem">
+    <p>
+      米国田宮流居合術ミシガン本・支部 30周年記念大会に寄せて<br />
+      In Commemoration of the 30th Anniversary Taikai of the U.S. Tamiya-ryu Iaijutsu
+      Michigan Headquarters and Branches<br />
+    </p>
+    <p>
+      田宮流居合術を讃える詩<br />
+      A Poem Praising Tamiya-ryu Iaijutsu
+    </p>
+    <blockquote>
+      田宮の流統 連綿として備わり<br />
+      守破離の心 自ら浩然たり<br />
+      神剣の光芒 人を魅了し<br />
+      太平の象 万年伝う <br />
+    </blockquote>
+    <blockquote>
+      The Tamiya lineage flows unbroken, ever present<br />
+      The spirit of Shu-ha-ri is noble and self-respecting<br />
+      The radiance of the divine sword captivates all who behold it<br />
+      The symbol of peace and tranquility that endures for ten thousand years
+    </blockquote>
+    <p>
+      吟詠指導 田宮流居合術<br />
+      Recitation Guidance: Tamiya-ryu Iaijutsu<br />
+    </p>
+    <p>
+      第十五代宗家 妻木和夫元和<br />
+      Fifteeth Headmaster Tsumaki Kazuo Genwa
+    </p>
+  </div>
+</Highlight>
+
 <style>
   .tamiya-ryu-iaijutsu aside {
     font-size: 2.5em;
@@ -176,6 +210,52 @@
   .yt {
     width: 100%;
     margin: 2em 0;
+  }
+
+  .poem {
+    margin: -0.5em -0.75em;
+    padding: 1em;
+    background: black;
+    color: white;
+    font-family: "Zodiak", serif;
+  }
+
+  .poem > blockquote {
+    font-size: 1.05em;
+    margin: 0;
+    margin-left: 0.5em;
+    padding: 0 0.5em;
+    text-wrap: balance;
+    border-left: 2px solid white;
+    line-height: 1.5;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .poem > blockquote + blockquote {
+    margin-top: 1.5em;
+  }
+
+  .poem > blockquote:first-of-type {
+    margin-top: 1.5em;
+  }
+  .poem > blockquote:last-of-type {
+    margin-bottom: 1.5em;
+  }
+
+  @media (min-width: 500px) {
+    .poem > blockquote {
+      font-size: 1.2em;
+      margin-left: 1em;
+      padding-left: 2.5em;
+      border-left-width: 4px;
+    }
+    .poem > blockquote:first-of-type {
+      margin-top: 3em;
+    }
+    .poem > blockquote:last-of-type {
+      margin-bottom: 3em;
+    }
   }
 
   @media (min-width: 700px) {
