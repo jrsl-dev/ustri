@@ -50,10 +50,11 @@
     class="yt"
     width="560"
     height="315"
-    src="https://www.youtube.com/embed/w80xfxDG0jE"
+    src="https://www.youtube.com/embed/qoB8qNm8Sfw?si=LbpkBEH7vSgvuhKI&amp;start=5"
     title="YouTube video player"
     frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
     allowfullscreen
   />
 
