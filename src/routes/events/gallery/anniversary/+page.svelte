@@ -29,7 +29,7 @@
   );
 
   const isehara = import.meta.glob(
-    "$lib/assets/gallery/thirtieth/isehara/*.jpeg",
+    "$lib/assets/gallery/thirtieth/isehara-letter/*.jpeg",
     { eager: true, as: "url" },
   );
 </script>
