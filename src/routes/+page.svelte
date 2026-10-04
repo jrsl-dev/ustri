@@ -183,7 +183,7 @@
     </p>
     <p>
       第十五代宗家 妻木和夫元和<br />
-      Fifteeth Headmaster Tsumaki Kazuo Genwa
+      Fifteenth Headmaster Tsumaki Kazuo Genwa
     </p>
   </div>
 </Highlight>
