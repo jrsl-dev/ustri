@@ -6,6 +6,7 @@
   } from "svelte-lightbox";
   import Highlight from "$lib/components/Highlight.svelte";
   import Spacer from "$lib/components/Spacer.svelte";
+  import historyAndTenugui from "$lib/assets/gallery/thirtieth/history-and-tenugui.jpeg";
 
   const images918 = import.meta.glob(
     "$lib/assets/gallery/thirtieth/918/*.jpeg",
@@ -45,8 +46,6 @@
       character: "loop",
       enableKeyboardControl: true,
     }}
-    swipeConfig={{ enabled: true }}
-    enableClickToClose
   >
     <svelte:fragment slot="thumbnail">
       <div class="gallery-thumbnails">
@@ -116,7 +115,7 @@
   >
     <svelte:fragment slot="thumbnail">
       <div class="gallery-thumbnails">
-        {#each Object.values(images920) as image, i}
+        {#each [...Object.values(images920), historyAndTenugui] as image, i}
           <GalleryThumbnail id={i}>
             <img src={image} alt="" />
           </GalleryThumbnail>
@@ -124,7 +123,7 @@
       </div>
     </svelte:fragment>
 
-    {#each Object.values(images920) as image, i}
+    {#each [...Object.values(images920), historyAndTenugui] as image, i}
       <GalleryImage id={i}>
         <img src={image} alt="" />
       </GalleryImage>
