@@ -1,3 +1,14 @@
+<script>
+  import {
+    LightboxGallery,
+    GalleryImage,
+    GalleryThumbnail,
+  } from "svelte-lightbox";
+  import picGennankaiAndVips from "$lib/assets/gallery/thirtieth/920/2026 09 20 1429 Group Large.jpeg";
+  import yujoenbu from "$lib/assets/gallery/thirtieth/920/2026 09 20 1337 Large.jpeg";
+  import nigemi from "$lib/assets/gallery/thirtieth/920/2026 09 20 1413 Large.jpeg";
+</script>
+
 <h3>30th Anniversary Enbu Taikai Report</h3>
 <p>
   A report on the United States Tamiya Ryu Iaijutsu Gennankai 30th Anniversary
@@ -12,6 +23,31 @@
   branch of Tamiya Ryu Iaijutsu in the school's 429 year-old history.
 </p>
 
+<LightboxGallery
+  imagePreset="fullscreen"
+  arrowsConfig={{
+    color: "white",
+    character: "hide",
+    enableKeyboardControl: true,
+  }}
+>
+  <svelte:fragment slot="thumbnail">
+    <GalleryThumbnail id={0}>
+      <img
+        src={picGennankaiAndVips}
+        alt="United States Tamiya Ryu Iaijutsu Gennankai and VIPs"
+      />
+    </GalleryThumbnail>
+  </svelte:fragment>
+
+  <GalleryImage id={0}>
+    <img
+      src={picGennankaiAndVips}
+      alt="United States Tamiya Ryu Iaijutsu Gennankai and VIPs"
+    />
+  </GalleryImage>
+</LightboxGallery>
+
 <p>
   This Event was held at the East Lansing, Michigan, Hannah Community Center and
   featured a series of four Enbu (Demonstrations) by the members of the US
@@ -23,12 +59,38 @@
   gathering of the Gennankai for the year.
 </p>
 
-<p>
-  <a href="/events/gallery/anniversary"
-    >See the Photo Gallery with pictures from the Enbu Taikai and the previous
-    two days of Keiko (Training) and Shinsa (Testing) with Soke Sensei.</a
-  >
-</p>
+<LightboxGallery
+  imagePreset="fullscreen"
+  arrowsConfig={{
+    color: "white",
+    character: "loop",
+    enableKeyboardControl: true,
+  }}
+>
+  <svelte:fragment slot="thumbnail">
+    <div class="gallery-thumbnails">
+      <GalleryThumbnail id={0}>
+        <img src={yujoenbu} alt="Yudansha and Jodansha enbu" />
+      </GalleryThumbnail>
+      <GalleryThumbnail id={1}>
+        <img src={nigemi} alt="Yudansha and Jodansha enbu" />
+      </GalleryThumbnail>
+    </div>
+  </svelte:fragment>
+
+  <GalleryImage id={0}>
+    <img
+      src={yujoenbu}
+      alt="15th Generational Soke of Tamiya Ryu Iaijutsu, Tsumaki Kazuo Genwa sensei, performing Nigemi"
+    />
+  </GalleryImage>
+  <GalleryImage id={1}>
+    <img
+      src={nigemi}
+      alt="15th Generational Soke of Tamiya Ryu Iaijutsu, Tsumaki Kazuo Genwa sensei, performing Nigemi"
+    />
+  </GalleryImage>
+</LightboxGallery>
 
 <p>
   In addition to the 15th generation Soke of Tamiya Ryu Iaijutsu, the Gennankai
@@ -56,6 +118,13 @@
   was also elevated to the level of Jokyo (Assistant Professor). Everyone
   performed splendidly and received their Menjo (Certificates of Advancement) at
   the Enbu Taikai on Sunday!
+</p>
+
+<p>
+  <a href="/events/gallery/anniversary"
+    >See the Photo Gallery with pictures from the Enbu Taikai and the previous
+    two days of Keiko (Training) and Shinsa (Testing) with Soke Sensei.</a
+  >
 </p>
 
 <p>
