@@ -23,7 +23,7 @@ export const WilliamSmith = {
   name: "William Smith",
   gengo: "Genka",
   role: "Gennankai Dai Senpai",
-  rank: "7th Degree (Nanadan)",
+  rank: "7th Degree (Nanadan), Jokyo",
 };
 
 export const ThomasHufnagel = {
@@ -55,7 +55,7 @@ export const ScottSier = {
   name: "Scott Sier",
   gengo: "Genfu",
   role: "Branch Manager",
-  rank: "6th Degree (Rokudan)",
+  rank: "7th Degree (Nanadan)",
   locality: "Macomb",
   region: {
     short: "MI",

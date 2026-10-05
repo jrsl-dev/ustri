@@ -4,51 +4,7 @@
   import hanko from "$lib/assets/hanko.png";
   import gennankaimon from "$lib/assets/gennankai-mon.svg";
   import Announcements from "$lib/content/announcements/2024-tsumaki-soke-visits-honbu.md";
-  import soke from "$lib/assets/soke.jpg";
-  import dojo from "$lib/assets/honbu-dojo-2025.jpg";
-  import commission from "$lib/assets/commission.jpg";
-  import rockGarden from "$lib/assets/rock-garden.jpg";
-  import group from "$lib/assets/sensei-consul-general-mayor-deputy-mayor.jpg";
-  import cutting from "$lib/assets/ribbon-cutting.jpg";
-  import enbu from "$lib/assets/first-enbu.jpg";
-  import tokonoma from "$lib/assets/tokonoma.jpg";
-  import proclamation from "$lib/assets/proclamation.jpg";
-  import shinsa from "$lib/assets/shinsa.jpg";
-  import promotion from "$lib/assets/promotion.jpg";
-
-  const procAltText = `
-  Proclamation
-  
-  Whereas: Mr Kazuo Tsumaki of Yokohama, Japan is the Japanese Advisor to the Tamiya Ryu 
-  Iaijutsu Michigan Dojo, training facility, and Tamiya Ryu Iaijutsu is on of the oldest styles of 
-  Iaijutsu, the ancient art of drawing and cutting with the long-sword, or Katana; and
-
-  Whereas: The Tsumaki family will celebrate two hundred years of teaching and protecting this
-  art next year, and has been designated by the government of Japan as an "Intangible Cultural Asset", 
-  and Tsumaki Sensei's father, Tsumaki Seirin Motonobu, is the current Grand Master of Tamiya Ryu
-  Iaijutsu, fourteenth in the line of Grand Masters dating ack to 1597; and
-
-  Whereas: Tsumaki Sensei was given permission by his father to travel to Michigan and dedicate 
-  Shakunage-Tei as the first Tamiya Ryu Iaijutsu Dojo in North America, and Japanese Cultural Center
-  for the Greater Lansing area; and
-
-  Whereas: Tsumaki Sensei will authorize this first official Dojo for Tamiya Ryu Iaijutsu
-  anywhere in North America, and Tsumaki Sensei will further authorize the first North American to
-  join Tamiya Ryu Iaijutsu, formally test and receive rank in this style, and authorize teaching of the
-  art in North America; and
-
-  Whereas: We recognize the Tsumaki family's contribution to Japanese culture and to the 
-  ancient martial arts, and the enrichment their authorization of Shakunage-Tei bring to our city's 
-  cultural life; now
-
-  Therefore, I, David C. Hollister, Mayor of the City of Lansing, by the power vested
-  in me, do hereby publicly welcome and thank Tsumaki Sensei and urge all citizens to join with me
-  in recognizing the importance and value of the newly dedicated Shakunage-Tei Cultural Pavilion.
-
-  Given under my hand and seal this twentieth day of September in the Year of Our Lord on thousand nine hundred and ninety six.
-
-  David C. Hollister, Mayor
-  `;
+  import ThirtyYears from "$lib/content/announcements/2026-10-02-30th-anniversary-enbu-taikai-report.svelte";
 </script>
 
 <section>
@@ -94,10 +50,11 @@
     class="yt"
     width="560"
     height="315"
-    src="https://www.youtube.com/embed/w80xfxDG0jE"
+    src="https://www.youtube.com/embed/qoB8qNm8Sfw?si=LbpkBEH7vSgvuhKI&amp;start=5"
     title="YouTube video player"
     frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
     allowfullscreen
   />
 
@@ -115,202 +72,7 @@
 <h2>Announcements</h2>
 
 <Highlight>
-  <h3 id="celebrating-30-years">Celebrating 30 Years of Tradition</h3>
-
-  <figure>
-    <img src={dojo} alt="" />
-    <figcaption>
-      The Michigan Headquarters Dojo of the Tamiya School of Classical Japanese
-      Swordsmanship/Shakunage Japanese Culture Center
-    </figcaption>
-  </figure>
-
-  <p>
-    Like a solitary sentinel protecting an invaluable treasure, the Michigan
-    Headquarters Dojo of the Tamiya School of Classical Japanese Swordsmanship
-    (Tamiya Ryu Iaijutsu Michigan Honbu Dojo)/Shakunage Japanese Culture Center
-    stands at one end of the traditional Japanese garden behind the home of
-    DIanne and Michael Alexanian in the sleepy Glencairn neighborhood of East
-    Lansing, Michigan.
-  </p>
-
-  <p>
-    For the last 30 years, over 250 men and women from the United States,
-    Europe, Russia and Asia have come to this Dojo to study the techniques and
-    philosophy of this 429 year-old martial art founded by Tamiya Heibei
-    Narimasa in the early 17th century and passed down, through a succession of
-    Headmasters (Soke), to the present day leadership of 15th Generation Soke
-    Tsumaki Kazuo Genwa.
-  </p>
-
-  <p>
-    In March of 1996, Michael Alexanian (Gennan Buhaku) received a written
-    commission from 14th Generation Soke Tsumaki Seirin Genshin to bring this
-    classical Japanese martial art to America for the first time in the school’s
-    400 year history.
-  </p>
-
-  <figure>
-    <img src={commission} alt="" />
-    <figcaption>
-      The original written Commission to bring Tamiya Ryu Iaijutsu to America
-    </figcaption>
-  </figure>
-
-  <p>
-    To that end, Michael Gennan Sensei and his wife, Dianne Genan Sensei, began
-    the process of building the first United States Dojo for Tamiya Ryu Iaijutsu
-    and the greater Lansing area’s first Japanese Cultural Center at their home
-    in the midst of a tranquil Japanese garden complete with a raked gravel
-    meditation garden behind the Dojo.
-  </p>
-
-  <figure>
-    <img src={rockGarden} alt="" />
-    <figcaption>
-      The Karesansui (Rock Garden) behind the Dojo/Culture Center
-    </figcaption>
-  </figure>
-
-  <p>
-    With construction complete, on a warm and sunny September 20, 1996 various
-    dignitaries including the Consul General of Japan, the Mayor of East
-    Lansing, the Deputy Mayor of Lansing and the Assistant Headmaster of Tamiya
-    Ryu Iaijutsu, along with other prominent community leaders and citizens
-    gathered in front of the traditional Japanese gate (Tori) to officially
-    dedicate and open the Dojo/Culture Center.
-  </p>
-
-  <figure>
-    <img src={group} alt="" />
-    <figcaption>
-      Assistant Headmaster Tsumaki with the Consul General of Japan, Mayor of
-      East Lansing and Deputy Mayor of Lansing
-    </figcaption>
-  </figure>
-
-  <figure>
-    <img class="mat" src={proclamation} alt={procAltText} />
-    <figcaption>Mayor Hollister's official proclamation</figcaption>
-  </figure>
-
-  <p>
-    Assistant Headmaster Tsumaki Kazuo Genwa cut the ribbon stretched across the
-    Torii and gave the first demonstration of Tamiya Ryu Iaijutsu in the new
-    Dojo. There were also demonstrations of Shakuhachi (bamboo flute), how to
-    properly dress in Kimono, and other aspects of traditional Japanese culture.
-  </p>
-
-  <figure>
-    <img src={cutting} alt="" />
-    <figcaption>
-      Assistant Headmaster Tsumaki performing the ribbon cutting ceremony
-    </figcaption>
-  </figure>
-
-  <figure>
-    <img src={enbu} alt="" />
-    <figcaption>
-      Assistant Headmaster Tsumaki performing the first Enbu in the new Dojo
-    </figcaption>
-  </figure>
-
-  <p>
-    From that day forward and for the past 30 years, the United States Tamiya
-    Ryu Iaijutsu Gennankai has worked diligently and with a sense of true
-    purpose to pass on this important element of classical Japanese culture to
-    both young and old alike and to help realize the late 14th Generation Soke’s
-    dream of making Tamiya Ryu Iaijutsu available for study not only in Japan,
-    but also internationally.
-  </p>
-
-  <p>
-    To celebrate the 30 year anniversary of the founding of American Tamiya Ryu
-    Iaijutsu, an Enbukai (Demonstration Event) will be held on September 20,
-    2026, at the East Lansing Hannah Community Center East Gym from 1-3pm. This
-    event is free and open to the general public (seating limited) and will
-    feature Enbu (formal demonstrations) by 15th Generation Soke Tsumaki Kazuo
-    Genwa, the Senior Teaching Staff, the Head Instructor and the members of the
-    Gennankai. We will be inviting the current Consul General of Japan, the
-    Mayors of Lansing and East Lansing and the Visiting Official from Michigan’s
-    Sister State of Shiga Prefecture to attend and say a few words to
-    commemorate the occasion just as they did 30 years ago.
-  </p>
-
-  <p>
-    We cordially invite you to attend this special event and experience a truly
-    unique aspect of traditional Japanese culture not often seen by the general
-    public.
-  </p>
-
-  <figure>
-    <img src={tokonoma} alt="" />
-    <figcaption>
-      The Tokonoma (Alcove) in the Michigan Headquarters Dojo
-    </figcaption>
-  </figure>
-
-  <p>
-    Respectfully,<br />
-    <br />
-    Michael Alexanian (Gennan Buhaku) 8th Degree<br />
-    President<br />
-    United States Tamiya Ryu Iaijutsu Gennankai
-  </p>
-</Highlight>
-
-<Highlight>
-  <h2>Promotion Announcement</h2>
-
-  <p>
-    As President of the United States Tamiya Ryu Iaijutsu Gennankai, it is my
-    great honor to announce that Gennankai Head Instructor, James Russell
-    (Gennetsu) Sensei, has received his promotion to Nanadan (7th Degree).
-  </p>
-
-  <figure>
-    <img src={shinsa} alt="" />
-    <figcaption>
-      James Russell (Gennetsu) performs Omote no Maki Yohonmae Yokemi
-    </figcaption>
-  </figure>
-
-  <p>
-    Gennetsu Sensei took his Nanadan Shinsa (Examination) in Japan on Sunday,
-    November 9, while participating in the Annual Genwakai Autumn Shinsakai and
-    Enbukai and was formally promoted to Nanadan the following day by 15th Soke
-    Tsumaki Kazuo Genwa. His Nanadan Shinsa also included a separate “Guidance
-    Examination” which required him to explain the inner workings of several
-    kata in great detail. Thanks to the superb translation efforts of several
-    members of the Genwakai, Gennetsu Sensei was given permission to use English
-    for this portion of his Shinsa in order to alleviate the need to use
-    Japanese exclusively. Our deepest appreciation goes out to all the
-    translators, including Higashiyama-san of the Kyoto Branch and Suwa-san of
-    the Isehara Branch, for their translation contributions. To all of the
-    members of the Genwakai I would like to say “Osewa ni narimashita” for
-    taking such good care of Gennetsu Sensei during his time in Japan.
-  </p>
-
-  <figure>
-    <img src={promotion} alt="" />
-    <figcaption>
-      James Russell (Gennetsu) receiving his Nanadan menjo. <br />
-      <sub>
-        (L to R) Suwa Hironori, Tsumaki Kazuo Genwa, James Russell, Endo
-        Tsuyako, Suwa Hideki.
-      </sub>
-    </figcaption>
-  </figure>
-
-  <p>
-    Please join me in congratulating Gennetsu Sensei on this important
-    achievement. He has truly earned it!
-  </p>
-
-  <br />
-  Michael Alexanian (Gennan Buhaku) 8th Degree<br />
-  President <br />
-  United States Tamiya Ryu Iaijutsu Gennankai <br />
+  <ThirtyYears />
 </Highlight>
 
 <h2>Current articles</h2>
@@ -326,12 +88,20 @@
 </Highlight>
 
 <Highlight>
-  <h3>Reflecting Pool</h3>
+  <h3>Student Views</h3>
   <p>
-    Daniel Wung (Genkou) sensei asks the question, <a
-      href="/articles/reflecting/aging-gracefully"
-      >Is it possible to Age Gracefully in a martial art?</a
-    >
+    For our thirtieth anniversary, we asked our students to share their views on
+    Tamiya Ryu Iaijutsu. Peter Samurkas san (Ikkyu) shares <a
+      href="/articles/student-views/what-tamiya-ryu-means-to-me"
+      >his view of Tamiya Ryu</a
+    >, having just begun his journey in the art.
+  </p>
+  <p>
+    The Gennankai's Daisenpai (most senior student), William Smith (Genka,
+    Nanadan) shares what how he has come to see his
+    <a href="/articles/student-views/virtue-in-etiquette"
+      >practice after so many years training in Tamiya Ryu Iaijutsu</a
+    >.
   </p>
 </Highlight>
 
@@ -392,25 +162,49 @@
   </p>
 </section>
 
+<Highlight>
+  <div class="poem">
+    <p>
+      米国田宮流居合術ミシガン本・支部 30周年記念大会に寄せて<br />
+      In Commemoration of the 30th Anniversary Taikai of the U.S. Tamiya-ryu Iaijutsu
+      Michigan Headquarters and Branches<br />
+    </p>
+    <p>
+      田宮流居合術を讃える詩<br />
+      A Poem Praising Tamiya-ryu Iaijutsu
+    </p>
+    <p>
+      小原六六庵・作<br />
+      Composed by: Ohara Rokurokuan
+    </p>
+    <blockquote>
+      田宮の流統 連綿として備わり<br />
+      守破離の心 自ら浩然たり<br />
+      神剣の光芒 人を魅了し<br />
+      太平の象 万年伝う <br />
+    </blockquote>
+    <blockquote>
+      The Tamiya lineage flows unbroken, ever present<br />
+      The spirit of Shu-ha-ri is noble and self-respecting<br />
+      The radiance of the divine sword captivates all who behold it<br />
+      The symbol of peace and tranquility that endures for ten thousand years
+    </blockquote>
+    <p>
+      吟詠指導 田宮流居合術<br />
+      Recitation Guidance: Tamiya-ryu Iaijutsu<br />
+    </p>
+    <p>
+      第十五代宗家 妻木和夫元和<br />
+      Fifteenth Headmaster Tsumaki Kazuo Genwa
+    </p>
+    <p>
+      Performed by: Michael Alexanian Buhaku Sensei at the 30th Anniversary
+      Taikai
+    </p>
+  </div>
+</Highlight>
+
 <style>
-  figure {
-    margin: 0;
-    margin-bottom: 2.25rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-  }
-
-  figcaption {
-    font-weight: bold;
-    font-style: italic;
-    text-align: center;
-  }
-
-  img {
-    width: 100%;
-  }
-
   .tamiya-ryu-iaijutsu aside {
     font-size: 2.5em;
     text-align: center;
@@ -434,14 +228,50 @@
     margin: 2em 0;
   }
 
-  .mat {
-    background: rgb(0 0 0 / 80%);
-    padding: 0.5em;
-    box-sizing: border-box;
+  .poem {
+    margin: -0.5em -0.75em;
+    padding: 1em;
+    background: black;
+    color: white;
+    font-family: "Zodiak", serif;
   }
 
-  #celebrating-30-years {
-    scroll-margin-top: 10rem;
+  .poem > blockquote {
+    font-size: 1.05em;
+    margin: 0;
+    margin-left: 0.5em;
+    padding: 0 0.5em;
+    text-wrap: balance;
+    border-left: 2px solid white;
+    line-height: 1.5;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .poem > blockquote + blockquote {
+    margin-top: 1.5em;
+  }
+
+  .poem > blockquote:first-of-type {
+    margin-top: 1.5em;
+  }
+  .poem > blockquote:last-of-type {
+    margin-bottom: 1.5em;
+  }
+
+  @media (min-width: 500px) {
+    .poem > blockquote {
+      font-size: 1.2em;
+      margin-left: 1em;
+      padding-left: 2.5em;
+      border-left-width: 4px;
+    }
+    .poem > blockquote:first-of-type {
+      margin-top: 3em;
+    }
+    .poem > blockquote:last-of-type {
+      margin-bottom: 3em;
+    }
   }
 
   @media (min-width: 700px) {
