@@ -156,6 +156,12 @@
 </p>
 
 <p>
+  A special thanks to Michael Kirsten-san for his contribution of the 30th
+  Anniversary banner and the Gennankai banner that were used at the Enbu Taikai,
+  as well as his continued artistic contributions to the Gennankai.
+</p>
+
+<p>
   In closing, with 30 years behind us and our 31st year just beginning, we look
   forward to having new opportunities to present the art of Tamiya Ryu Iaijutsu
   to the public at various cultural events and growing our membership so that

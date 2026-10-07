@@ -75,6 +75,48 @@
   <ThirtyYears />
 </Highlight>
 
+<Highlight>
+  <div class="poem">
+    <p>
+      米国田宮流居合術ミシガン本・支部 30周年記念大会に寄せて<br />
+      In Commemoration of the 30th Anniversary Taikai of the U.S. Tamiya-ryu Iaijutsu
+      Michigan Headquarters and Branches<br />
+    </p>
+    <p>
+      田宮流居合術を讃える詩<br />
+      A Poem Praising Tamiya-ryu Iaijutsu
+    </p>
+    <p>
+      小原六六庵・作<br />
+      Composed by: Ohara Rokurokuan
+    </p>
+    <blockquote>
+      田宮の流統 連綿として備わり<br />
+      守破離の心 自ら浩然たり<br />
+      神剣の光芒 人を魅了し<br />
+      太平の象 万年伝う <br />
+    </blockquote>
+    <blockquote>
+      The Tamiya lineage flows unbroken, ever present<br />
+      The spirit of Shu-ha-ri is noble and self-respecting<br />
+      The radiance of the divine sword captivates all who behold it<br />
+      The symbol of peace and tranquility that endures for ten thousand years
+    </blockquote>
+    <p>
+      吟詠指導 田宮流居合術<br />
+      Recitation Guidance: Tamiya-ryu Iaijutsu<br />
+    </p>
+    <p>
+      第十五代宗家 妻木和夫元和<br />
+      Fifteenth Headmaster Tsumaki Kazuo Genwa
+    </p>
+    <p>
+      Performed by: Michael Alexanian Buhaku Sensei at the 30th Anniversary
+      Taikai
+    </p>
+  </div>
+</Highlight>
+
 <h2>Current articles</h2>
 
 <Highlight>
@@ -97,7 +139,7 @@
     >, having just begun his journey in the art.
   </p>
   <p>
-    The Gennankai's Daisenpai (most senior student), William Smith (Genka,
+    The Gennankai's Dai Senpai (most senior student), William Smith (Genka,
     Nanadan) shares what how he has come to see his
     <a href="/articles/student-views/virtue-in-etiquette"
       >practice after so many years training in Tamiya Ryu Iaijutsu</a
@@ -161,48 +203,6 @@
     <a href="/history">the history page</a>.
   </p>
 </section>
-
-<Highlight>
-  <div class="poem">
-    <p>
-      米国田宮流居合術ミシガン本・支部 30周年記念大会に寄せて<br />
-      In Commemoration of the 30th Anniversary Taikai of the U.S. Tamiya-ryu Iaijutsu
-      Michigan Headquarters and Branches<br />
-    </p>
-    <p>
-      田宮流居合術を讃える詩<br />
-      A Poem Praising Tamiya-ryu Iaijutsu
-    </p>
-    <p>
-      小原六六庵・作<br />
-      Composed by: Ohara Rokurokuan
-    </p>
-    <blockquote>
-      田宮の流統 連綿として備わり<br />
-      守破離の心 自ら浩然たり<br />
-      神剣の光芒 人を魅了し<br />
-      太平の象 万年伝う <br />
-    </blockquote>
-    <blockquote>
-      The Tamiya lineage flows unbroken, ever present<br />
-      The spirit of Shu-ha-ri is noble and self-respecting<br />
-      The radiance of the divine sword captivates all who behold it<br />
-      The symbol of peace and tranquility that endures for ten thousand years
-    </blockquote>
-    <p>
-      吟詠指導 田宮流居合術<br />
-      Recitation Guidance: Tamiya-ryu Iaijutsu<br />
-    </p>
-    <p>
-      第十五代宗家 妻木和夫元和<br />
-      Fifteenth Headmaster Tsumaki Kazuo Genwa
-    </p>
-    <p>
-      Performed by: Michael Alexanian Buhaku Sensei at the 30th Anniversary
-      Taikai
-    </p>
-  </div>
-</Highlight>
 
 <style>
   .tamiya-ryu-iaijutsu aside {
